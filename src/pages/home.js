@@ -723,7 +723,7 @@ const Home = () => {
     }
   }
 
-  const renderFullPage = (fullpageApi)  => {
+  const renderFullPage = ()  => {
     return (
       <ReactFullpage
             //fullpage options
@@ -741,7 +741,10 @@ const Home = () => {
             afterLoad={afterLoad.bind(this)}
 
             render={({ state, fullpageApi }) => {
-              // console.log("render prop change", state, fullpageApi);
+              console.log("render prop change", state, fullpageApi);
+              const ScrollTop = () =>{
+                fullpageApi.moveTo(1)
+              }
               return (
                 <>
                   <ReactFullpage.Wrapper>
@@ -932,12 +935,214 @@ const Home = () => {
       <>
       <Header scroll={scroll}/>
         <main>
-          {renderFullPage()}  
+        <ReactFullpage
+            //fullpage options
+            licenseKey = {'EE418FB3-8EF84889-B923FDA0-E09B828F'}
+            autoScrolling = {true}
+            scrollOverflow = {true}
+            fitToSection = {true}
+            easing = {'easeInOutCubic'}
+            easingcss3 = {'ease'}
+            autoScrolling = {true}
+            fitToSectionDelay = {1000}
+            scrollingSpeed = {1200}
+            normalScrollElements = {'.more-menu .more-menu-inner ,.language-dropdown .dropdown-menu'}
+            onLeave={onLeave.bind(this)}
+            afterLoad={afterLoad.bind(this)}
+
+            render={({ state, fullpageApi }) => {
+              console.log("render prop change", state, fullpageApi);
+              // const ScrollTop = () =>{
+              //   fullpageApi.moveTo(1)
+              // }
+              return (
+                <>
+                  <ReactFullpage.Wrapper>
+                    <div className="section banner-section fp-noscroll" id="topSection">
+                        <BannerSlider />
+                        <div className="scroll-down-link">
+                            <a href="#" className="scroll-down-btn" onClick={() => fullpageApi.moveSectionDown()}>
+                              <span className="switch-icon"></span>
+                              Scroll to About
+                            </a>                                
+                        </div>
+                    </div>
+                    <div className="section about-section" style={{backgroundColor:"#11582c"}} id="aboutSection">
+                        <div className="section-inner">
+                            <Container>
+                              <div className="section-wrap">
+                                  <Row>
+                                      <Col xl={6} className="about-left-column">
+                                        <div className="column-wrap">
+                                            <div className="about-content">
+                                                <SectionTitle sectionTitle="Waaree Energies Ltd. is the flagship company of Waaree Group." titleTheme="light-title" /> 
+                                                <div className="about-content-text reveal-fade">
+                                                    <AboutYearSec />
+                                                    <div className="about-text">
+                                                        <p>Waaree Energies Ltd. is the flagship company of Waaree Group, founded in 1989 with headquarters in Mumbai, India. It has India's largest Solar PV Module manufacturing capacity of 2 GW's at its plants in Surat and Umbergaon in Gujarat. Waaree Energies is amongst the top player in India in providing EPC services, project development, rooftop solutions, and solar water pumps and also as an Independent Power Producer. </p>
+                                                    </div>
+                                                    <div className="btn-wrap">
+                                                        <ButtonDiv  buttonHref="#" buttonText="Read More"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </Col>
+                                      <Col xl={6} className="about-right-column">
+                                        <div className="column-wrap about-value-box">
+                                            <Row>
+                                                <AboutValueboxes col="6" valueURL="#" valueImageSrc="assets/images/vision-image.jpg" valueText="Our Vision is to provide high quality and cost effective sustainable energy solutions across all the markets, redu" valueBoxTitle="Vision"/>
+                                                <AboutValueboxes col="6" valueURL="#" valueImageSrc="assets/images/mission-image.jpg" valueText="By virtue of our commitment to our stakeholders, we strive for continuous improvement in the quality of our products." valueBoxTitle="Mission"/>
+                                                <AboutValueboxes col="12" extraclassName="yellow-bg" valueURL="#" valueText="The core values of our organization are those values that underlie our work & strategies we employ to fulfill our vision & mission." valueBoxTitle="Values"/>
+                                            </Row>
+                                        </div>
+                                      </Col>
+                                  </Row>
+                              </div>
+                            </Container>
+                        </div>
+                        <div className="big-round-shape reveal-fade">
+                            <div className="inner-round-shape"></div>
+                        </div>
+                    </div>
+                    <div className="section product-section">
+                      <div className="section-inner">
+                            <Container>
+                                <div className="section-wrap">
+                                  <div className="product-inner">
+                                      <SectionTitle sectionTitle="Products" titleTheme="dark-title" />
+                                      <div className="product-slider-wrap">
+                                        <ProductSlider />
+                                      </div>
+                                      <div className="view-all-btn text-center reveal-fade">
+                                            <ButtonDiv buttonText="View All Products" buttonHref="#"/>
+                                      </div>
+                                  </div>
+                                </div>
+                            </Container>
+                      </div>
+                      <div className="small-round-shape top-right custom-round">
+                          <div className="yellow-round small reveal-fade"></div>
+                          <div className="green-round big reveal-fade"></div>
+                      </div>
+                      <div className="inner-round-shape boottom-left custom-round">
+                          <div className="green-round big reveal-fade"></div>
+                          <div className="yellow-round small reveal-fade"></div>
+                      </div>
+                    </div>
+                    <div className="section service-section" style={{backgroundColor:"#effff3"}}>
+                    <div className="fp-fixed-inr">
+                        <div className="fp-fixed-content">
+                            <div className="bg-image" style={{backgroundImage:"url(assets/images/service-bg.jpg)"}}></div>
+                        </div>
+                      </div>
+                      <div className="section-inner">
+                            <Container>
+                                <div className="section-wrap">
+                                  <div className="service-inner">
+                                      <SectionTitle sectionTitle="Services" titleTheme="light-title" />
+                                      <ServiceSlider />
+                                      <div className="view-all-btn text-center reveal-fade">
+                                            <ButtonDiv buttonText="View All Service" buttonHref="#"/>
+                                      </div>
+                                  </div>
+                                </div>
+                              </Container>
+                      </div>
+                      <div className="inner-round-shape top-right custom-round">
+                          <div className="green-round big reveal-fade"></div>
+                          <div className="yellow-round small reveal-fade"></div>
+                      </div>
+                    </div>
+                    <div className="section testimonial-section">
+                    <div className="fp-fixed-inr">
+                        <div className="fp-fixed-content">
+                            <div className="bg-image" style={{backgroundImage:"url(assets/images/Wave-bg.png)"}}></div>
+                        </div>
+                      </div>
+                      <div className="section-inner">
+                            <Container>
+                                <div className="section-wrap">
+                                  <div className="service-inner">
+                                      <SectionTitle sectionTitle="What our client Say" titleTheme="dark-title" />
+                                      <TestimonialSlider />
+                                  </div>
+                                </div>
+                              </Container>
+                      </div>
+
+                    </div>
+                    <div className="section achievement-section">
+                      <div className="section-inner">
+                            <Container>
+                                <div className="section-wrap">
+                                  <div className="achievement-inner">
+                                    <SectionTitle sectionTitle="Achievement" titleTheme="dark-title" />
+                                    <Row className="masonary-row">
+                                      <Col xl={6} className="video-grid-left grid-column reveal-fade">
+                                        <div className="col-inner">
+                                            <VideoPlayer />
+                                        </div>
+                                      </Col>
+                                      <Col xl={6} className="grid-right grid-column">
+                                        <div className="col-inner">
+                                          <Row className="inner-row">
+                                              <ArchievementGrid archivementBg="assets/images/film-history.jpg" achievementTitle="Firm History" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="#"/>
+                                              <ArchievementGrid archivementBg="assets/images/leadershipl.jpg" achievementTitle="Leadership" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="#"/>
+                                              <ArchievementGrid archivementBg="assets/images/awards.jpg" achievementTitle="Awards" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="#"/>
+                                              <ArchievementGrid archivementBg="assets/images/CSR.jpg" achievementTitle="CSR" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="#"/>
+                                          </Row>
+                                        </div>
+                                      </Col>
+                                    </Row>
+                                  </div>
+                                </div>
+                              </Container>
+                      </div>
+                      <div className="small-round-shape top-left custom-round">
+                          <div className="yellow-round small reveal-fade"></div>
+                          <div className="green-round big reveal-fade"></div>
+                      </div>
+                      <div className="inner-round-shape bottom-right custom-round">
+                          <div className="green-round big reveal-fade"></div>
+                          <div className="yellow-round small reveal-fade"></div>
+                      </div>
+                    </div>
+                    <div className="section blog-section">
+                      <div className="section-inner">
+                            <Container>
+                                <div className="section-wrap">
+                                  <div className="blog-inner">
+                                    <SectionTitle sectionTitle="Blogs" titleTheme="dark-title" />
+                                    <Row className="blog-row">
+                                        <BlogSingle blogBg="assets/images/solar-panel-blog.png" blogDate="16 September 2021" blogTitle="Types of solar panels find the Right Solar Panel That Fits yor Home" blogLink="#"/>
+                                        <BlogSingle blogBg="assets/images/solar-panel-house-blog.png" blogDate="14 September 2021" blogTitle="Awesome Facts about Solar Energy You Can’t Miss" blogLink="#"/>
+                                        <BlogSingle blogBg="assets/images/solar-panel-terres-blog.png" blogDate="16 September 2021" blogTitle="Best Solar System for Home" blogLink="#"/>
+                                    </Row>
+                                    <div className="view-all-btn text-center reveal-fade">
+                                            <ButtonDiv buttonText="View All Blogs" buttonHref="#"/>
+                                    </div>
+                                  </div>
+                                </div>
+                            </Container>
+                      </div>
+                      <div className="inner-round-shape top-right custom-round">
+                          <div className="green-round big reveal-fade"></div>
+                          <div className="yellow-round small reveal-fade"></div>
+                      </div>
+                    </div>
+                    <Footer />
+                    
+                  </ReactFullpage.Wrapper>
+                  <div class="scroll-top-btn">
+                    <a href="#" id="scrollToTop" onClick={() => fullpageApi.moveTo(1)}><i class="fas fa-chevron-up"></i></a>
+                  </div>
+                </>
+              );
+            }}
+        />  
           <SocialFixedBtn fixScroll={fixSocialScroll}/>
           <ContactBtnFix />
-          {/* <div class="scroll-top-btn">
-              <a href="#" id="scrollToTop" onClick={() => fullpageApi.moveTo(1)}><i class="fas fa-chevron-up"></i></a>
-          </div> */}
         </main>
         <PrivacyPolicyPopup />
       </>
