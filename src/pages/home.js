@@ -616,6 +616,7 @@ const Home = () => {
 
   const [fixSocialScroll, setFixSocialScroll] = useState('');
 
+  const [fixScrollTop, setFixScrollTop] = useState('');
 
   // Gsap Animation
   var durationTime = 2.5;
@@ -688,12 +689,13 @@ const Home = () => {
     // console.log("After load: " + origin.isLast);
   }
   const afterLoad = (origin, destination, direction) => {
-    console.log("After load: " + destination.isFirst);
     
     if(destination.item == document.querySelector('.banner-section')){
       setScroll({scroll:''});
+      setFixScrollTop({fixScrollTop: ''});
     }else{
-      setScroll('scrolled')
+      setScroll('scrolled');
+      setFixScrollTop('show');
     }
     if(destination.item == document.querySelector('.banner-section') || destination.item == document.querySelector('.site-footer')){
       setFixSocialScroll({scroll:''});
@@ -741,8 +743,6 @@ const Home = () => {
             afterLoad={afterLoad.bind(this)}
 
             render={({ state, fullpageApi }) => {
-              console.log("render prop change", state, fullpageApi);
-      
               return (
                 <>
                   <ReactFullpage.Wrapper>
@@ -922,8 +922,8 @@ const Home = () => {
                     <Footer />
                     
                   </ReactFullpage.Wrapper>
-                  <div class="scroll-top-btn">
-                    <a href="#" id="scrollToTop" onClick={() => fullpageApi.moveTo(1)}><i class="fas fa-chevron-up"></i></a>
+                  <div className="scroll-top-btn">
+                    <a href="#" className="inner-scrollToTop" id="scrollToTop" onClick={() => fullpageApi.moveTo(1)}><i className="fas fa-chevron-up"></i></a>
                   </div>
                 </>
               );
@@ -931,7 +931,10 @@ const Home = () => {
       />
   );
   }
-
+  const scrollToTop = () => {
+    let element = document.getElementsByClassName('inner-scrollToTop')[0];
+    element.click();
+  };
   return (
       <>
       <Header scroll={scroll}/>
@@ -939,6 +942,9 @@ const Home = () => {
           {renderFullPage()}
           <SocialFixedBtn fixScroll={fixSocialScroll}/>
           <ContactBtnFix />
+          <div className={`scroll-top-btn ${fixScrollTop}`}>
+              <a href="#" onClick={() => scrollToTop()}><i className="fas fa-chevron-up"></i></a>
+          </div>
         </main>
         <PrivacyPolicyPopup />
       </>

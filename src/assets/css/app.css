@@ -2969,7 +2969,7 @@ section.section
   position: absolute;
   bottom: 38px;
 }
-main.fpSec-topSection .scroll-top-btn,
+.scroll-top-btn,
 .no-fullpage .scroll-top-btn
 {
   left: -50px;
@@ -2977,7 +2977,7 @@ main.fpSec-topSection .scroll-top-btn,
   opacity: 0;
   visibility: hidden;
 }
-.scroll-top-btn,
+.scroll-top-btn.show,
 .no-fullpage .scroll-top-btn.show
 {
   position: fixed;
@@ -4738,6 +4738,18 @@ body.modal-open header.scrolled
 .underscore {
   animation: blink-animation 1s steps(5, start) infinite;
   -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+.social-fixed-btn .hover-content
+{
+  background-color: #bebebe;
+}
+.social-fixed-btn .hover-content span.grey-bg
+{
+  margin-left: 5px;
+}
+.scroll-top-btn a.inner-scrollToTop
+{
+  display: none;
 }
 @keyframes blink-animation {
   to {
