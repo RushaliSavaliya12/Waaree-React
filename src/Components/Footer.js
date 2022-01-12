@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown, Container, row, Col, Row, Modal} from 'react-bootstrap';
-import { SocialMediaIcon } from './Header';
+import SocialMediaIcon from './SocialMediaIcon';
 import { useState } from 'react';
 
 const NewsLetter = () =>{

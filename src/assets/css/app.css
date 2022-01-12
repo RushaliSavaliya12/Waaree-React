@@ -2972,6 +2972,7 @@ section.section
 .scroll-top-btn,
 .no-fullpage .scroll-top-btn
 {
+  position: fixed;
   left: -50px;
   transition: all 300ms ease-in-out;
   opacity: 0;
@@ -2980,7 +2981,6 @@ section.section
 .scroll-top-btn.show,
 .no-fullpage .scroll-top-btn.show
 {
-  position: fixed;
   bottom: 30px;
   left: 20px;
   transition: all 300ms ease-in-out;
@@ -4770,4 +4770,9 @@ body.modal-open header.scrolled
 {
   opacity: 0;
   transform: scale(0);
+}
+.service-slider .slick-slide,
+.testimonial-slider .slick-slide
+{
+  opacity: 0;
 }
