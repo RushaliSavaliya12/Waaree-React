@@ -11,14 +11,18 @@ const Home = () => {
   
   return (
       <>
+      
       <Header />
       <main>
-          <FullpageHome />
-          <SocialFixedBtn />
-          <ContactBtnFix />
-          <HomeScrollToTop />
+        <React.StrictMode>
+            <FullpageHome />
+            <SocialFixedBtn />
+            <ContactBtnFix />
+            <HomeScrollToTop />
+        </React.StrictMode>
       </main>
       <PrivacyPolicyPopup />
+      
       </>
   )
 }
