@@ -14,7 +14,7 @@ const FullpageHome = () => {
     // Gsap Animation
   var durationTime = 2.5;
   var circleDurationTime = 1;
-  var staggerTime = 0.2;
+  // var staggerTime = 0.2;
 
     const onLeave = (origin, destination, direction) =>  {
         // console.log("After load: " + origin.isLast);
