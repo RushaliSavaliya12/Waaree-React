@@ -10,12 +10,7 @@ const MoreMenuModel = () =>{
     var circleDurationTime = 1;
     var staggerTime = 0.2;
 
-
     var moreMenu = gsap.timeline();
-    moreMenu.to(".more-menu-modal .navbar-nav > .nav-item > a",{ staggerTime, opacity: 1, scale: 1,rotate:0, stagger: 0.1});
-    moreMenu.to(".gallery-slider-wrap",{ durationTime, opacity: 1 },"+=0.1"
-    );
-    moreMenu.pause();
 
     // const [show, setShow] = useState(false);
     const [moreMenuShow, setMoreMenuShow] = useState('');
@@ -26,6 +21,9 @@ const MoreMenuModel = () =>{
     
     const moreMenuhandleShow = () => {
         setMoreMenuShow('show');
+        moreMenu.to(".more-menu-modal .navbar-nav > .nav-item > a",{ staggerTime, opacity: 1, scale: 1,rotate:0, stagger: 0.1});
+        moreMenu.to(".gallery-slider-wrap",{ durationTime, opacity: 1 },"+=0.1"
+        );
         moreMenu.play();
     }
 

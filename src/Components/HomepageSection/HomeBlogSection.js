@@ -6,7 +6,7 @@ import BlogSingle from './SectionInnerComponent/BlogSingle';
 
 const HomeBlogSection = () => {
     return (
-        <div className="section blog-section">
+        <div className="section blog-section" style={{backgroundColor: "#f0faf2"}}>
             <div className="section-inner">
                 <Container>
                     <div className="section-wrap">
