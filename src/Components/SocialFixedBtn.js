@@ -3,6 +3,37 @@ import { useState, useEffect, useRef } from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
 
 const SocialFixedBtn = (data) =>{
+
+    // setTimeout(function() {
+    //   var noFullpageDiv = document.getElementsByClassName('no-fullpage');
+      
+    //   if(noFullpageDiv.length){
+
+    //     var fixedSocialIcon = document.getElementById("FixedSocialIcon");
+    //     var scrollToTopBtnDiv = document.getElementById("scrolltoTopDiv");
+
+    //     if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    //       console.log('socialFixedIcon');
+    //       fixedSocialIcon.classList.add("scrolled");
+    //       scrollToTopBtnDiv.classList.add("show");
+    //     }else{
+    //       fixedSocialIcon.classList.remove("scrolled");
+    //       scrollToTopBtnDiv.classList.remove("show");
+    //     }
+
+    //     window.onscroll = function() {
+
+    //         if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    //           console.log('dfgfdfgff');
+    //           fixedSocialIcon.classList.add("scrolled");
+    //           scrollToTopBtnDiv.classList.add("show");
+    //         }else{
+    //           fixedSocialIcon.classList.remove("scrolled");
+    //           scrollToTopBtnDiv.classList.remove("show");
+    //         }
+    //     } 
+    //   }
+    // }, 400);
     const SocialData = [
       {
         id:1,
@@ -30,7 +61,7 @@ const SocialFixedBtn = (data) =>{
       },
     ]
     return(
-    <div className={`social-fixed-btn ${data.fixScroll}`}>
+    <div className={`social-fixed-btn ${data.fixScroll}`} id="FixedSocialIcon">
       <ul className="social-icon fixed-btn">
         {
           SocialData.map((val) =>

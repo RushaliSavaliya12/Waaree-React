@@ -16,7 +16,7 @@ const HomeAchievementSection = () => {
                             <Row className="masonary-row">
                                 <Col xl={6} className="video-grid-left grid-column reveal-fade">
                                     <div className="col-inner">
-                                        <VideoPlayer />
+                                        <VideoPlayer videoSrc="https://www.youtube.com/embed/_8Pwc5uBbGE?autoplay=1"/>
                                     </div>
                                 </Col>
                                 <Col xl={6} className="grid-right grid-column">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
 import { Navbar, Nav, NavDropdown, Container, row, Col, Row, Modal} from 'react-bootstrap';
 import SocialMediaIcon from './SocialMediaIcon';
 import { useState } from 'react';
@@ -122,6 +123,7 @@ const FooterMainCol = (props) =>{
 }
 
 const Footer = () => {
+
     return (
         <footer className="section site-footer" style={{backgroundColor: "#f0faf2"}} id="Footer">
             <div className="section-inner">

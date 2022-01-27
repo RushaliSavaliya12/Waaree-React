@@ -3,7 +3,7 @@ import React from 'react';
 const VideoPlayer = (props) =>{
     const [play, setPlay] = React.useState(false);
   const url = play
-    ? `https://www.youtube.com/embed/_8Pwc5uBbGE?autoplay=1`
+    ? `${props.videoSrc}`
     : ``;
   const playClass = play ? "play-video" : '';
   return (

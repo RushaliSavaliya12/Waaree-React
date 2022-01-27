@@ -130,6 +130,7 @@
 
 html {
 	-ms-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 	-webkit-text-size-adjust: 100%;
 }
 
@@ -3002,7 +3003,7 @@ section.section
 .scroll-top-btn a:hover
 {
   background-color: #000;
-  color: #ffdb27;
+  color: #ffdb27!important;
 }
 .language-dropdown .dropdown-menu
 {
@@ -3122,6 +3123,7 @@ section.section
 .no-fullpage .section-inner
 {
   padding-top: 100px;
+  width: 100%;
 }
 .inner-banner-section
 {
@@ -3363,8 +3365,8 @@ section.section
   position: absolute;
   bottom: 20px;
   width: 100%;
-  opacity: 0!important;
-  visibility: hidden!important;
+  opacity: 1!important;
+  visibility: visible!important;
   transition: all 500ms ease-in-out;
 }
 .board-director-slider .slick-current .slide-inner,
@@ -3430,6 +3432,7 @@ section.section
 {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 .award-image-column
 {
@@ -3565,8 +3568,12 @@ section.section
 }
 .company-logo-slider .logo-slide
 {
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.company-logo-slider .slick-slide
+{
+  opacity: 0;
 }
 .company-logo-slider .image-wrap
 {
@@ -4208,22 +4215,24 @@ form .submit-group::after
 .company-logo-slider .slick-dots li button
 {
   font-size: 0;
-  height: 12px;
-  width: 12px;
-  border-radius: 50%;
-  margin: 0 6px;
-  border: none;
-  background-color: #11582c;
-  opacity: 0.6;
-  transition: all 300ms ease-in-out;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    margin: 0 3px;
+    border: none;
+    background-color: #11582c;
+    opacity: 0.6;
+    transition: all 300ms ease-in-out;
+    display: inline-block;
+    padding: 0;
 }
 .company-logo-slider .slick-dots li.slick-active button
 {
   background-color: #ffdb27;
-  height: 15px;
-  width: 15px;
-  transition: all 300ms ease-in-out;
-  opacity: 1;
+    height: 11px;
+    width: 11px;
+    transition: all 300ms ease-in-out;
+    opacity: 1;
 }
 .company-logo-slider .slick-dots
 {
@@ -4775,4 +4784,10 @@ body.modal-open header.scrolled
 .testimonial-slider .slick-slide
 {
   opacity: 0;
+}
+.company-logo-slider .slick-dots,
+.board-director-slider .slick-arrow,
+.board-director-slider .slick-dots
+{
+  opacity: 1;
 }

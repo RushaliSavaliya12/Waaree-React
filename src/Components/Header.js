@@ -1,5 +1,8 @@
 import React from 'react';
+import { Outlet, Link } from "react-router-dom";
+import {gsap,TweenMax, TimelineMax} from 'gsap';
 import { Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
+import {LinkContainer} from 'react-router-bootstrap'
 import MoreMenuModel from './MoreMenuModel';
 import SearchPopup from './SearchPopup';
 
@@ -15,18 +18,74 @@ const LanguageDropdown = (props) =>{
     )
 }
 const Header = () =>{
+
+    setTimeout(function() {
+        var noFullpage = document.getElementsByClassName('no-fullpage')
+        if(noFullpage.length)
+        {
+            var durationTime = 1.5;
+            var headerAnimation = gsap.timeline();
+            headerAnimation.fromTo(".site-header",{ opacity: 0,},{ durationTime, opacity: 1}, "+=0.05");
+            headerAnimation.play();
+
+            var header = document.getElementById("siteHeader");
+            var fixedSocialIcon = document.getElementById("FixedSocialIcon");
+            var scrollToTopBtnDiv = document.getElementById("scrolltoTopDiv");
+
+            var sticky = header.offsetTop;
+
+            if (window.pageYOffset > sticky) {
+                header.classList.add("scrolled");
+            }else{
+                header.classList.remove("scrolled");
+            }
+
+            // Fixed Animation on Scroll
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                console.log('socialFixedIcon');
+                fixedSocialIcon.classList.add("scrolled");
+                scrollToTopBtnDiv.classList.add("show");
+              }else{
+                fixedSocialIcon.classList.remove("scrolled");
+                scrollToTopBtnDiv.classList.remove("show");
+            }
+            // Fixed Animation on Scroll
+
+            window.onscroll = function() {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("scrolled");
+                }else{
+                    header.classList.remove("scrolled");
+                }
+
+                // Fixed Animation on Scroll
+                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                    console.log('socialFixedIcon');
+                    fixedSocialIcon.classList.add("scrolled");
+                    scrollToTopBtnDiv.classList.add("show");
+                  }else{
+                    fixedSocialIcon.classList.remove("scrolled");
+                    scrollToTopBtnDiv.classList.remove("show");
+                }
+                // Fixed Animation on Scroll
+            } 
+        }
+    }, 200);
+    
     return (
         <>
-            <header className="site-header fixed-top reveal-fade">
+            <header className="site-header fixed-top reveal-fade" id="siteHeader">
                 <Container>
                     <div className="header-wrap">
                     <Navbar expand="xl">
-                            <Navbar.Brand href="/">
-                                <figure className="logo-default"><img src="assets/images/Waaree-logo.svg" alt="Logo" /></figure>
-                            </Navbar.Brand>
+                            <LinkContainer to="/">
+                                <Navbar.Brand>
+                                    <figure className="logo-default"><img src="assets/images/Waaree-logo.svg" alt="Logo" /></figure>
+                                </Navbar.Brand>
+                            </LinkContainer>
                             <Navbar.Collapse id="navbarMain">
                                 <Nav className="ml-auto main-navigation">
-                                    <Nav.Link href="#about">About Us</Nav.Link>
+                                    <LinkContainer to="/about-waaree"><Nav.Link>About us</Nav.Link></LinkContainer>
                                     <Nav.Link href="#Products">Products</Nav.Link>
                                     <Nav.Link href="#Services">Services</Nav.Link>
                                     <Nav.Link href="#Contact Us">Contact Us</Nav.Link>
