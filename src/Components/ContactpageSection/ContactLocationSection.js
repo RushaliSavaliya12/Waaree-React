@@ -1,16 +1,15 @@
 import React from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
+import LocationColSingle from './LocationColSingle';
 
 const ContactLocationSection = () =>{
     return(
-        <section class="section company-location-section" style={{backgroundColor:"#effff3"}}>
-                    <div class="section-inner ">
-                        <Container class="container">
-                            <div class="section-wrap">
-                                <Row class="location-sec-row">
-                                    <Col lg={6} className="location-col-single reveal-fade">
-                                        
-                                    </Col>
+        <section className="section company-location-section" style={{backgroundColor:"#effff3"}}>
+                    <div className="section-inner ">
+                        <Container className="container">
+                            <div className="section-wrap">
+                                <Row className="location-sec-row">
+                                    <LocationColSingle />
                                 </Row>
                             </div>
                         </Container>
