@@ -323,15 +323,15 @@
     {
         font-size: 18px;
     }
-    .investor-accordion .card-body
+    .investor-accordion .accordion-body
     {
         padding: 40px;
     }
-    .accordion>.card>.card-header a
+    .accordion>.accordion-item> button
     {
         padding: 40px;
     }
-    .accordion>.card
+    .accordion>.accordion-item
     {
         margin-bottom: 40px;
     }
@@ -344,7 +344,7 @@
     {
         height: 22px;
     }
-    .accordion>.card>.card-header a
+    .accordion>.accordion-item>.accordion-header button
     {
         padding-right: 120px;
     }
@@ -701,15 +701,15 @@
     {
         font-size: 16px;
     }
-    .accordion>.card>.card-header a
+    .accordion>.accordion-item>.accordion-header button
     {
         padding: 35px;
     }    
-    .investor-accordion .card-body
+    .investor-accordion .accordion-body
     {
         padding: 35px;
     }
-    .accordion>.card
+    .accordion>.accordion-item
     {
         margin-bottom: 35px;
     }
@@ -1346,7 +1346,7 @@
     {
         font-size: 16px;
     }
-    .investor-accordion .card-body
+    .investor-accordion .accordion-body
     {
         padding-top: 10px;
     }
@@ -1377,7 +1377,7 @@
     {
         right: 30px;
     }
-    .accordion>.card>.card-header a
+    .accordion>.accordion-item>.accordion-header button
     {
         padding-right: 90px;
     }
@@ -2094,18 +2094,18 @@
     {
         padding-bottom: 5px;
     }
-    .accordion>.card>.card-header a
+    .accordion>.accordion-item>.accordion-header button
     {
         padding: 30px
     }
-    .accordion>.card>.card-header a::after
+    .accordion>.accordion-item>.accordion-header button::after
     {
         height: 40px;
         width: 40px;
         line-height: 38px;
         font-size: 18px;
     }
-    .accordion>.card>.card-header a
+    .accordion>.accordion-item>.accordion-header button
     {
         padding-right: 80px;
     }
@@ -2597,19 +2597,19 @@
     {
         margin-top: 30px;
     }
-    .accordion>.card>.card-header a
+    .accordion>.accordion-item>.accordion-header button
     {
         padding: 25px;
     }
-    .accordion>.card
+    .accordion>.accordion-item
     {
         margin-bottom: 25px;
     }
-    .investor-accordion .card-body
+    .investor-accordion .accordion-body
     {
         padding: 25px;
     }
-    .investor-accordion .card-body
+    .investor-accordion .accordion-body
     {
         padding-top: 20px;
     }
@@ -2619,7 +2619,7 @@
         width: 35px;
         right: 20px;
     }
-    .accordion>.card>.card-header a
+    .accordion>.accordion-item>.accordion-header button
     {
         padding-right: 60px;
     }

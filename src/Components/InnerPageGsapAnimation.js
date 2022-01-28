@@ -107,6 +107,22 @@ const InnerPageGsapAnimation = () =>{
 
         // CoreValue Round Animation End
 
+        // Investor page Animation
+        var investorAccordion = document.getElementsByClassName('accordion');
+
+        var accordionAnim = gsap.timeline();
+
+                accordionAnim.staggerFromTo('.accordion > .accordion-item', 1.2, { autoAlpha: 0,y: 50 }, { autoAlpha: 1,y: 0 }, 1, "+=0.1")
+                var ctrlAccordion = new ScrollMagic.Controller();
+                var ctrlAccordionScene = new ScrollMagic.Scene({
+        
+                    triggerElement: ".investor-accordion-section",
+                    offset: -300,
+                })
+                    .setTween(accordionAnim.play())
+                    // .addIndicators()
+                    .addTo(ctrlAccordion);
+        // Investor page Animation End
     }   
     }, 100);
 }

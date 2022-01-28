@@ -7,6 +7,7 @@ import './assets/css/app.css';
 import './assets/css/responsive.css';
 import Home from './pages/home';
 import About from './pages/About';
+import Investors from './pages/Investors';
 import Contact from './pages/Contact';
 
 const App = () => {
@@ -15,7 +16,8 @@ const App = () => {
             <Routes>
                 <Route index element={<Home />} />
                 <Route path="about-waaree" element={<About />} />
-                <Route path="contact" element={<Contact />} />
+                <Route path="ipo" element={<Investors />} />
+                <Route path="contact-waaree" element={<Contact />} />
             </Routes>
         </>
     );

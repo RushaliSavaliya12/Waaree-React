@@ -12,7 +12,7 @@ const BannerSlider = () => {
               slideTitle:"#1",
               slideMainTitle: "Indian Solar Panel Manufacturer",
               buttonLink:"#",
-              titleBtnAnimation:"fadeInUp",
+              titleBtnAnimation:"fadeInDown",
             },
             {
               id:2,
@@ -36,7 +36,7 @@ const BannerSlider = () => {
               slideTitle:"10000+",
               slideMainTitle:"Projects Commissioned",
               buttonLink:"#",
-              titleBtnAnimation:"fadeInDown",
+              titleBtnAnimation:"fadeInUp",
             }
         ]
         const BannerSlideSingle = (props) => {

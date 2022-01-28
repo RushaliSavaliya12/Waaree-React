@@ -3653,42 +3653,47 @@ section.core-value-section
 }
 
 /* Investor page */
-.accordion>.card>.card-header
+.accordion>.accordion-item>.accordion-header
 {
   padding: 0;
   background-color: transparent;
   border-bottom: none;
 }
-.accordion>.card>.card-header h4
+.accordion>.accordion-item>.accordion-header
 {
   margin-bottom: 0;
 }
-.accordion>.card>.card-header a
+.accordion>.accordion-item>.accordion-header button
 {
   display: block;
   padding: 45px;
   position: relative;
   transition: all 500ms ease-in-out;
   -webkit-appearance:unset;
+  width: 100%;
+  text-align: left;
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
 }
-.accordion>.card>.card-header a:hover,
-.accordion>.card>.card-header a[aria-expanded="true"]
+.accordion>.accordion-item>.accordion-header button:hover,
+.accordion>.accordion-item>.accordion-header button[aria-expanded="true"]
 {
   color: #11582c;
   transition: all 500ms ease-in-out;
 }
-.accordion>.card
+.accordion>.accordion-item
 {
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
   border: none;
   margin-bottom: 45px;
 }
-.investor-accordion .accordion>.card
+.investor-accordion .accordion>.accordion-item
 {
   border-radius: 10px;
 }
-.investor-accordion .card-body
+.investor-accordion .accordion-body
 {
   padding: 45px;
 }
@@ -3734,7 +3739,7 @@ section.core-value-section
   background-color: #f0faf2;
   transition: all 500ms ease-in-out;
 }
-.investor-accordion .accordion>.card:last-child
+.investor-accordion .accordion>.accordion-item:last-child
 {
   margin-bottom: 0;
 }
@@ -4151,15 +4156,15 @@ form .submit-group::after
 {
   transform: translate(-50%,-50%) rotate(90deg);
 }
-.investor-accordion a[aria-expanded="true"] .plus-icon
+.investor-accordion button[aria-expanded="true"] .plus-icon
 {
   transform: translateY(-50%) rotate(-45deg);
   transition: all 500ms ease-in-out;
   background-color: #11582c;
   border-color: #11582c;
 }
-.investor-accordion a[aria-expanded="true"] .plus-icon::after,
-.investor-accordion a[aria-expanded="true"] .plus-icon::before
+.investor-accordion button[aria-expanded="true"] .plus-icon::after,
+.investor-accordion button[aria-expanded="true"] .plus-icon::before
 {
   background-color: #fff;
 }
@@ -4790,4 +4795,8 @@ body.modal-open header.scrolled
 .board-director-slider .slick-dots
 {
   opacity: 1;
+}
+.accordion-box-single
+{
+  margin-bottom: 20px;
 }

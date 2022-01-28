@@ -9,6 +9,9 @@ const InnerBannerSection = (props) => {
                     <div className="section-wrap">
                         <div className="inner-banner-content">
                             <h1 className="h2 reveal-fade">{props.pageTitle}</h1>
+                            <div class="banner-text reveal-fade">
+                                {props.bannerText}
+                            </div>
                         </div>
                     </div>
                 </Container>
