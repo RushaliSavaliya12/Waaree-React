@@ -74,8 +74,9 @@ const InnerPageGsapAnimation = () =>{
         footerAnimation.to(".footer-note .row",{ durationTime, scale: 1,opacity: 1,});
         footerAnimation.pause();
 
-        var fixedSocialBtn = document.getElementById('FixedSocialIcon');
+        let fixedSocialBtn = document.getElementById('FixedSocialIcon');
 
+        console.log(fixedSocialBtn);
         var ctrlFooter = new ScrollMagic.Controller();
         var windowHeight = window.innerHeight;
         var sceneFooter = new ScrollMagic.Scene({
@@ -87,8 +88,8 @@ const InnerPageGsapAnimation = () =>{
             .setTween(footerAnimation.play())
             .addTo(ctrlFooter);
             sceneFooter.on("start", function (event) {
-                console.log(fixedSocialBtn);
-                fixedSocialBtn.classList.toggle("remove");
+                
+                document.getElementById('FixedSocialIcon').classList.toggle("remove");
             });
         // footer Animation End
 

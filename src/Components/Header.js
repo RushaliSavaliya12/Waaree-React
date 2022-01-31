@@ -60,7 +60,6 @@ const Header = () =>{
 
                 // Fixed Animation on Scroll
                 if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                    console.log('socialFixedIcon');
                     fixedSocialIcon.classList.add("scrolled");
                     scrollToTopBtnDiv.classList.add("show");
                   }else{
@@ -88,7 +87,7 @@ const Header = () =>{
                                     <LinkContainer to="/about-waaree"><Nav.Link>About us</Nav.Link></LinkContainer>
                                     <Nav.Link href="#Products">Products</Nav.Link>
                                     <Nav.Link href="#Services">Services</Nav.Link>
-                                    <Nav.Link href="#Contact Us">Contact Us</Nav.Link>
+                                    <LinkContainer to="/contact-waaree"><Nav.Link>Contact Us</Nav.Link></LinkContainer>
                                     <MoreMenuModel />
                                     <SearchPopup />
                                     <NavDropdown id="languageDropdown" className="language-dropdown" title={<span className= "selected-value"><img src="assets/images/india-flag.png" className="flag-img" alt="Flag" /></span>}>
