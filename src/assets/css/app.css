@@ -1538,6 +1538,7 @@ footer.section
   text-align: center;
   line-height: 50px;
 }
+
 .slick-arrow:hover,
 .swiper-button-next:hover,
 .swiper-button-prev:hover
@@ -4385,7 +4386,6 @@ body.modal-open #navbarMain
 .slick-prev:before, .slick-next:before,
 .swiper-button-prev::before, .swiper-button-next::before
 {
-  color: #733256;
   font-size: 50px;
   opacity: 1;
   font-family: "Font Awesome 5 Free";

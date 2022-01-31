@@ -50,7 +50,7 @@ const LocationColSingle = () => {
         },
         {
             id: "5",
-            locationImage:"assets/images/nandigram-factory.png",
+            locationImage:"assets/images/nandigram-factory.jpg",
             locationTitle:"Gujarat –Nandigram (Manufacturing Unit)",
             locationAddressSpan1:"CBIPL NANDIGRAM Unnamed Road,",
             locationAddressSpan2:"Nandigam, Gujarat 396105",

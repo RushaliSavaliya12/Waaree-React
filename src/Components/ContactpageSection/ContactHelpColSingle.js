@@ -30,7 +30,7 @@ const ContactHelpSection = () => {
     return (
         <>
         {HelpColData.map((val) =>
-        <Col className="help-col-single">
+        <Col className="help-col-single" key={val.id}>
             <img src={val.helpSecBgSrc} alt="" />
                 <div className="col-inner">
                     <h3 className="reveal-fade">{val.helpSecTitle}</h3>
