@@ -76,7 +76,7 @@ const LocationColSingle = () => {
     return (
         <>
         {LocationColData.map((val) =>
-        <Col lg={6} className="location-col-single" key={val.id}>
+        <Col lg={6} className="location-col-single reveal-fade" key={val.id}>
             <div className="col-inner">
                 <Row className="location-inner-row">
                     <Col sm={5} className="image-col">
