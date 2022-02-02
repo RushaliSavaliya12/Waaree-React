@@ -26,41 +26,30 @@ const MoreMenuModel = () =>{
         );
         moreMenu.play();
     }
-    // dropdown hover
-    const showClassName = "show";
-    const dropdownItem = document.querySelectorAll('.more-menu-modal .nav-item.dropdown');
-    
-    const moreMenuGallaryItem = document.querySelectorAll('.gallery-column .slide-single');
-    [].forEach.call(dropdownItem, function(item) {
-        const dropDownMenu = item.querySelector('.dropdown-menu');
-        item.onmouseenter = function() {
 
-            item.classList.add(showClassName);
-            dropDownMenu.classList.add(showClassName);
+    // const [showDropdownState, setDropdownShow] = useState({
+    //     Company: false,
+    //     Products:false,
+    //     Services:false,
+    //     Insights:false,
+    //     Others: false,
+    //     People: false
+    // });
 
-            const gallaryId = item.querySelector('.nav-link').getAttribute('id');
+    // const dropdownShowHandler = (e,key) => {
+    //     const showDropdownStateChange = showDropdownState;
+    //     setDropdownShow(Object
+    //     .keys(showDropdownStateChange) // Get list of keys in model
+    //     .reduce((result, k) => { 
+          
+    //       return { ...result, [k] : key === k };
+    //     }, {}));
+    //     // setDropdownShow({...showDropdownState, [key]: true})
+    // }
 
-            [].forEach.call(moreMenuGallaryItem, function(gallaryitem) {
-
-                const gallaryAttr = gallaryitem.getAttribute('data-gallary');
-                if(gallaryId == gallaryAttr){
-                    gallaryitem.classList.add('active');
-                }else{
-                    gallaryitem.classList.remove('active');
-                }
-            });
-
-        }
-        item.onmouseleave = function() {
-            item.classList.remove(showClassName);
-            dropDownMenu.classList.remove(showClassName);
-        }
-    });
-    
-
-    // dropdown hover
-    
-
+    // const dropdownHideHandler = (e,key) => {
+    //     setDropdownShow({...showDropdownState, [key]: false})
+    // }
 
 
 
@@ -90,7 +79,7 @@ const MoreMenuModel = () =>{
                                     <div className="menu-wrapper">
                                     <div className="menu-title"><h4>More Menu</h4></div>
                                     <Nav>
-                                    <NavDropdown id="companyMenu" title="Company" renderMenuOnMount={true}>
+                                    <NavDropdown id="companyMenu" title="Company" show={showDropdownState.Company} onMouseEnter={(e) => dropdownShowHandler(e,"Company")} onMouseLeave={(e) => dropdownHideHandler(e,"Company")}>
                                         <div className="dropdown-inner">
                                             <NavDropdown.Item>About Us</NavDropdown.Item>
                                             <NavDropdown.Item>Board of Directors</NavDropdown.Item>
@@ -101,7 +90,7 @@ const MoreMenuModel = () =>{
                                             <NavDropdown.Item>Sustainable Living (CSR)</NavDropdown.Item>
                                         </div>
                                     </NavDropdown>
-                                    <NavDropdown id="productsMenu" title="Products" renderMenuOnMount={true}>
+                                    <NavDropdown id="productsMenu" title="Products" show={showDropdownState.Products} onMouseEnter={(e) => dropdownShowHandler(e,"Products")} onMouseLeave={(e) => dropdownHideHandler(e,"Products")}>
                                         <div className="dropdown-inner">
                                             <NavDropdown.Item>PV Modules</NavDropdown.Item>
                                             <NavDropdown.Item>On-grid Inverters</NavDropdown.Item>
@@ -110,7 +99,7 @@ const MoreMenuModel = () =>{
                                             <NavDropdown.Item>Water Pumps Solar Products</NavDropdown.Item>
                                         </div>
                                     </NavDropdown>
-                                    <NavDropdown id="servicesMenu" title="Services" renderMenuOnMount={true}>
+                                    <NavDropdown id="servicesMenu" title="Services" show={showDropdownState.Services} onMouseEnter={(e) => dropdownShowHandler(e,"Services")} onMouseLeave={(e) => dropdownHideHandler(e,"Services")}>
                                         <div className="dropdown-inner">
                                             <NavDropdown.Item>EPC Ground Mount</NavDropdown.Item>
                                             <NavDropdown.Item>EPC Floating Solar</NavDropdown.Item>
@@ -119,7 +108,7 @@ const MoreMenuModel = () =>{
                                             <NavDropdown.Item>Solar Finance</NavDropdown.Item>
                                         </div>
                                     </NavDropdown>
-                                    <NavDropdown id="insightsMenu" title="Insights" renderMenuOnMount={true}>
+                                    <NavDropdown id="insightsMenu" title="Insights" show={showDropdownState.Insights} onMouseEnter={(e) => dropdownShowHandler(e,"Insights")} onMouseLeave={(e) => dropdownHideHandler(e,"Insights")}>
                                         <div className="dropdown-inner">
                                             <NavDropdown.Item>Company</NavDropdown.Item>
                                             <NavDropdown.Item>Blog</NavDropdown.Item>
@@ -129,7 +118,7 @@ const MoreMenuModel = () =>{
                                             <NavDropdown.Item>Press Release</NavDropdown.Item>
                                         </div>
                                     </NavDropdown>
-                                    <NavDropdown id="otherMenu" title="Others" renderMenuOnMount={true}>
+                                    <NavDropdown id="otherMenu" title="Others" show={showDropdownState.Others} onMouseEnter={(e) => dropdownShowHandler(e,"Others")} onMouseLeave={(e) => dropdownHideHandler(e,"Others")}>
                                         <div className="dropdown-inner">
                                             <NavDropdown.Item>Events</NavDropdown.Item>
                                             <NavDropdown.Item>Media Coverage</NavDropdown.Item>
@@ -138,7 +127,7 @@ const MoreMenuModel = () =>{
                                             <NavDropdown.Item>Enquiry Form</NavDropdown.Item>
                                         </div>
                                     </NavDropdown>
-                                    <NavDropdown id="peopleMenu" title="People" renderMenuOnMount={true}>
+                                    <NavDropdown id="peopleMenu" title="People" show={showDropdownState.People} onMouseEnter={(e) => dropdownShowHandler(e,"People")} onMouseLeave={(e) => dropdownHideHandler(e,"People")}>
                                         <div className="dropdown-inner">
                                             <NavDropdown.Item>Our Culture</NavDropdown.Item>
                                             <NavDropdown.Item>Life at Waaree</NavDropdown.Item>
@@ -151,22 +140,22 @@ const MoreMenuModel = () =>{
                                 </Col>
                                 <Col md={6} className="gallery-column">
                                     <div className="gallery-slider-wrap reveal-fade">
-                                        <div className="slide-single active" data-gallary="companyMenu">
+                                        <div className="slide-single active">
                                             <img src="assets/images/more-menu-image.jpg" alt="slide Image" />
                                         </div>
-                                        <div className="slide-single" data-gallary="productsMenu">
+                                        <div className={showDropdownState.Products ? 'active slide-single' : 'slide-single' } data-gallary="productMenu">
                                             <img src="assets/images/solar-panel-terres-blog.png" alt="slide Image" />
                                         </div>
-                                        <div className="slide-single" data-gallary="servicesMenu">
+                                        <div className={showDropdownState.Services ? 'active slide-single' : 'slide-single' } data-gallary="serviceMenu">
                                             <img src="assets/images/product-slide-1.jpg" alt="slide Image" />
                                         </div>
-                                        <div className="slide-single" data-gallary="insightsMenu">
+                                        <div className={showDropdownState.Insights ? 'active slide-single' : 'slide-single' } data-gallary="insightsMenu">
                                             <img src="assets/images/rooftop-solar.jpg" alt="slide Image" />
                                         </div>
-                                        <div className="slide-single" data-gallary="otherMenu">
+                                        <div className={showDropdownState.Others ? 'active slide-single' : 'slide-single' } data-gallary="otherMenu">
                                             <img src="assets/images/solar-panel-house-blog.png" alt="slide Image" />
                                         </div>
-                                        <div className="slide-single" data-gallary="peopleMenu">
+                                        <div className={showDropdownState.People ? 'active slide-single' : 'slide-single' } data-gallary="peopleMenu">
                                             <img src="assets/images/product-slide-2.jpg" alt="slide Image" />
                                         </div>
                                     </div>

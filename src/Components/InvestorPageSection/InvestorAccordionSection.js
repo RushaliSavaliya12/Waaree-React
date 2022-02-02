@@ -1,6 +1,6 @@
 import React from 'react';
 import { Accordion, Container} from 'react-bootstrap';
-import AccordionSingle from './AccordionSingle';
+import AccordionMain from './AccordionMain';
 
 
 const InvestorAccordionSection = () => {
@@ -12,7 +12,7 @@ const InvestorAccordionSection = () => {
                     <div className="section-wrap">
                         <div className="investor-accordion">
                             <Accordion defaultActiveKey="0" id="investorAccordion">
-                                <AccordionSingle />
+                                <AccordionMain />
                             </Accordion>
                         </div>
                     </div>
