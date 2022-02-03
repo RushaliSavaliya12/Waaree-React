@@ -20,7 +20,7 @@ const AboutExcellenceSection = (props) => {
                             </div>
                             <div className="col-lg-5 video-grid-right reveal-fade">
                                 <div className="col-inner">
-                                    <VideoPlayer videoSrc="https://www.youtube.com/embed/_8Pwc5uBbGE?autoplay=1"/>
+                                <VideoPlayer videoSrc="https://www.youtube.com/embed/_8Pwc5uBbGE?autoplay=1" videCoverBgSrc="assets/images/waree-video-cover-image.jpg" videoCoverText="Why Choose Waaree?" />
                                 </div>
                             </div>
 

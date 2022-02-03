@@ -8,6 +8,9 @@ import InnerBannerSection from '../Components/InnerBannerSection';
 import ScrollToTopBtn from '../Components/ScrollToTopBtn';
 import InnerPageGsapAnimation from '../Components/InnerPageGsapAnimation';
 import TwoColSection from '../Components/InnerPagesSection/TwoColSection';
+import ImageGallarySection from '../Components/InnerPagesSection/ImageGallarySection';
+import VideoFullWidthSection from '../Components/InnerPagesSection/VideoFullWidthSection';
+import CompanyLogoSection from '../Components/InnerPagesSection/CompanyLogoSection';
 
 
 const ManufacturingPlant = () => {
@@ -21,6 +24,9 @@ const ManufacturingPlant = () => {
         <main className="no-fullpage">
         <InnerBannerSection bgSrc="assets/images/investor-bg.jpg" pageTitle="Manufacturing Plant"/>
         <TwoColSection />
+        <ImageGallarySection />
+        <VideoFullWidthSection />
+        <CompanyLogoSection />
         <Footer />
         <SocialFixedBtn />
         <ContactBtnFix />
