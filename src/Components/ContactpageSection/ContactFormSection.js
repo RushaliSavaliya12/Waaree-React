@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import SectionTitle from '../HomepageSection/SectionInnerComponent/SectionTitle';
 import ContactForm from './ContactForm';
+import RoundSvgSectionTop from '../InnerPagesSection/RoundSvgSectionTop';
 
 const ContactFormSection = () => {
 
@@ -15,10 +16,7 @@ const ContactFormSection = () => {
                     </div>
                 </Container>
             </div>
-            <div className="inner-sec-round small-round-shape top-left custom-round">
-                <div className="green-round big reveal-fade"></div>
-                <div className="yellow-round small reveal-fade"></div>
-            </div>
+            <RoundSvgSectionTop />
         </section>
     )
 }

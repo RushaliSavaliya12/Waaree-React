@@ -4800,3 +4800,65 @@ body.modal-open header.scrolled
 {
   margin-bottom: 20px;
 }
+
+section.inner-banner-section + section
+{
+  position: relative;
+  overflow: hidden;
+}
+
+/* Privacy term page design */
+.content-section-title
+{
+  margin-bottom: 40px;
+}
+.green-bg
+{
+  padding: 25px 20px 25px 60px;
+  color: #fff;
+  background-color: #11582c;
+}
+.content-text
+{
+  margin-bottom: 35px;
+  width: 100%;
+}
+.content-text.light-green-bg
+{
+  padding: 50px;
+  background-color: #f0faf2;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+ol.body_text li
+{
+  margin-bottom: 32px;
+}
+ol.body_text li:last-child
+{
+  margin-bottom: 20px;
+}
+ol.body_text li a,
+ol.body_text li::marker
+{
+  color: #733256;
+  font-weight: 700;
+}
+.green-title
+{
+  color: #11582c;
+}
+.content-small-title
+{
+  margin-bottom: 40px;
+}
+.body_text p:last-child
+{
+  margin-bottom: 0;
+}
+.gallery-slider-wrap .slide-single:first-child
+{
+  opacity: 1;
+  visibility: visible;
+}
+/* Privacy term page design End*/

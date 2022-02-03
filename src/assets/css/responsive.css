@@ -769,6 +769,27 @@
         width: 150px;
     }
     /* React changes End*/
+    .content-text.light-green-bg
+    {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .content-section-title
+    {
+        margin-bottom: 30px;
+    }
+    ol.body_text li
+    {
+        margin-bottom: 24px;
+    }
+    .content-small-title
+    {
+        margin-bottom: 32px;
+    }
+    .content-text
+    {
+        margin-bottom: 30px;
+    }
 
 }
 @media(max-width:1365px)
@@ -1573,6 +1594,11 @@
     .achievement-content-wrap
     {
         height: 100%;
+    }
+    .content-text.light-green-bg
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
 }
@@ -2430,6 +2456,23 @@
     .more-menu-inner .row
     {
         padding-top: 100px;
+    }
+    .content-text.light-green-bg
+    {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .green-bg
+    {
+        padding-left: 30px;
+    }
+    .content-text.light-green-bg
+    {
+        padding: 30px;
+    }
+    ol.body_text
+    {
+        padding-left: 20px;
     }
 }
 @media(max-width:480px)
