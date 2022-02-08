@@ -5399,3 +5399,41 @@ ol.body_text li::marker {
 {
   opacity: 0;
 }
+/* Award page */
+.awards-grid-row .grid-image img
+{
+  height: 335px;
+  width: 100%;
+  object-fit: cover;
+}
+.awards-grid-row .grid-image
+{
+  margin-bottom: 25px;
+}
+
+.awards-grid-row .grid-title
+{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.awards-grid-row .grid-text
+{
+  font-size: 20px;
+  line-height: 1.5;
+}
+.awards-grid-row .grid-text p:last-child
+{
+  margin-bottom: 0;
+}
+.award-grid-single
+{
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 90px;
+}
+.awards-grid-row
+{
+  margin-left: -25px;
+  margin-right: -25px;
+}
+/* Award page End*/

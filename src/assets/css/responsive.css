@@ -510,6 +510,10 @@
     {
         font-size: 40px;
     }
+    .awards-grid-row .grid-image img
+    {
+        height: 300px;
+    }
 }
 
 @media(max-width:1400px) {
@@ -863,6 +867,18 @@
     .lg-outer .lg-next::before, .lg-outer .lg-prev::after
     {
         font-size: 35px;
+    }
+    .awards-grid-row .grid-image img
+    {
+        height: 260px;
+    }
+    .awards-grid-row .grid-text
+    {
+        font-size: 18px;
+    }
+    .awards-grid-row .grid-title
+    {
+        font-size: 24px;
     }
 }
 
@@ -1590,6 +1606,36 @@
     .lg-outer .lg-counter
     {
         padding-left: 0;
+    }
+    .awards-grid-row .grid-image img
+    {
+        height: 220px;
+    }
+    .award-grid-single
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .awards-grid-row
+    {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .awards-grid-row .grid-title
+    {
+        font-size: 22px;
+    }
+    .award-grid-single
+    {
+        margin-bottom: 60px;
+    }
+    .awards-grid-row .grid-text
+    {
+        font-size: 16px;
+    }
+    .awards-grid-row .grid-title
+    {
+        margin-bottom: 15px;
     }
 }
 
@@ -2704,6 +2750,18 @@
     .video-section .video-wrapper
     {
         height: 320px;
+    }
+    .awards-grid-row .grid-image img
+    {
+        height: 56vw;
+    }
+    .awards-grid-row .grid-image
+    {
+        margin-bottom: 20px;
+    }
+    .award-grid-single
+    {
+        margin-bottom: 40px;
     }
 }
 
