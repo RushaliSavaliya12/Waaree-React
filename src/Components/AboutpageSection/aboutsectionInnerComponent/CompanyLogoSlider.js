@@ -202,7 +202,7 @@ const CompanyLogoSlider = () => {
     infinite: true,
     dots: true,
     slidesToShow: 6,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 10000,
     slidesToScroll: 6,
     swipe: true,

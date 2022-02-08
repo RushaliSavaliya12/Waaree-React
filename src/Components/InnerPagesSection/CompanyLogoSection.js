@@ -9,7 +9,7 @@ const CompanyLogoSection = () => {
             <div className="section-inner">
                 <Container>
                     <div className="section-wrap">
-                        <h4 className="title-small text-center">We follow the strictest production guidelines and the best International Industry
+                        <h4 className="title-small text-center reveal-fade">We follow the strictest production guidelines and the best International Industry
                             Standards and Practices with all major national & international certifications.</h4>
                         <CompanyLogoSlider />
                     </div>

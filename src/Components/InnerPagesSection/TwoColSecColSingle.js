@@ -4,7 +4,7 @@ import { Container, Col, Row } from 'react-bootstrap';
 const TwoColSecContentCol = (props) => {
     return (
         <>
-            <Col lg={6} className="content-col">
+            <Col lg={6} className="content-col reveal-fade" >
                 <div className="col-inner">
                     <h4 className="content-col-title">{props.contentColTitle}</h4>
                     <div className="content-col-text">
@@ -18,7 +18,7 @@ const TwoColSecContentCol = (props) => {
 const TwoColSecImageCol = (props) => {
     return (
         <>
-            <Col lg={6} className="image-col">
+            <Col lg={6} className="image-col reveal-fade">
                 <div className="col-inner">
                     <img src={props.imageColSrc} alt='Col Image'/>
                 </div>

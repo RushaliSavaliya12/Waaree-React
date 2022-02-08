@@ -59,7 +59,7 @@ const ImageGallary = () => {
     ]
     const GallryTextItem = (props) => {
         return (
-            <div className="first-item gallry-text-item">
+            <div className="first-item gallry-text-item green-bg reveal-fade">
                 <div className="gallary-text-inner">
                     <h4 className="gallary-title">{props.gallryTextTitle}</h4>
                     <div className="content-text">
@@ -77,12 +77,12 @@ const ImageGallary = () => {
     return (
         <>
             <div className="image-gallary-row">
-                <GallryTextItem gallryTextTitle="India's First" gallryItemContent="company to have in-house facility" />
                 <LightGallery
                     onInit={onInit}
                     speed={500}>
+                    <GallryTextItem gallryTextTitle="India's First" gallryItemContent="company to have in-house facility"/>
                     {ImageGallaryItemData.map((val) =>
-                        <div className="gallary-item" key={val.id} data-src={val.gallaryImageSrc} data-sub-html={`<p> ${val.gallaryItemText} </p>`}>
+                        <div className="gallary-item reveal-fade" key={val.id} data-src={val.gallaryImageSrc} data-sub-html={`<p> ${val.gallaryItemText} </p>`}>
                             <a href={val.gallaryImageSrc}>
                                 <img alt="" src={val.gallaryImageSrc} />
                             </a>
