@@ -3,19 +3,19 @@ import { Container, Row, Col } from 'react-bootstrap';
 import SectionTitle from '../HomepageSection/SectionInnerComponent/SectionTitle';
 
 
-const AboutJoinTeamSection = () => {
+const AboutJoinTeamSection = (props) => {
     return (
-        <section className="section join-team-section" style={{backgroundImage: "url(assets/images/join-team-banner.png"}}>
+        <section className="section join-team-section" style={{backgroundImage: `url(${props.joinTeamBgSrc})`}}>
             <div className="section-inner">
                 <Container>
                     <div className="section-wrap">
                         <div className="join-team-content text-center">
-                        <SectionTitle sectionTitle="Join our Team" titleTheme="light-title" />
+                        <SectionTitle sectionTitle={props.joinTeamTitle} className={props.titleTheme} />
                             <div className="team-content-text reveal-fade">
-                                <p>We are not just another power company, we believe in people passionate about a sustainable change in the energy landscape globally, people just like you. Welcome to our world.</p>
+                                <p>{props.joinTeamContent}</p>
                             </div>
                             <div className="btn-wrap reveal-fade">
-                                <a href="https://www.waaree.com/work-with-us" className="btn btn-primary" target="_blank">View Current Position<i className="fas fa-chevron-right"></i></a>
+                                <a href={props.joinBtnLink} className="btn btn-primary" target="_blank">{props.BgbtnText}<i className="fas fa-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>

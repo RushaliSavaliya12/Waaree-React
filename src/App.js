@@ -11,6 +11,7 @@ import Investors from './pages/Investors';
 import Contact from './pages/Contact';
 import ManufacturingPlant from './pages/ManufacturingPlant';
 import Awards from './pages/Awards';
+import Services from './pages/Services';
 
 const App = () => {
     return (
@@ -22,6 +23,8 @@ const App = () => {
                 <Route path="contact-waaree" element={<Contact />} />
                 <Route path="manufacturing-plant" element={<ManufacturingPlant />} />
                 <Route path="awards" element={<Awards />} />
+                <Route path="services" element={<Services />} />
+
             </Routes>
         </>
     );

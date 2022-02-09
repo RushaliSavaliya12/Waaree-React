@@ -7,7 +7,7 @@ import RoundSvgSectionTop from './RoundSvgSectionTop';
 
 const AwardGridSection = () => {
     return (
-        <section className="section company-logo-section">
+        <section className="section award-grid-section">
             <div className="section-inner">
                 <Container>
                     <div className="section-wrap">

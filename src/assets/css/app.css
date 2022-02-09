@@ -5436,4 +5436,8 @@ ol.body_text li::marker {
   margin-left: -25px;
   margin-right: -25px;
 }
+section.award-grid-section .section-inner
+{
+  padding-bottom: 10px;
+}
 /* Award page End*/

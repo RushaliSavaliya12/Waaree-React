@@ -2564,6 +2564,10 @@
     {
         font-size: 25px;
     }
+    .gallary-text-inner
+    {
+        padding: 20px;
+    }
 }
 
 @media(max-width:575px) {

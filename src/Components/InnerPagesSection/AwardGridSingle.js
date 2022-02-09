@@ -5,7 +5,7 @@ const AwardGridSingle = (props) => {
 
         return (
             <>
-                <Col lg={4} sm={6} className="award-grid-single">
+                <Col lg={4} sm={6} className="award-grid-single reveal-fade">
                     <div className="col-inner">
                         <div class="grid-image">
                             <img src={props.AwardGridImageBg} alt=""/>
