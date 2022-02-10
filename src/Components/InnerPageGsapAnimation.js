@@ -24,7 +24,7 @@ const InnerPageGsapAnimation = () =>{
                 var paragraph = item.querySelectorAll('.company-logo-section .title-small, .contact-footer-row h4, .banner-text, .content-text, .subtitle-wrap, .team-content-text, .case-study-text');
                 var readMoreLink =  item.querySelectorAll('.read-more-link');
                 var img = item.querySelectorAll('.video-section .video-player,.video-grid-right,.case-study-single .featured-image, .case-study-image,.suitanable-image-column .image-wrap');
-                var staggerElement = item.querySelectorAll('.award-grid-single, .accordion > .accordion-item, .image-gallary-row .reveal-fade, .two-col-section .reveal-fade, .form-inner-row > div, .textarea-col .form-col, .form-inner .recaptcha-col, .location-sec-row .location-col-single ,.case-study-single,.core-value-row .core-value-single, .value-boxes-row .boxes-single, .board-director-slider .slide-single, .image-column-wrap .image-wrap, .company-logo-slider .slick-slide');
+                var staggerElement = item.querySelectorAll('.service-col-single, .green-box-row .service-green-col, .award-grid-single, .accordion > .accordion-item, .image-gallary-row .reveal-fade, .two-col-section .reveal-fade, .form-inner-row > div, .textarea-col .form-col, .form-inner .recaptcha-col, .location-sec-row .location-col-single ,.case-study-single,.core-value-row .core-value-single, .value-boxes-row .boxes-single, .board-director-slider .slide-single, .image-column-wrap .image-wrap, .company-logo-slider .slick-slide');
                 var buttonLink = item.querySelectorAll('.btn-wrap');
 
                 timeline

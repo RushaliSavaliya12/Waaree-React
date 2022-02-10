@@ -5441,3 +5441,121 @@ section.award-grid-section .section-inner
   padding-bottom: 10px;
 }
 /* Award page End*/
+/* service page */
+.green-box-row
+{
+  margin: 0;
+}
+.green-box-row .service-green-col
+{
+  padding: 0;
+  padding-left: 0.5px;
+  padding-right: 0.5px;
+}
+.green-box-row .service-green-col .col-inner
+{
+  background-color: #11582c;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px;
+  height: 100%;
+}
+.green-box-row .service-green-col h4
+{
+  color: #fff;
+  margin-bottom: 5px;
+}
+.green-box-row .service-city-type
+{
+  font-size: 18px;
+  font-weight:500;
+  letter-spacing: 3px;
+  color: #ffdb27;
+  text-transform: uppercase;
+}
+section.service-grid-section .section-inner
+{
+  padding-top: 0;
+}
+.service-grid-row .service-col-single
+{
+  border: 1px solid #f0faf2;
+}
+.service-grid-row .service-col-single .col-inner
+{
+  padding: 45px 30px;
+}
+.service-grid-row .service-col-single:first-child,
+.service-grid-row .service-col-single:nth-child(4),
+.service-grid-row .service-col-single:nth-child(5),
+.service-grid-row .service-col-single:nth-child(6),
+.service-grid-row .service-col-single:nth-child(8)
+{
+  background-color: #f0faf2;
+}
+.service-content
+{
+  margin-top: 40px;
+}
+.service-grid-row .service-text
+{
+  color: #000;
+}
+.service-grid-row .service-title
+{
+  margin-bottom: 20px;
+}
+.service-grid-row .service-image
+{
+  height: 190px;
+}
+.service-grid-row .service-image img
+{
+  
+  transition: all 1s ease-in-out;
+}
+.service-grid-row .service-image a:hover img
+{
+  transform: skewY(6deg) scale(1.43);
+  transition: all 1s ease-in-out;
+}
+.prime-icon-col .icon-wrap
+{
+  padding-left: 100px;
+}
+.prime-text-col .section-title
+{
+  margin-bottom: 0;
+}
+.prime-text-col .sub-title
+{
+  font-weight: 700;
+  margin-bottom: 20px;
+  display: block;
+}
+.prime-text-col
+{
+  color: #fff;
+  padding-left: 40px;
+}
+.prime-text-col
+{
+  padding-right: 120px;
+}
+.prime-bg-image
+{
+  max-width: calc(25% + 100px);
+  flex: calc(25% + 100px);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.waaree-prime-section
+{
+  padding-bottom: 100px;
+}
+/* service page End*/

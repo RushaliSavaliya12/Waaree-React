@@ -514,6 +514,18 @@
     {
         height: 300px;
     }
+    .green-box-row .service-city-type
+    {
+        font-size: 16px;
+    }
+    .service-grid-row .service-image
+    {
+        height: 160px;
+    }
+    .prime-icon-col .icon-wrap
+    {
+        padding-left: 80px;
+    }
 }
 
 @media(max-width:1400px) {
@@ -880,6 +892,26 @@
     {
         font-size: 24px;
     }
+    .green-box-row .service-green-col .col-inner
+    {
+        padding: 40px;
+    }
+    .service-content
+    {
+        margin-top: 30px;
+    }
+    .service-grid-row .service-title
+    {
+        margin-bottom: 10px;
+    }
+    .prime-icon-col .icon-wrap
+    {
+        padding-left: 70px;
+    }
+    .waaree-prime-section
+    {
+    padding-bottom: 80px;
+    }
 }
 
 @media(max-width:1365px) {
@@ -972,6 +1004,15 @@
     {
         left: 3rem;
         width: calc(100% - 6rem);
+    }
+    .prime-bg-image
+    {
+        max-width: calc(25% + 80px);
+        flex: calc(25% + 60px);
+    }
+    .prime-text-col
+    {
+        padding-right: 80px;
     }
 }
 
@@ -1637,6 +1678,21 @@
     {
         margin-bottom: 15px;
     }
+    .prime-text-col
+    {
+        padding-right: 60px;
+    }
+    .prime-bg-image
+    {
+        max-width: calc(25% + 60px);
+        flex: calc(25% + 60px);
+    }
+    .prime-icon-col .icon-wrap
+    {
+        padding-left: 60px;
+    }
+    
+
 }
 
 @media(max-width:991px) {
@@ -1805,6 +1861,37 @@
     .footer-detail .detail-link
     {
         font-size: 18px;
+    }
+    .green-box-row .service-green-col .col-inner
+    {
+        padding: 30px;
+    }
+    .service-grid-row .service-col-single .col-inner
+    {
+        padding: 30px 15px;
+    }
+    .prime-icon-col .icon-wrap
+    {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    .prime-text-col
+    {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+    .waare-prime-row
+    {
+        padding-bottom: 100px;
+    }
+    .prime-bg-image
+    {
+        max-width: calc(30% + 60px);
+        flex: calc(30% + 60px) 1;
+    }
+    .waaree-prime-section
+    {
+        padding-bottom: 60px;
     }
 }
 
@@ -2568,6 +2655,18 @@
     {
         padding: 20px;
     }
+    .green-box-row .service-green-col
+    {
+        padding-bottom:1px;
+    }
+    .green-box-row .service-city-type
+    {
+        font-size: 14px;
+    }
+    .prime-icon-col .icon-wrap img
+    {
+        max-width: 180px;
+    }
 }
 
 @media(max-width:575px) {
@@ -2766,6 +2865,14 @@
     .award-grid-single
     {
         margin-bottom: 40px;
+    }
+    .prime-icon-col .icon-wrap img
+    {
+        max-width: 150px;
+    }
+    .waaree-prime-section
+    {
+        padding-bottom: 40px;
     }
 }
 
@@ -2996,6 +3103,10 @@
     .modal .modal-logo img {
         width: 120px;
     }
+    .prime-icon-col .icon-wrap img
+    {
+        max-width: 120px;
+    }
 }
 
 @media(max-width:374px) {
@@ -3022,5 +3133,15 @@
 
     .gallary-title {
         margin-bottom: 5px;
+    }
+    .prime-text-col
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .prime-text-col .col-inner
+    {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }

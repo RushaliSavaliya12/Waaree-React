@@ -39,7 +39,7 @@ const ServicesSingleCol = () => {
     return (
         <>
             {ServicesSingleColData.map((val) =>
-                <Col lg={4} sm={6} className="service-col-single">
+                <Col md={6} className="service-col-single reveal-fade">
                     <div className="col-inner">
                         <div class="service-image">
                             <a href={val.ServiceLink}>

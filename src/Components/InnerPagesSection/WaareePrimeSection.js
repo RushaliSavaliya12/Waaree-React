@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 import SectionTitle from '../HomepageSection/SectionInnerComponent/SectionTitle';
 import ButtonDiv from '../HomepageSection/SectionInnerComponent/ButtonDiv';
-import RoundSvgSectionTop from '../InnerPagesSection/RoundSvgSectionTop';
 
 const WaareePrimeSection = () => {
     return (
@@ -41,7 +40,6 @@ const WaareePrimeSection = () => {
 
                     </div>
                 </Container>
-                <RoundSvgSectionTop />
             </section>
         </>
     )
