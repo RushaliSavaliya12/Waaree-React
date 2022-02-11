@@ -17,7 +17,6 @@ const ServicesGridSection = () => {
                     </div>
                 </Container>
             </div>
-            <RoundSvgSectionTop />
         </section>
     )
 }
