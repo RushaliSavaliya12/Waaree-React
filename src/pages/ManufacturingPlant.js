@@ -11,6 +11,7 @@ import TwoColSection from '../Components/InnerPagesSection/TwoColSection';
 import ImageGallarySection from '../Components/InnerPagesSection/ImageGallarySection';
 import VideoFullWidthSection from '../Components/InnerPagesSection/VideoFullWidthSection';
 import CompanyLogoSection from '../Components/InnerPagesSection/CompanyLogoSection';
+import ImageGallaryFiveCol from '../Components/InnerPagesSection/ImageGallaryFiveCol';
 
 
 const ManufacturingPlant = () => {
@@ -24,7 +25,7 @@ const ManufacturingPlant = () => {
         <main className="no-fullpage">
         <InnerBannerSection bgSrc="assets/images/investor-bg.jpg" pageTitle="Manufacturing Plant"/>
         <TwoColSection />
-        <ImageGallarySection />
+        <ImageGallarySection gallarySectionTitle="Lab Facility" gallaryType={<ImageGallaryFiveCol />}/>
         <VideoFullWidthSection />
         <CompanyLogoSection />
         <Footer />

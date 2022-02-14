@@ -526,6 +526,18 @@
     {
         padding-left: 80px;
     }
+    .four-col-row .gallary-item a img
+    {
+        height: 282px;
+    }
+    .gallary-item .gallary-text
+    {
+        font-size: 18px;
+    }
+    .gallary-item .gallary-text
+    {
+        bottom: 30px;
+    }
 }
 
 @media(max-width:1400px) {
@@ -912,6 +924,18 @@
     {
     padding-bottom: 80px;
     }
+    .service-detail-section ul.service-listing li
+    {
+        margin-bottom: 20px;
+    }
+    .four-col-row .gallary-item a img
+    {
+        height: 258px;
+    }
+    .gallary-item .gallary-text
+    {
+        font-size: 16px;
+    }
 }
 
 @media(max-width:1365px) {
@@ -1013,6 +1037,10 @@
     .prime-text-col
     {
         padding-right: 80px;
+    }
+    .four-col-row .gallary-item a img
+    {
+        height: 242px;
     }
 }
 
@@ -1691,8 +1719,15 @@
     {
         padding-left: 60px;
     }
+    .service-detail-section .content-col-text
+    {
+        padding-right: 50px;
+    }
+    .four-col-row .gallary-item a img
+    {
+        height: 198px;
+    }
     
-
 }
 
 @media(max-width:991px) {
@@ -1893,6 +1928,29 @@
     {
         padding-bottom: 60px;
     }
+    .service-list-row.row > div .col-inner
+    {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .service-detail-section .content-col-text
+    {
+        padding-right: 0;
+    }
+    .image-gallary-row.four-col-row .gallary-item
+    {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+    .gallary-item .gallary-text
+    {
+        padding: 0 10px;
+    }
+    .gallary-item .gallary-text
+    {
+        bottom: 20px;
+    }
+
 }
 
 @media(max-width:767px) {
@@ -2667,6 +2725,24 @@
     {
         max-width: 180px;
     }
+    .service-list-row.row
+    {
+        margin-top: 50px;
+    }
+    .image-gallary-row.four-col-row .gallary-item
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .image-gallary-row.four-col-row
+    {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .four-col-row .gallary-item a img
+    {
+        height: 162px;
+    }
 }
 
 @media(max-width:575px) {
@@ -2873,6 +2949,38 @@
     .waaree-prime-section
     {
         padding-bottom: 40px;
+    }
+    .service-list-row.row > div .col-inner
+    {
+        padding: 40px 20px;
+    }
+    .service-list-row.row .service-list-title
+    {
+        margin-bottom: 30px;
+    }
+    .service-detail-section ul.service-listing li
+    {
+        margin-bottom: 15px;
+    }
+    .image-gallary-row.four-col-row
+    {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .image-gallary-row.four-col-row .gallary-item
+    {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .four-col-row .gallary-item a img
+    {
+        height: 46.7vw;
+    }
+    .gallary-item .gallary-text
+    {
+        font-size: 14px;
     }
 }
 

@@ -7,7 +7,7 @@ import 'lightgallery/css/lg-thumbnail.css';
 import ButtonDiv from '../HomepageSection/SectionInnerComponent/ButtonDiv';
 
 
-const ImageGallary = () => {
+const ImageGallaryFiveCol = () => {
 
     const ImageGallaryItemData = [
         {
@@ -98,4 +98,4 @@ const ImageGallary = () => {
     )
 }
 
-export default ImageGallary;
+export default ImageGallaryFiveCol;

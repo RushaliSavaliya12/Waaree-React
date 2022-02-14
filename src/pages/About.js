@@ -33,7 +33,7 @@ const About = () => {
         <AboutExcellenceSection />
         <AboutCorevalueSection />
         <AboutBoardDirectorSection />
-        <AboutJoinTeamSection />
+        <AboutJoinTeamSection titleTheme="light-title" joinTeamBgSrc="assets/images/join-team-banner.png" joinTeamTitle="Join our Team" joinTeamContent="We are not just another power company, we believe in people passionate about a sustainable change in the energy landscape globally, people just like you. Welcome to our world." joinBtnLink="#" BgbtnText="View Current Position"/>
         <AboutAwardsSection />
         <AboutCaseStudySection />
         <AboutCsrSection />

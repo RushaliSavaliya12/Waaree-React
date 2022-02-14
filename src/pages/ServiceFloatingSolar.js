@@ -7,13 +7,11 @@ import PrivacyPolicyPopup from '../Components/PrivacyPolicyPopup';
 import InnerBannerSection from '../Components/InnerBannerSection';
 import ScrollToTopBtn from '../Components/ScrollToTopBtn';
 import InnerPageGsapAnimation from '../Components/InnerPageGsapAnimation';
-import TwoColSection from '../Components/InnerPagesSection/TwoColSection';
+import ServiceInternalDetailSection from '../Components/InnerPagesSection/ServiceInternalDetailSection';
 import ImageGallarySection from '../Components/InnerPagesSection/ImageGallarySection';
-import AwardGridSection from '../Components/InnerPagesSection/AwardGridSection';
-import ImageGallaryFiveCol from '../Components/InnerPagesSection/ImageGallaryFiveCol';
+import ImageGallaryFourCol from '../Components/InnerPagesSection/ImageGallaryFourCol';
 
-
-const Awards = () => {
+const ServiceFloatingSolar = () => {
     // Scroll magic - Inner page End
     InnerPageGsapAnimation();
     // Scroll magic - Inner page End
@@ -22,9 +20,9 @@ const Awards = () => {
         <>
         <Header />
         <main className="no-fullpage">
-        <InnerBannerSection bgSrc="assets/images/investor-bg.jpg" pageTitle="Awards" bannerText="Waaree has acquired honors on numerous occasions from Industry, Government and Our Overseas Parnters."/>
-        <AwardGridSection />
-        <ImageGallarySection gallarySectionTitle="Awards Gallery" gallaryType={<ImageGallaryFiveCol />}/>
+        <InnerBannerSection bgSrc="assets/images/investor-bg.jpg" pageTitle="Services - Floating Solar" bannerText="Waaree Energies Solar EPC solutions will provide a good return on investment by utilizing idle ground space or Land. Waaree provides customized EPC solution as per your need and energy consumption."/>
+        <ServiceInternalDetailSection />
+        <ImageGallarySection gallarySectionTitle="Key Projects" gallaryType={<ImageGallaryFourCol />}/>
         <Footer />
         <SocialFixedBtn />
         <ContactBtnFix />
@@ -36,4 +34,4 @@ const Awards = () => {
 
 }
 
-export default Awards;
+export default ServiceFloatingSolar;

@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 import ManufacturingPlant from './pages/ManufacturingPlant';
 import Awards from './pages/Awards';
 import Services from './pages/Services';
+import ServiceFloatingSolar from './pages/ServiceFloatingSolar';
 
 const App = () => {
     return (
@@ -24,7 +25,7 @@ const App = () => {
                 <Route path="manufacturing-plant" element={<ManufacturingPlant />} />
                 <Route path="awards" element={<Awards />} />
                 <Route path="services" element={<Services />} />
-
+                <Route path="epc-floating-solar-solution" element={<ServiceFloatingSolar />} />
             </Routes>
         </>
     );

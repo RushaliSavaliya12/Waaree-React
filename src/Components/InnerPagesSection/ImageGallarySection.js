@@ -1,19 +1,19 @@
 import React from 'react';
 import {Container, Col, Row} from 'react-bootstrap';
 import SectionTitle from '../HomepageSection/SectionInnerComponent/SectionTitle';
-import ImageGallary from './ImageGallary';
+import ImageGallaryFiveCol from './ImageGallaryFiveCol';
 
 
-const ImageGallarySection = () => {
+const ImageGallarySection = (props) => {
     return (
         <>
             <section className="section image-gallary-section" style={{backgroundColor:"#f0faf2"}}>
                 <div className="section-inner">
                     <Container>
                         <div className="section-wrap">
-                            <SectionTitle sectionTitle="Lab Facility" titleTheme="dark-title" />
+                            <SectionTitle sectionTitle={props.gallarySectionTitle} titleTheme="dark-title" />
                             <div className="gallary-wrapper">
-                                <ImageGallary />
+                                {props.gallaryType}
                             </div>
                         </div>
                     </Container>
