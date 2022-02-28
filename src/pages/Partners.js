@@ -8,9 +8,10 @@ import InnerBannerSection from '../Components/InnerBannerSection';
 import ScrollToTopBtn from '../Components/ScrollToTopBtn';
 import InnerPageGsapAnimation from '../Components/InnerPageGsapAnimation';
 import PartnerDetailSection from '../Components/InnerPagesSection/PartnerDetailSection';
+import CaseStudySection from '../Components/InnerPagesSection/CaseStudySection';
+import FranchiseeLocationSection from '../Components/InnerPagesSection/FranchiseeLocationSection';
 
-
-const ServiceFloatingSolar = () => {
+const Partners = () => {
     // Scroll magic - Inner page End
     InnerPageGsapAnimation();
     // Scroll magic - Inner page End
@@ -21,6 +22,8 @@ const ServiceFloatingSolar = () => {
         <main className="no-fullpage">
         <InnerBannerSection bgSrc="assets/images/investor-bg.jpg" pageTitle="Partners" bannerText="In current market scenario solar power is most reliable and sustainable source of energy.Solar power in India is a fast developing industry. The scope of solar business in India is very high as government is giving various schemes and subsidies to opt solar power. "/>
         <PartnerDetailSection />
+        <CaseStudySection />
+        <FranchiseeLocationSection />
         <Footer />
         <SocialFixedBtn />
         <ContactBtnFix />
@@ -32,4 +35,4 @@ const ServiceFloatingSolar = () => {
 
 }
 
-export default ServiceFloatingSolar;
+export default Partners;

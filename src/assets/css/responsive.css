@@ -538,6 +538,47 @@
     {
         bottom: 30px;
     }
+    .partner-detail-section .image-content-row img
+    {
+        min-height: 380px;
+    }
+    .case-study-slider .col-right
+    {
+        padding-left: 120px;
+    }
+    .franchisee-location-section .section-title
+    {
+        margin-bottom: 70px;
+    }
+    .blog-single .blog-image
+    {
+        height: 360px;
+    }
+    .blog-date-share-wrap > div
+    {
+        font-size: 18px;
+    }
+    .blog-right-inner h5
+    {
+        margin-bottom: 35px;
+    }
+    .blog-right-inner h5
+    {
+        font-size: 26px;
+    }
+    .populer-post-single .post-content,
+    .populer-post-single .post-content h6
+    {
+        font-size: 16px;
+    }
+    .news-date
+    {
+        font-size: 30px;
+    }
+    .news-image img
+    {
+        height: 160px;
+    }
 }
 
 @media(max-width:1400px) {
@@ -842,7 +883,9 @@
         margin-bottom: 60px;
     }
 
-    .simple-content-section .content-section-title {
+    .simple-content-section .content-section-title,
+    .content-section-title
+    {
         margin-bottom: 30px;
     }
 
@@ -854,7 +897,9 @@
         margin-bottom: 32px;
     }
 
-    .simple-content-section .content-text {
+    .simple-content-section .content-text,
+    .blog-detail-content .content-text 
+    {
         margin-bottom: 30px;
     }
 
@@ -936,6 +981,82 @@
     {
         font-size: 16px;
     }
+    .partner-detail-section .image-content-row img
+    {
+        min-height: 330px;
+    }
+    .partner-detail-section P
+    {
+        margin-bottom: 25px;
+    }
+    .apply-now-banner
+    {
+        margin-top: 80px;
+    }
+    .apply-banner-wrap h4
+    {
+        margin-left: 40px;
+    }
+    .case-study-slider .franchisee-loc-title
+    {
+        padding-right: 70px;
+    }
+    .location-col-inner
+    {
+        font-size: 15px;
+    }
+    .blog-date-share-wrap
+    {
+        margin-bottom: 30px;
+    }
+    .blog-single .blog-image
+    {
+        margin-bottom: 30px;
+    }
+    .blog-date-share-wrap > div
+    {
+        font-size: 16px;
+    }
+    .populer-post-single .post-image
+    {
+        height: 70px;
+        flex: 0 0 70px;
+        max-width: 70px;
+    }
+    .populer-post-single .post-content
+    {
+        flex: 0 0 calc(100% - 70px);
+        max-width: calc(100% - 70px);
+        padding-left: 20px;
+    }
+    .populer-post-single
+    {
+        margin-bottom: 20px;
+    }
+    .blog-right-inner h5
+    {
+        font-size: 22px;
+    }
+    .pagination .page-link
+    {
+        height: 45px;
+        width: 45px;
+        line-height: 45px;
+    }
+    .pagination .page-item
+    {
+        margin-right: 15px;
+    }
+    .news-date
+    {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .news-tag-wrap
+    {
+        margin-bottom: 20px;
+    }
+    
 }
 
 @media(max-width:1365px) {
@@ -1042,6 +1163,15 @@
     {
         height: 242px;
     }
+    .blog-right-inner > div
+    {
+        margin-bottom: 30px;
+    }
+    .blog-right-inner h5
+    {
+        margin-bottom: 25px;
+    }
+
 }
 
 @media(max-width:1199px) {
@@ -1429,7 +1559,7 @@
     }
 
     .slick-dots {
-        bottom: 13px;
+        bottom: 22px;
     }
 
     .product-slider-wrap {
@@ -1727,7 +1857,38 @@
     {
         height: 198px;
     }
-    
+    .case-study-slider .col-right
+    {
+        padding-left: 100px;
+    }
+    .blog-single .blog-image
+    {
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .blog-date-share-wrap
+    {
+        margin-bottom: 20px;
+    }
+    .blog-main-row > .row
+    {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .blog-main-row > .row > div
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .populer-post-single .post-content
+    {
+        padding-left: 15px;
+    }
+    .pagination .page-item.first .page-link, .pagination .page-item.last .page-link
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media(max-width:991px) {
@@ -1941,6 +2102,13 @@
     {
         flex: 0 0 33.33%;
         max-width: 33.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px;
+    }
+    .four-col-row .gallary-item a img
+    {
+        height: 220px;
     }
     .gallary-item .gallary-text
     {
@@ -1950,7 +2118,53 @@
     {
         bottom: 20px;
     }
-
+    .apply-banner-wrap h4
+    {
+        display: block;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .apply-now-banner
+    {
+        padding: 40px 15px;
+    }
+    .apply-now-banner
+    {
+        margin-top: 60px;
+    }
+    .case-study-slider .col-right
+    {
+        padding-left: 60px;
+    }
+    .case-study-slider p
+    {
+        margin-bottom: 20px;
+    }
+    .case-study-slider
+    {
+        padding-bottom: 60px;
+    }
+    .video-gallary-row.four-col-row .lg-react-element .gallary-item
+    {
+        flex:  0 0 33.33%;
+        max-width: 33.33%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px;
+    }
+    .four-col-row .lg-react-element
+    {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .blog-single:last-child
+    {
+        margin-bottom: 20px;
+    }
+    .pagination
+    {
+        margin-bottom: 40px;
+    }
 }
 
 @media(max-width:767px) {
@@ -2743,6 +2957,54 @@
     {
         height: 162px;
     }
+    .partner-detail-section P
+    {
+        margin-bottom: 20px;
+    }
+    .case-study-slider .col-right
+    {
+        padding-left: 15px;
+        margin-top: 30px;
+    }
+    .partner-logo::before
+    {
+        height: 3px;
+    }
+    .map-col 
+    {
+        margin-top:30px;
+        height: 400px;
+    }
+    .franchisee-location-section .section-title
+    {
+        margin-bottom: 40px;
+    }
+    .bottom-text .video-player-content .video-text
+    {
+        padding: 20px;
+    }
+    .blog-search input[type="search"]
+    {
+        padding: 14px 70px 14px 20px;
+    }
+    .blog-search .search-btn
+    {
+        height: 50px;
+        width: 50px;
+    }
+    .news-info .news-image
+    {
+        margin-bottom: 20px;
+    }
+    .news-date
+    {
+        font-size: 22px;
+    }
+    .press-release-row .news-single
+    {
+        padding-bottom: 40px;
+        margin-bottom: 30px;
+    }
 }
 
 @media(max-width:575px) {
@@ -2973,6 +3235,7 @@
         max-width: 50%;
         padding-left: 5px;
         padding-right: 5px;
+        margin-bottom: 10px;
     }
     .four-col-row .gallary-item a img
     {
@@ -2981,6 +3244,69 @@
     .gallary-item .gallary-text
     {
         font-size: 14px;
+    }
+    .apply-now-banner
+    {
+        margin-top: 40px;
+    }
+    .custom-dropdown-wrapper
+    {
+        margin-bottom: 20px;
+    }
+    .video-gallary-row.four-col-row .lg-react-element .gallary-item
+    {
+        flex:  0 0 50%;
+        max-width: 50%;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 10px;
+    }
+    .four-col-row .lg-react-element
+    {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .blog-single .blog-image
+    {
+        height: 46vw;
+    }
+    .blog-title-wrap h4
+    {
+        margin-bottom: 10px;
+    }
+    .blog-date-share-wrap > div
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: 14px;
+    }
+    .blog-date-share-wrap .blog-date
+    {
+        margin-bottom: 15px;
+    }
+    .blog-date-share-wrap ul.social-icon li a.social-link
+    {
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .blog-date-share-wrap > div.share-btn
+    {
+        text-align: left;
+    }
+    .blog-single
+    {
+        margin-bottom: 30px;
+        padding-bottom: 25px;
+    }
+    .blog-right-inner h5
+    {
+        font-size: 18px;
+    }
+    .blog-categories-wrapper ul li
+    {
+        margin-bottom: 10px;
     }
 }
 
@@ -3215,6 +3541,25 @@
     {
         max-width: 120px;
     }
+    .pagination .page-link
+    {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+    .pagination .page-item
+    {
+        margin-right: 10px;
+    }
+    .press-release-row .news-single
+    {
+        padding-bottom: 30px;
+        margin-bottom: 25px;
+    }
+    .news-title
+    {
+        margin-bottom: 15px;
+    }
 }
 
 @media(max-width:374px) {
@@ -3251,5 +3596,29 @@
     {
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .pagination .page-link
+    {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+    .rhap_play-pause-button.rhap_main-controls-button
+    {
+        width: 30px;
+        height: 30px;
+    }
+    .rhap_button-clear.rhap_play-pause-button::before
+    {
+        background-size: cover;
+    }
+    .rhap_main .rhap_progress-section
+    {
+        padding-left: 0;
+    }
+    .rhap_main .rhap_main-controls
+    {
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 }

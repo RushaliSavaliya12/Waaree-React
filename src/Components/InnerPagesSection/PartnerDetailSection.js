@@ -14,12 +14,12 @@ const PartnerDetailSection = () => {
                         <div className="alternate-col-wrap">
                             <Row className="image-content-row">
                                 <SectionTitle sectionTitle="Tap Into Solar Energy Business Opportunity" titleTheme="dark-title" />
-                                <Col lg={4} className="image-col">
+                                <Col lg={5} className="image-col reveal-fade">
                                     <div className="col-inner">
                                         <img src="assets/images/about-banner.jpg" alt="" />
                                     </div>
                                 </Col>
-                                <Col lg={8} className="content-col">
+                                <Col lg={7} className="content-col reveal-fade">
                                     <div className="col-inner">
                                         <p>
                                             In current market scenario solar power is most reliable and sustainable source of energy.Solar power in India is a fast developing industry. The scope of solar business in India is very high as government is giving various schemes and subsidies to opt solar power.
@@ -30,12 +30,12 @@ const PartnerDetailSection = () => {
                             </Row>
                             <Row className="image-content-row">
                                 <SectionTitle sectionTitle="Benefits of Becoming a Channel Partner" titleTheme="dark-title" />
-                                <Col lg={4} className="image-col">
+                                <Col lg={5} className="image-col reveal-fade">
                                     <div className="col-inner">
                                         <img src="assets/images/about-banner.jpg" alt="" />
                                     </div>
                                 </Col>
-                                <Col lg={8} className="content-col">
+                                <Col lg={7} className="content-col reveal-fade">
                                     <div className="col-inner">
                                         <p>Becoming a channel partner with us is not only about selling products but it is about becoming an 'End to End Vertically Integrated Solar Solutions' provider. Our partners are a single stop solution for solar projects from Finance to Execution to Maintenance. This means that you are more than just a seller, you influence the entire value chain.
                                         </p>

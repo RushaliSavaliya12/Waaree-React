@@ -14,6 +14,12 @@ import Awards from './pages/Awards';
 import Services from './pages/Services';
 import ServiceFloatingSolar from './pages/ServiceFloatingSolar';
 import Partners from './pages/Partners';
+import Videos from './pages/Videos';
+import Blog from './pages/Blog';
+import BlogDetail from './pages/BlogDetail';
+import PressRelease from './pages/PressRelease';
+import Csr from './pages/CSR';
+import WhySolar from './pages/WhySolar';
 
 const App = () => {
     return (
@@ -28,6 +34,12 @@ const App = () => {
                 <Route path="services" element={<Services />} />
                 <Route path="epc-floating-solar-solution" element={<ServiceFloatingSolar />} />
                 <Route path="partners" element={<Partners />} />
+                <Route path="videos" element={<Videos />} />
+                <Route path="blog" element={<Blog />} />
+                <Route path="blog-detail" element={<BlogDetail />} />
+                <Route path="all-news" element={<PressRelease />} />
+                <Route path="csr" element={<Csr />} />
+                <Route path="why-solar" element={<WhySolar />} />
             </Routes>
         </>
     );
