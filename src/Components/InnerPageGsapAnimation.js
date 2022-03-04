@@ -26,6 +26,7 @@ const InnerPageGsapAnimation = () =>{
                 var img = item.querySelectorAll('.map-col, .apply-now-banner, section.case-study-section .section-inner, .video-section .video-player,.video-grid-right,.case-study-single .featured-image, .case-study-image,.suitanable-image-column .image-wrap');
                 var staggerElement = item.querySelectorAll('.blog-row .reveal-fade, .video-gallary-row .reveal-fade, .custom-dropdown-wrapper, .location-info-wrapper, .service-list-row > div, .service-col-single, .green-box-row .service-green-col, .award-grid-single, .accordion > .accordion-item, .image-gallary-row .reveal-fade, .two-col-section .reveal-fade, .form-inner-row > div, .textarea-col .form-col, .form-inner .recaptcha-col, .location-sec-row .location-col-single ,.case-study-single,.core-value-row .core-value-single, .value-boxes-row .boxes-single, .board-director-slider .slide-single, .image-column-wrap .image-wrap, .company-logo-slider .slick-slide');
                 var buttonLink = item.querySelectorAll('.view-all-btn, .btn-wrap');
+                var greenRound = item.querySelectorAll('.big-round-shape, .big-round-shape .inner-round-shape');
 
                 timeline
 
@@ -40,6 +41,7 @@ const InnerPageGsapAnimation = () =>{
                             y: '0',
                             opacity: 1
                         }, timelineSettings.staggerValue, "+=0.1")
+                        .staggerTo(greenRound, 1, { scale: 1 }, 0.2, "-=1")
                         .staggerTo(img, 1, { opacity: 1 }, 0.3, "-=0.5")
                         .staggerTo(paragraph, 1, { opacity: 1 }, 0.2, "-=0.5")
                         .staggerTo(staggerElement, 0.5, { opacity: 1 }, 0.3, "-=1.5")

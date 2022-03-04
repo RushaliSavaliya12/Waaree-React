@@ -482,102 +482,131 @@
     .image-gallary-row .lg-react-element {
         margin-bottom: 70px;
     }
-    .video-section .video-wrapper
-    {
+
+    .video-section .video-wrapper {
         height: 750px;
     }
-    .company-logo-section .title-small
-    {
+
+    .company-logo-section .title-small {
         margin-bottom: 80px;
     }
-    .lg-container .lg-outer
-    {
+
+    .lg-container .lg-outer {
         max-width: 100%;
         padding-left: 4rem;
         padding-right: 4rem;
     }
-    .lg-outer .lg-toolbar
-    {
+
+    .lg-outer .lg-toolbar {
         left: 4rem;
         width: calc(100% - 8rem);
     }
-    .lg-components .lg-sub-html p
-    {
+
+    .lg-components .lg-sub-html p {
         font-size: 18px;
     }
+
     .lg-outer .lg-next::before,
-    .lg-outer .lg-prev::after
-    {
+    .lg-outer .lg-prev::after {
         font-size: 40px;
     }
-    .awards-grid-row .grid-image img
-    {
+
+    .awards-grid-row .grid-image img {
         height: 300px;
     }
-    .green-box-row .service-city-type
-    {
+
+    .green-box-row .service-city-type {
         font-size: 16px;
     }
-    .service-grid-row .service-image
-    {
+
+    .service-grid-row .service-image {
         height: 160px;
     }
-    .prime-icon-col .icon-wrap
-    {
+
+    .prime-icon-col .icon-wrap {
         padding-left: 80px;
     }
-    .four-col-row .gallary-item a img
-    {
+
+    .four-col-row .gallary-item a img {
         height: 282px;
     }
-    .gallary-item .gallary-text
-    {
+
+    .gallary-item .gallary-text {
         font-size: 18px;
     }
-    .gallary-item .gallary-text
-    {
+
+    .gallary-item .gallary-text {
         bottom: 30px;
     }
-    .partner-detail-section .image-content-row img
-    {
+
+    .partner-detail-section .image-content-row img {
         min-height: 380px;
     }
-    .case-study-slider .col-right
-    {
+
+    .case-study-slider .col-right {
         padding-left: 120px;
     }
-    .franchisee-location-section .section-title
+
+    .franchisee-location-section .section-title {
+        margin-bottom: 70px;
+    }
+
+    .blog-single .blog-image {
+        height: 360px;
+    }
+
+    .blog-date-share-wrap>div {
+        font-size: 18px;
+    }
+
+    .blog-right-inner h5 {
+        margin-bottom: 35px;
+    }
+
+    .blog-right-inner h5 {
+        font-size: 26px;
+    }
+
+    .populer-post-single .post-content,
+    .populer-post-single .post-content h6 {
+        font-size: 16px;
+    }
+
+    .news-date {
+        font-size: 30px;
+    }
+
+    .news-image img {
+        height: 160px;
+    }
+
+    .csr-award-section .content-text {
+        font-size: 30px;
+    }
+
+    .solar-energy-col .energy-image img {
+        height: 520px;
+    }
+
+    .use-solar-section .section-title {
+        margin-bottom: 70px;
+    }
+
+    .product-type-image {
+        width: 380px;
+        height: 400px;
+    }
+    .content-text.big-text
+    {
+        font-size: 24px;
+    }
+    .product-type-content-section .section-title
     {
         margin-bottom: 70px;
     }
-    .blog-single .blog-image
+    .product-content-slider .product-image img
     {
-        height: 360px;
-    }
-    .blog-date-share-wrap > div
-    {
-        font-size: 18px;
-    }
-    .blog-right-inner h5
-    {
-        margin-bottom: 35px;
-    }
-    .blog-right-inner h5
-    {
-        font-size: 26px;
-    }
-    .populer-post-single .post-content,
-    .populer-post-single .post-content h6
-    {
-        font-size: 16px;
-    }
-    .news-date
-    {
-        font-size: 30px;
-    }
-    .news-image img
-    {
-        height: 160px;
+        height: 350px;
     }
 }
 
@@ -884,8 +913,7 @@
     }
 
     .simple-content-section .content-section-title,
-    .content-section-title
-    {
+    .content-section-title {
         margin-bottom: 30px;
     }
 
@@ -898,8 +926,7 @@
     }
 
     .simple-content-section .content-text,
-    .blog-detail-content .content-text 
-    {
+    .blog-detail-content .content-text {
         margin-bottom: 30px;
     }
 
@@ -918,145 +945,202 @@
     .image-gallary-section .section-title {
         margin-bottom: 60px;
     }
+
     .image-gallary-row .lg-react-element {
         margin-bottom: 60px;
     }
-    .video-section .video-wrapper
-    {
+
+    .video-section .video-wrapper {
         height: 680px;
     }
-    .company-logo-section .title-small
-    {
+
+    .company-logo-section .title-small {
         margin-bottom: 60px;
     }
-    .lg-components .lg-sub-html p
-    {
+
+    .lg-components .lg-sub-html p {
         font-size: 16px;
     }
-    .lg-outer .lg-next::before, .lg-outer .lg-prev::after
-    {
+
+    .lg-outer .lg-next::before, .lg-outer .lg-prev::after {
         font-size: 35px;
     }
-    .awards-grid-row .grid-image img
-    {
+
+    .awards-grid-row .grid-image img {
         height: 260px;
     }
-    .awards-grid-row .grid-text
-    {
+
+    .awards-grid-row .grid-text {
         font-size: 18px;
     }
-    .awards-grid-row .grid-title
-    {
+
+    .awards-grid-row .grid-title {
         font-size: 24px;
     }
-    .green-box-row .service-green-col .col-inner
-    {
+
+    .green-box-row .service-green-col .col-inner {
         padding: 40px;
     }
-    .service-content
-    {
+
+    .service-content {
         margin-top: 30px;
     }
-    .service-grid-row .service-title
-    {
+
+    .service-grid-row .service-title {
         margin-bottom: 10px;
     }
-    .prime-icon-col .icon-wrap
-    {
+
+    .prime-icon-col .icon-wrap {
         padding-left: 70px;
     }
-    .waaree-prime-section
-    {
-    padding-bottom: 80px;
+
+    .waaree-prime-section {
+        padding-bottom: 80px;
     }
-    .service-detail-section ul.service-listing li
-    {
+
+    .service-detail-section ul.service-listing li {
         margin-bottom: 20px;
     }
-    .four-col-row .gallary-item a img
-    {
+
+    .four-col-row .gallary-item a img {
         height: 258px;
     }
-    .gallary-item .gallary-text
-    {
+
+    .gallary-item .gallary-text {
         font-size: 16px;
     }
-    .partner-detail-section .image-content-row img
-    {
+
+    .partner-detail-section .image-content-row img {
         min-height: 330px;
     }
-    .partner-detail-section P
-    {
+
+    .partner-detail-section P {
         margin-bottom: 25px;
     }
-    .apply-now-banner
-    {
+
+    .apply-now-banner {
         margin-top: 80px;
     }
-    .apply-banner-wrap h4
-    {
+
+    .apply-banner-wrap h4 {
         margin-left: 40px;
     }
-    .case-study-slider .franchisee-loc-title
-    {
+
+    .case-study-slider .franchisee-loc-title {
         padding-right: 70px;
     }
-    .location-col-inner
-    {
+
+    .location-col-inner {
         font-size: 15px;
     }
-    .blog-date-share-wrap
-    {
+
+    .blog-date-share-wrap {
         margin-bottom: 30px;
     }
-    .blog-single .blog-image
-    {
+
+    .blog-single .blog-image {
         margin-bottom: 30px;
     }
-    .blog-date-share-wrap > div
-    {
+
+    .blog-date-share-wrap>div {
         font-size: 16px;
     }
-    .populer-post-single .post-image
-    {
+
+    .populer-post-single .post-image {
         height: 70px;
         flex: 0 0 70px;
         max-width: 70px;
     }
-    .populer-post-single .post-content
-    {
+
+    .populer-post-single .post-content {
         flex: 0 0 calc(100% - 70px);
         max-width: calc(100% - 70px);
         padding-left: 20px;
     }
-    .populer-post-single
-    {
+
+    .populer-post-single {
         margin-bottom: 20px;
     }
-    .blog-right-inner h5
-    {
+
+    .blog-right-inner h5 {
         font-size: 22px;
     }
-    .pagination .page-link
-    {
+
+    .pagination .page-link {
         height: 45px;
         width: 45px;
         line-height: 45px;
     }
-    .pagination .page-item
-    {
+
+    .pagination .page-item {
         margin-right: 15px;
     }
-    .news-date
-    {
+
+    .news-date {
         font-size: 24px;
         margin-bottom: 15px;
     }
-    .news-tag-wrap
-    {
+
+    .news-tag-wrap {
         margin-bottom: 20px;
     }
-    
+
+    .team-slider-main .row {
+        padding-top: 180px;
+        padding-bottom: 140px;
+        min-height: 650px;
+    }
+
+    .team-image-col {
+        padding-top: 100px;
+    }
+
+    .csr-award-section .content-text {
+        font-size: 24px;
+    }
+
+    .latest-award-text-box {
+        padding: 100px 35px 35px 35px;
+    }
+
+    .latest-award-text-box .latest-label {
+        top: 40px;
+        padding-left: 35px;
+    }
+
+    .solar-energy-col .energy-image img {
+        height: 460px;
+    }
+
+    .solar-energy-col .energy-image {
+        margin-bottom: 30px;
+    }
+
+    .use-solar-section .section-title {
+        margin-bottom: 60px;
+    }
+
+    .energy-counter-col .counter-inner>span {
+        font-size: 16px;
+    }
+
+    .product-type-image {
+        width: 350px;
+        height: 380px;
+    }   
+    .content-text.big-text
+    {
+        font-size: 22px;
+    }
+    .product-content-slider .product-image img
+    {
+        height: 320px;
+    }
+    .product-content-slider .product-title,
+    .product-content-slider .product-content-text
+    {
+        margin-bottom: 30px;
+    }
 }
 
 @media(max-width:1365px) {
@@ -1132,46 +1216,72 @@
     .gallary-item a img {
         height: 214px;
     }
-    .video-section .video-wrapper
-    {
+
+    .video-section .video-wrapper {
         height: 650px;
     }
-    .footer-detail .detail-link
-    {
+
+    .footer-detail .detail-link {
         font-size: 15px;
     }
-    .lg-container .lg-outer
-    {
+
+    .lg-container .lg-outer {
         padding-left: 3rem;
         padding-right: 3rem;
     }
-    .lg-outer .lg-toolbar
-    {
+
+    .lg-outer .lg-toolbar {
         left: 3rem;
         width: calc(100% - 6rem);
     }
-    .prime-bg-image
-    {
+
+    .prime-bg-image {
         max-width: calc(25% + 80px);
         flex: calc(25% + 60px);
     }
-    .prime-text-col
-    {
+
+    .prime-text-col {
         padding-right: 80px;
     }
-    .four-col-row .gallary-item a img
-    {
+
+    .four-col-row .gallary-item a img {
         height: 242px;
     }
-    .blog-right-inner > div
-    {
+
+    .blog-right-inner>div {
         margin-bottom: 30px;
     }
-    .blog-right-inner h5
-    {
+
+    .blog-right-inner h5 {
         margin-bottom: 25px;
     }
 
+    .team-slider-main .row {
+        padding-top: 160px;
+        padding-bottom: 120px;
+        min-height: 600px;
+    }
+
+    .benifit-col .col-inner .icon-wrap {
+        flex: 0 0 56px;
+        max-width: 56px;
+    }
+
+    .benifit-col .col-inner .benifit-content {
+        flex: 0 0 calc(100% - 56px);
+        max-width: calc(100% - 56px);
+    }
+    .product-type-slider .swiper-button-prev {
+        left: calc(50% - 300px);
+    }
+
+    .product-type-slider .swiper-button-next {
+        right: calc(50% - 300px);
+    }
+    .letus-know-section .section-title
+    {
+        margin-bottom: 50px;
+    }
 }
 
 @media(max-width:1199px) {
@@ -1788,106 +1898,175 @@
     .gallary-item a img {
         height: 225px;
     }
-    .video-section .video-wrapper
-    {
+
+    .video-section .video-wrapper {
         height: 580px;
     }
-    .lg-container .lg-outer
-    {
+
+    .lg-container .lg-outer {
         padding-left: 2rem;
         padding-right: 2rem;
     }
-    .lg-outer .lg-toolbar
-    {
+
+    .lg-outer .lg-toolbar {
         left: 2rem;
         width: calc(100% - 4rem);
     }
-    .lg-outer .lg-counter
-    {
+
+    .lg-outer .lg-counter {
         padding-left: 0;
     }
-    .awards-grid-row .grid-image img
-    {
+
+    .awards-grid-row .grid-image img {
         height: 220px;
     }
-    .award-grid-single
-    {
+
+    .award-grid-single {
         padding-left: 15px;
         padding-right: 15px;
     }
-    .awards-grid-row
-    {
+
+    .awards-grid-row {
         margin-left: -15px;
         margin-right: -15px;
     }
-    .awards-grid-row .grid-title
-    {
+
+    .awards-grid-row .grid-title {
         font-size: 22px;
     }
-    .award-grid-single
-    {
+
+    .award-grid-single {
         margin-bottom: 60px;
     }
-    .awards-grid-row .grid-text
-    {
+
+    .awards-grid-row .grid-text {
         font-size: 16px;
     }
-    .awards-grid-row .grid-title
-    {
+
+    .awards-grid-row .grid-title {
         margin-bottom: 15px;
     }
-    .prime-text-col
-    {
+
+    .prime-text-col {
         padding-right: 60px;
     }
-    .prime-bg-image
-    {
+
+    .prime-bg-image {
         max-width: calc(25% + 60px);
         flex: calc(25% + 60px);
     }
-    .prime-icon-col .icon-wrap
-    {
+
+    .prime-icon-col .icon-wrap {
         padding-left: 60px;
     }
-    .service-detail-section .content-col-text
-    {
+
+    .service-detail-section .content-col-text {
         padding-right: 50px;
     }
-    .four-col-row .gallary-item a img
-    {
+
+    .four-col-row .gallary-item a img {
         height: 198px;
     }
-    .case-study-slider .col-right
-    {
+
+    .case-study-slider .col-right {
         padding-left: 100px;
     }
-    .blog-single .blog-image
-    {
+
+    .blog-single .blog-image {
         height: 300px;
         margin-bottom: 20px;
     }
-    .blog-date-share-wrap
-    {
+
+    .blog-date-share-wrap {
         margin-bottom: 20px;
     }
-    .blog-main-row > .row
-    {
+
+    .blog-main-row>.row {
         margin-left: -15px;
         margin-right: -15px;
     }
-    .blog-main-row > .row > div
-    {
+
+    .blog-main-row>.row>div {
         padding-left: 15px;
         padding-right: 15px;
     }
-    .populer-post-single .post-content
-    {
+
+    .populer-post-single .post-content {
         padding-left: 15px;
     }
-    .pagination .page-item.first .page-link, .pagination .page-item.last .page-link
-    {
+
+    .pagination .page-item.first .page-link, .pagination .page-item.last .page-link {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .review-left-col .col-inner::before {
+        font-size: 160px;
+    }
+
+    .review-left-col .col-inner {
+        padding-top: 40px;
+        padding-left: 90px;
+    }
+
+    .csr-award-row>div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .csr-award-row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .benifit-col .col-inner {
+        padding: 30px 20px;
+    }
+
+    .solar-energy-col .energy-image img {
+        height: 380px;
+    }
+
+    .solar-energy-row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .solar-energy-row .solar-energy-col {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .use-solar-row .content-text h4, .use-solar-row .content-text p {
+        margin-bottom: 26px;
+    }
+
+    .use-solar-box {
+        margin-bottom: 30px;
+    }
+
+    .use-solar-section .section-title {
+        margin-bottom: 50px;
+    }
+
+    .product-type-image {
+        width: 280px;
+        height: 320px;
+    }
+    .product-type-slider .swiper-button-prev {
+        left: calc(50% - 280px);
+    }
+
+    .product-type-slider .swiper-button-next {
+        right: calc(50% - 280px);
+    }
+    .content-text.big-text
+    {
+        font-size: 20px;
+    }
+    .product-content-slider .product-image img
+    {
+        height: 300px;
     }
 }
 
@@ -2043,128 +2222,194 @@
     .image-gallary-section .section-title {
         margin-bottom: 50px;
     }
+
     .image-gallary-row .lg-react-element {
         margin-bottom: 50px;
     }
-    .video-section .video-wrapper
-    {
+
+    .video-section .video-wrapper {
         height: 480px;
     }
-    .company-logo-section .title-small
-    {
+
+    .company-logo-section .title-small {
         margin-bottom: 50px;
     }
-    .footer-detail .detail-link
-    {
+
+    .footer-detail .detail-link {
         font-size: 18px;
     }
-    .green-box-row .service-green-col .col-inner
-    {
+
+    .green-box-row .service-green-col .col-inner {
         padding: 30px;
     }
-    .service-grid-row .service-col-single .col-inner
-    {
+
+    .service-grid-row .service-col-single .col-inner {
         padding: 30px 15px;
     }
-    .prime-icon-col .icon-wrap
-    {
+
+    .prime-icon-col .icon-wrap {
         padding-left: 20px;
         margin-bottom: 20px;
     }
-    .prime-text-col
-    {
+
+    .prime-text-col {
         padding-right: 35px;
         padding-left: 35px;
     }
-    .waare-prime-row
-    {
+
+    .waare-prime-row {
         padding-bottom: 100px;
     }
-    .prime-bg-image
-    {
+
+    .prime-bg-image {
         max-width: calc(30% + 60px);
         flex: calc(30% + 60px) 1;
     }
-    .waaree-prime-section
-    {
+
+    .waaree-prime-section {
         padding-bottom: 60px;
     }
-    .service-list-row.row > div .col-inner
-    {
+
+    .service-list-row.row>div .col-inner {
         padding-left: 30px;
         padding-right: 30px;
     }
-    .service-detail-section .content-col-text
-    {
+
+    .service-detail-section .content-col-text {
         padding-right: 0;
     }
-    .image-gallary-row.four-col-row .gallary-item
-    {
+
+    .image-gallary-row.four-col-row .gallary-item {
         flex: 0 0 33.33%;
         max-width: 33.33%;
         padding-left: 15px;
         padding-right: 15px;
         margin-bottom: 30px;
     }
-    .four-col-row .gallary-item a img
-    {
+
+    .four-col-row .gallary-item a img {
         height: 220px;
     }
-    .gallary-item .gallary-text
-    {
+
+    .gallary-item .gallary-text {
         padding: 0 10px;
     }
-    .gallary-item .gallary-text
-    {
+
+    .gallary-item .gallary-text {
         bottom: 20px;
     }
-    .apply-banner-wrap h4
-    {
+
+    .apply-banner-wrap h4 {
         display: block;
         margin-left: 0;
         margin-top: 20px;
     }
-    .apply-now-banner
-    {
+
+    .apply-now-banner {
         padding: 40px 15px;
     }
-    .apply-now-banner
-    {
+
+    .apply-now-banner {
         margin-top: 60px;
     }
-    .case-study-slider .col-right
-    {
+
+    .case-study-slider .col-right {
         padding-left: 60px;
     }
-    .case-study-slider p
-    {
+
+    .case-study-slider p {
         margin-bottom: 20px;
     }
-    .case-study-slider
-    {
+
+    .case-study-slider {
         padding-bottom: 60px;
     }
-    .video-gallary-row.four-col-row .lg-react-element .gallary-item
-    {
-        flex:  0 0 33.33%;
+
+    .video-gallary-row.four-col-row .lg-react-element .gallary-item {
+        flex: 0 0 33.33%;
         max-width: 33.33%;
         padding-left: 15px;
         padding-right: 15px;
         margin-bottom: 30px;
     }
-    .four-col-row .lg-react-element
-    {
+
+    .four-col-row .lg-react-element {
         margin-left: -15px;
         margin-right: -15px;
     }
-    .blog-single:last-child
-    {
+
+    .blog-single:last-child {
         margin-bottom: 20px;
     }
-    .pagination
-    {
+
+    .pagination {
         margin-bottom: 40px;
     }
+
+    .team-slider-main .row {
+        padding-bottom: 50vw;
+        padding-top: 60px;
+    }
+
+    .team-image-col {
+        height: 50vw;
+        padding-top: 0;
+    }
+
+    .benifit-col .col-inner .icon-wrap {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .benifit-col .col-inner .benifit-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 0;
+    }
+
+    .solar-energy-col .energy-image img {
+        height: 270px;
+    }
+
+    .solar-energy-col .energy-image {
+        margin-bottom: 20px;
+    }
+
+    .solar-energy-col .energy-content h4 {
+        margin-bottom: 5px;
+    }
+
+    .energy-counter-text-col {
+        margin-bottom: 50px;
+    }
+    .product-type-slider .swiper-button-prev {
+        left: calc(50% - 220px);
+    }
+
+    .product-type-slider .swiper-button-next {
+        right: calc(50% - 220px);
+    }
+    .product-content-slider .slick-slide
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .product-content-slider
+    {
+        margin-left: -10px;
+        margin-right: -10px;
+        padding-bottom: 80px;
+    }
+    .product-content-slider .product-image img
+    {
+        height: 280px;
+    }
+    .product-type-content-section .section-title
+    {
+        margin-bottom: 50px;
+    }
+    
 }
 
 @media(max-width:767px) {
@@ -2878,131 +3123,181 @@
     .image-gallary-section .section-title {
         margin-bottom: 40px;
     }
+
     .image-gallary-row .lg-react-element {
         margin-bottom: 40px;
     }
-    .video-section .video-wrapper
-    {
+
+    .video-section .video-wrapper {
         height: 400px;
     }
-    .company-logo-section .title-small
-    {
+
+    .company-logo-section .title-small {
         margin-bottom: 40px;
     }
-    .company-logo-section .title-small
-    {
+
+    .company-logo-section .title-small {
         width: 100%;
-    }   
-    .lg-container .lg-toolbar .lg-close
-    {
+    }
+
+    .lg-container .lg-toolbar .lg-close {
         font-size: 16px;
     }
-    .lg-container .lg-toolbar .lg-close::before
-    {
+
+    .lg-container .lg-toolbar .lg-close::before {
         height: 14px;
         width: 14px;
     }
-    .lg-toolbar
-    {
+
+    .lg-toolbar {
         margin-top: 20px;
     }
-    .lg-outer .lg-content
-    {
+
+    .lg-outer .lg-content {
         top: 70px !important;
-        bottom: 90px!important;
+        bottom: 90px !important;
     }
-    .lg-outer .lg-prev
-    {
+
+    .lg-outer .lg-prev {
         left: 0;
     }
-    .lg-outer .lg-next
-    {
+
+    .lg-outer .lg-next {
         right: 0;
     }
-    .lg-outer .lg-next::before, .lg-outer .lg-prev::after
-    {
+
+    .lg-outer .lg-next::before, .lg-outer .lg-prev::after {
         font-size: 25px;
     }
-    .gallary-text-inner
-    {
+
+    .gallary-text-inner {
         padding: 20px;
     }
-    .green-box-row .service-green-col
-    {
-        padding-bottom:1px;
+
+    .green-box-row .service-green-col {
+        padding-bottom: 1px;
     }
-    .green-box-row .service-city-type
-    {
+
+    .green-box-row .service-city-type {
         font-size: 14px;
     }
-    .prime-icon-col .icon-wrap img
-    {
+
+    .prime-icon-col .icon-wrap img {
         max-width: 180px;
     }
-    .service-list-row.row
-    {
+
+    .service-list-row.row {
         margin-top: 50px;
     }
-    .image-gallary-row.four-col-row .gallary-item
-    {
+
+    .image-gallary-row.four-col-row .gallary-item {
         padding-left: 15px;
         padding-right: 15px;
     }
-    .image-gallary-row.four-col-row
-    {
+
+    .image-gallary-row.four-col-row {
         margin-left: -15px;
         margin-right: -15px;
     }
-    .four-col-row .gallary-item a img
-    {
+
+    .four-col-row .gallary-item a img {
         height: 162px;
     }
-    .partner-detail-section P
-    {
+
+    .partner-detail-section P {
         margin-bottom: 20px;
     }
-    .case-study-slider .col-right
-    {
+
+    .case-study-slider .col-right {
         padding-left: 15px;
         margin-top: 30px;
     }
-    .partner-logo::before
-    {
+
+    .partner-logo::before {
         height: 3px;
     }
-    .map-col 
-    {
-        margin-top:30px;
+
+    .map-col {
+        margin-top: 30px;
         height: 400px;
     }
-    .franchisee-location-section .section-title
-    {
+
+    .franchisee-location-section .section-title {
         margin-bottom: 40px;
     }
-    .bottom-text .video-player-content .video-text
-    {
+
+    .bottom-text .video-player-content .video-text {
         padding: 20px;
     }
-    .blog-search input[type="search"]
-    {
+
+    .blog-search input[type="search"] {
         padding: 14px 70px 14px 20px;
     }
-    .blog-search .search-btn
-    {
+
+    .blog-search .search-btn {
         height: 50px;
         width: 50px;
     }
-    .news-info .news-image
-    {
+
+    .news-info .news-image {
         margin-bottom: 20px;
     }
-    .news-date
-    {
+
+    .news-date {
         font-size: 22px;
     }
-    .press-release-row .news-single
-    {
+
+    .press-release-row .news-single {
         padding-bottom: 40px;
+        margin-bottom: 30px;
+    }
+
+    .review-left-col h4 {
+        margin-bottom: 30px;
+    }
+
+    .csr-award-section .content-text {
+        font-size: 22px;
+    }
+
+    .latest-award-text-box {
+        margin-top: 30px;
+    }
+
+    .benifits-row .benifit-col {
+        margin-bottom: 20px;
+    }
+
+    .solar-energy-row .solar-energy-col {
+        margin-bottom: 30px;
+    }
+
+    .solar-energy-row .solar-energy-col:last-child {
+        margin-bottom: 0;
+    }
+
+    .solar-energy-col .energy-image img {
+        height: 55vw;
+    }
+
+    .use-solar-box .use-solar-text h4 {
+        margin-bottom: 10px;
+    }
+
+    .use-solar-section .section-title {
+        margin-bottom: 40px;
+    }
+
+    .product-type-image {
+        width: 250px;
+        height: 270px;
+    }
+    .letus-know-section .section-title
+    {
+        margin-bottom: 40px;
+    }
+    .letus-know-row > div
+    {
         margin-bottom: 30px;
     }
 }
@@ -3188,125 +3483,167 @@
     .alternate-col-wrap>.row {
         margin-bottom: 40px;
     }
-    .video-section .video-wrapper
-    {
+
+    .video-section .video-wrapper {
         height: 320px;
     }
-    .awards-grid-row .grid-image img
-    {
+
+    .awards-grid-row .grid-image img {
         height: 56vw;
     }
-    .awards-grid-row .grid-image
-    {
+
+    .awards-grid-row .grid-image {
         margin-bottom: 20px;
     }
-    .award-grid-single
-    {
+
+    .award-grid-single {
         margin-bottom: 40px;
     }
-    .prime-icon-col .icon-wrap img
-    {
+
+    .prime-icon-col .icon-wrap img {
         max-width: 150px;
     }
-    .waaree-prime-section
-    {
+
+    .waaree-prime-section {
         padding-bottom: 40px;
     }
-    .service-list-row.row > div .col-inner
-    {
+
+    .service-list-row.row>div .col-inner {
         padding: 40px 20px;
     }
-    .service-list-row.row .service-list-title
-    {
+
+    .service-list-row.row .service-list-title {
         margin-bottom: 30px;
     }
-    .service-detail-section ul.service-listing li
-    {
+
+    .service-detail-section ul.service-listing li {
         margin-bottom: 15px;
     }
-    .image-gallary-row.four-col-row
-    {
+
+    .image-gallary-row.four-col-row {
         margin-left: -5px;
         margin-right: -5px;
     }
-    .image-gallary-row.four-col-row .gallary-item
-    {
+
+    .image-gallary-row.four-col-row .gallary-item {
         flex: 0 0 50%;
         max-width: 50%;
         padding-left: 5px;
         padding-right: 5px;
         margin-bottom: 10px;
     }
-    .four-col-row .gallary-item a img
-    {
+
+    .four-col-row .gallary-item a img {
         height: 46.7vw;
     }
-    .gallary-item .gallary-text
-    {
+
+    .gallary-item .gallary-text {
         font-size: 14px;
     }
-    .apply-now-banner
-    {
+
+    .apply-now-banner {
         margin-top: 40px;
     }
-    .custom-dropdown-wrapper
-    {
+
+    .custom-dropdown-wrapper {
         margin-bottom: 20px;
     }
-    .video-gallary-row.four-col-row .lg-react-element .gallary-item
-    {
-        flex:  0 0 50%;
+
+    .video-gallary-row.four-col-row .lg-react-element .gallary-item {
+        flex: 0 0 50%;
         max-width: 50%;
         padding-left: 5px;
         padding-right: 5px;
         margin-bottom: 10px;
     }
-    .four-col-row .lg-react-element
-    {
+
+    .four-col-row .lg-react-element {
         margin-left: -5px;
         margin-right: -5px;
     }
-    .blog-single .blog-image
-    {
+
+    .blog-single .blog-image {
         height: 46vw;
     }
-    .blog-title-wrap h4
-    {
+
+    .blog-title-wrap h4 {
         margin-bottom: 10px;
     }
-    .blog-date-share-wrap > div
-    {
+
+    .blog-date-share-wrap>div {
         flex: 0 0 100%;
         max-width: 100%;
         font-size: 14px;
     }
-    .blog-date-share-wrap .blog-date
-    {
+
+    .blog-date-share-wrap .blog-date {
         margin-bottom: 15px;
     }
-    .blog-date-share-wrap ul.social-icon li a.social-link
-    {
+
+    .blog-date-share-wrap ul.social-icon li a.social-link {
         height: 25px;
         width: 25px;
         line-height: 25px;
         font-size: 14px;
     }
-    .blog-date-share-wrap > div.share-btn
-    {
+
+    .blog-date-share-wrap>div.share-btn {
         text-align: left;
     }
-    .blog-single
-    {
+
+    .blog-single {
         margin-bottom: 30px;
         padding-bottom: 25px;
     }
-    .blog-right-inner h5
+
+    .blog-right-inner h5 {
+        font-size: 18px;
+    }
+
+    .blog-categories-wrapper ul li {
+        margin-bottom: 10px;
+    }
+
+    .review-left-col .col-inner::before {
+        font-size: 120px;
+    }
+
+    .review-left-col .col-inner {
+        padding-left: 60px;
+    }
+
+    .energy-counter-col .col-inner {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .energy-counter-col .col-inner .energy-counter-single {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .energy-counter-col .counter-inner>span {
+        font-size: 14px;
+    }
+    .product-type-slider .swiper-button-next
+    {
+        right:10px;
+    }
+    .product-type-slider .swiper-button-prev
+    {
+        left:10px;
+    }
+    .content-text.big-text
     {
         font-size: 18px;
     }
-    .blog-categories-wrapper ul li
+    .product-content-slider .product-content-wrap
     {
-        margin-bottom: 10px;
+        padding: 20px 20px 30px;
+    }
+    .product-content-slider .product-title, .product-content-slider .product-content-text
+    {
+        margin-bottom: 20px;
     }
 }
 
@@ -3537,28 +3874,45 @@
     .modal .modal-logo img {
         width: 120px;
     }
-    .prime-icon-col .icon-wrap img
-    {
+
+    .prime-icon-col .icon-wrap img {
         max-width: 120px;
     }
-    .pagination .page-link
-    {
+
+    .pagination .page-link {
         height: 35px;
         width: 35px;
         line-height: 35px;
     }
-    .pagination .page-item
-    {
+
+    .pagination .page-item {
         margin-right: 10px;
     }
-    .press-release-row .news-single
-    {
+
+    .press-release-row .news-single {
         padding-bottom: 30px;
         margin-bottom: 25px;
     }
-    .news-title
-    {
+
+    .news-title {
         margin-bottom: 15px;
+    }
+
+    .csr-award-section .content-text {
+        font-size: 20px;
+    }
+
+    .csr-award-section .section-title {
+        margin-bottom: 25px;
+    }
+
+    .latest-award-text-box {
+        padding: 90px 25px 25px 25px;
+    }
+
+    .latest-award-text-box .latest-label {
+        top: 30px;
+        padding-left: 25px;
     }
 }
 
@@ -3587,38 +3941,63 @@
     .gallary-title {
         margin-bottom: 5px;
     }
-    .prime-text-col
-    {
+
+    .prime-text-col {
         padding-left: 15px;
         padding-right: 15px;
     }
-    .prime-text-col .col-inner
-    {
+
+    .prime-text-col .col-inner {
         padding-left: 15px;
         padding-right: 15px;
     }
-    .pagination .page-link
-    {
+
+    .pagination .page-link {
         height: 30px;
         width: 30px;
         line-height: 30px;
     }
-    .rhap_play-pause-button.rhap_main-controls-button
-    {
+
+    .rhap_play-pause-button.rhap_main-controls-button {
         width: 30px;
         height: 30px;
     }
-    .rhap_button-clear.rhap_play-pause-button::before
-    {
+
+    .rhap_button-clear.rhap_play-pause-button::before {
         background-size: cover;
     }
-    .rhap_main .rhap_progress-section
-    {
+
+    .rhap_main .rhap_progress-section {
         padding-left: 0;
     }
-    .rhap_main .rhap_main-controls
-    {
+
+    .rhap_main .rhap_main-controls {
         align-items: flex-start;
         justify-content: flex-start;
+    }
+
+    .review-left-col .col-inner::before {
+        font-size: 90px;
+    }
+
+    .review-left-col .col-inner {
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+
+    .energy-counter-col .col-inner .energy-counter-single {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .energy-counter-text-col {
+        text-align: center;
+    }
+
+    .product-type-image {
+        width: 210px;
+        height: 240px;
     }
 }

@@ -35,13 +35,14 @@ const TeamReviewSlider = () => {
     dots:true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    fade:true,
+    // fade:true,
   };
   
     return (
           <Slider className="team-review-slider" {...settingsTeamReview}>
                 {TeamReviewSliderData.map((val) =>
                   <div className="slide-inner">
+                      <Container>
                       <Row>
                           <Col lg={7} className="review-left-col">
                               <div className="col-inner">
@@ -62,6 +63,7 @@ const TeamReviewSlider = () => {
                             </div>
                           </Col>
                       </Row>
+                      </Container>
                   </div>
                 )}
           </Slider>

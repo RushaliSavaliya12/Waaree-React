@@ -7,13 +7,13 @@ const UseSolarBoxSingle = () => {
     const UseSolarBoxSingleData = [
         {
             id: 1,
-            useSolarIconSrc: "assets/images/feedback-image.jpg",
+            useSolarIconSrc: "assets/images/economically-lamp-icon.png",
             useSolarTitle: "Economically sensible",
             useSolarText: "There are 0 recurring costs on solar power supply.",
         },
         {
             id: 2,
-            useSolarIconSrc: "assets/images/feedback-image.jpg",
+            useSolarIconSrc: "assets/images/enviorement-leaf-icon.png",
             useSolarTitle: "Environmentally sustainable",
             useSolarText: "Solar power will not run-out like traditional power sources such as fossil fuels.",
         },

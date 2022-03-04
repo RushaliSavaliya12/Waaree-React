@@ -35,8 +35,7 @@ const EnergyCounterRow = () => {
                 <div className="energy-counter-single">
                     <div className="counter-inner">
                         <h4 className="counter-title">
-                            <span className="coun-anim">{val.counterNumber}</span>
-                            <span>{val.counterText}<sub>{val.subText}</sub></span>
+                            <span className="coun-anim">{val.counterNumber}</span> <span>{val.counterText}<sub>{val.subText}</sub></span>
                         </h4>
                         <span>{val.counterSubText}</span>
                     </div>

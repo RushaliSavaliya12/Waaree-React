@@ -20,6 +20,8 @@ import BlogDetail from './pages/BlogDetail';
 import PressRelease from './pages/PressRelease';
 import Csr from './pages/CSR';
 import WhySolar from './pages/WhySolar';
+import ProductMainPvModule from './pages/ProductMainPvModule';
+import Careers from './pages/Careers';
 
 const App = () => {
     return (
@@ -40,6 +42,8 @@ const App = () => {
                 <Route path="all-news" element={<PressRelease />} />
                 <Route path="csr" element={<Csr />} />
                 <Route path="why-solar" element={<WhySolar />} />
+                <Route path="inverter" element={<ProductMainPvModule />} />
+                <Route path="careers" element={<Careers />} />
             </Routes>
         </>
     );

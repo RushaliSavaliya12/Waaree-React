@@ -7,23 +7,23 @@ const BenifitsRow = () => {
     const BenifitRowData=[
         {
             id:1,
-            benifitBgSrc:"",
+            benifitBgSrc:"assets/images/clean-box-bg.jpg",
             benifitTitle:"Clean",
-            benifitIconSrc:"",
+            benifitIconSrc:"assets/images/clean-leaf-icon.png",
             benifitText:"Produces no fumes",
         },
         {
             id:2,
-            benifitBgSrc:"",
+            benifitBgSrc:"assets/images/quite-box-bg.jpg",
             benifitTitle:"Quiet",
-            benifitIconSrc:"",
+            benifitIconSrc:"assets/images/quite-icon.png",
             benifitText:"Less sound pollution unlike diesel generators",
         },
         {
             id:3,
-            benifitBgSrc:"",
+            benifitBgSrc:"assets/images/renewable-box-bg.jpg",
             benifitTitle:"Renewable",
-            benifitIconSrc:"",
+            benifitIconSrc:"assets/images/renewable-icon.png",
             benifitText:"Unlike coal and other fossil fuels",
         }
     ]

@@ -6417,3 +6417,515 @@ div.rhap_container
   margin-bottom: 0;
   border-bottom: 0;
 }
+.review-left-col .col-inner
+{
+  text-align: left;
+  position: relative;
+  padding-left: 120px;
+  padding-top: 50px;
+}
+.review-left-col h4
+{
+  margin-bottom: 38px;
+  line-height: 1.5;
+}
+.review-left-col .team-info h4
+{ 
+  margin-bottom: 0;
+  color: #f2cb05;
+}
+.review-left-col .col-inner::before
+{
+  content: '"';
+  position: absolute;
+  left: 0;
+  font-size: 190px;
+  color: #ffdb27;
+  line-height: 0.6;
+  top: 0;
+}
+.team-image-col
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 0;
+  padding-top: 140px;
+  height: 100%;
+}
+.team-image-col .col-inner,
+.team-image-col .col-inner .team-member-image
+{
+  height: 100%;
+}
+.team-image-col img
+{
+  height: 100%;
+  margin-left: auto;
+  width: auto;
+  object-fit: cover;
+}
+.no-fullpage .team-review-section .section-inner
+{
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.team-slider-main .row
+{
+  padding-top: 240px;
+  padding-bottom: 200px;
+  min-height: 700px;
+}
+.team-slider-main .slick-track
+{
+  display:flex;
+}
+.team-slider-main .slick-slide
+{
+  position: relative;
+  height: auto;
+}
+.team-review-slider-wrapper
+{
+  position: relative;
+}
+.team-review-slider-wrapper .big-round-shape
+{
+  right: auto;
+  left: 0;
+}
+.team-slider-main
+{
+  z-index: 1;
+  position: relative;
+}
+section.team-review-section
+{
+  overflow: hidden;
+}
+.csr-award-section .csr-award-left-col
+{
+  color: #fff;
+}
+.csr-award-section .section-title
+{
+  margin-bottom: 30px;
+}
+.csr-award-section .content-text
+{
+  margin-bottom: 35px;
+  font-size: 36px;
+}
+.latest-award-text-box
+{
+  background-color: #f0faf2;
+  padding: 45px;
+  position: relative;
+  padding-top: 130px;
+}
+.latest-label
+{
+  background-color: #11582c;
+  padding: 10px 25px 10px 45px;
+  color: #fff;
+  display: inline-block;
+  line-height: 1;
+}
+.latest-award-text-box .latest-label
+{
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+.latest-award-text-box p
+{
+  margin-bottom: 0;
+}
+.csr-award-row
+{
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.csr-award-row > div
+{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* Why solar page */
+.whysolar-content-section .content-text p
+{
+  margin-bottom: 30px;
+}
+.benifits-row 
+{
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-top: 80px;
+}
+.benifits-row .benifit-col 
+{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.benifit-col .col-inner
+{
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 30px;
+  color: #fff;
+}
+.benifit-col .col-inner::before
+{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #11582c;
+  opacity: 0.7;
+}
+.benifit-col:nth-child(2) .col-inner:before
+{
+  background-color: #ffdb27;
+}
+.benifit-col:nth-child(3) .col-inner:before
+{
+  background-color: #733256;
+}
+.benifit-col .col-inner > div
+{
+  z-index: 1;
+  position: relative;
+  
+}
+.benifit-col .col-inner .icon-wrap
+{
+  flex:  0 0 64px;
+  max-width: 64px;
+}
+.benifit-col .col-inner .benifit-content
+{
+  flex: 0 0 calc(100% - 64px);
+  max-width: calc(100% - 64px);
+  padding-left: 25px;
+}
+.benifit-col .col-inner h4
+{
+  margin-bottom: 10px;
+}
+.benifit-col .col-inner p
+{
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+.solar-energy-section .section-title
+{
+  text-align: center;
+}
+.solar-energy-row 
+{
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.solar-energy-row .solar-energy-col
+{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.solar-energy-col .energy-image img
+{
+  width: 100%;
+  height: 570px;
+  object-fit: cover;
+}
+.solar-energy-col .energy-image
+{
+  margin-bottom: 40px;
+}
+.solar-energy-col .energy-content
+{
+  color: #fff;
+}
+.solar-energy-col .energy-content h4
+{
+  margin-bottom: 8px;
+}
+.solar-energy-col .energy-content span
+{
+  color: #ffdb27;
+}
+.use-solar-section .section-title
+{
+  margin-bottom: 90px;
+}
+.use-solar-row .content-text h4,
+.use-solar-row .content-text p
+{
+  margin-bottom: 35px;
+}
+.use-solar-box
+{
+  background-color: #ffdb27;
+  padding: 30px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.use-solar-box .use-solar-text h4
+{
+  margin-bottom: 18px;
+}
+.use-solar-box .icon-wrap
+{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+.use-solar-box:nth-child(2) .icon-wrap
+{
+  right: auto;
+  left: 0;
+}
+.solar-energy-counter-section
+{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.energy-counter-main-row
+{
+  color: #fff;
+  align-items: center;
+}
+.energy-counter-title
+{
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+.energy-counter-title::after
+{
+  content: '';
+  height: 5px;
+  width: 100%;
+  background-color: #ffdb27;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.energy-counter-text-col span
+{
+  display: block;
+}
+.energy-counter-col .col-inner
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.energy-counter-col .col-inner .energy-counter-single
+{
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.energy-counter-single .counter-title
+{
+  margin-bottom: 5px;
+}
+.counter-title .coun-anim
+{
+  color: #ffdb27;
+}
+.energy-counter-col .counter-inner > span
+{
+  font-size: 18px;
+}
+.solar-energy-counter-section
+{
+  position: relative;
+}
+.solar-energy-counter-section::before
+{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: -moz-linear-gradient(90deg, rgba(22, 26, 25, 0.30196) 0%, rgba(0, 0, 0, 0.50196) 50%, rgba(0, 0, 0, 0.5) 50%, rgba(22, 26, 25, 0) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(22, 26, 25, 0.30196) 0%, rgba(0, 0, 0, 0.50196) 50%, rgba(0, 0, 0, 0.5) 50%, rgba(22, 26, 25, 0) 100%);
+  background: linear-gradient(90deg, rgba(22, 26, 25, 0.30196) 0%, rgba(0, 0, 0, 0.50196) 50%, rgba(0, 0, 0, 0.5) 50%, rgba(22, 26, 25, 0) 100%);
+  background: ms-linear-gradient(90deg, rgba(22, 26, 25, 0.30196) 0%, rgba(0, 0, 0, 0.50196) 50%, rgba(0, 0, 0, 0.5) 50%, rgba(22, 26, 25, 0) 100%);
+}
+/* Why solar page End*/
+
+/* Product main page */
+.content-text.big-text
+{
+  font-size:30px;
+  margin-bottom: 0;
+}
+.content-text.big-text p:last-child
+{
+  margin-bottom: 0;
+}
+.product-type-slider .product-type-inner
+{
+  text-align: center;
+  color:#fff;
+}
+.product-type-slider .product-type-title h2
+{
+  margin-bottom: 4px;
+}
+.product-type-image
+{
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.product-type-slider .swiper-slide
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.product-type-slider .swiper-slide .product-type-title,
+.product-type-slider .swiper-slide .btn-wrap
+{
+  opacity: 0;
+  visibility: hidden;
+  transition: all 500ms ease-in-out;
+}
+.product-type-slider .swiper-slide.swiper-slide-active .product-type-title,
+.product-type-slider .swiper-slide.swiper-slide-active .btn-wrap
+{
+  opacity: 1;
+  visibility: visible;
+  transition: all 500ms ease-in-out;
+}
+.product-type-section
+{
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product-type-slider
+{
+  padding-bottom: 70px;
+}
+.product-type-slider .swiper-button-prev
+{
+  left: calc(50% - 350px);
+}
+.product-type-slider .swiper-button-next
+{
+  right: calc(50% - 350px);
+}
+.product-type-slider .swiper-button-prev,
+.product-type-slider .swiper-button-next
+{
+  bottom: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  z-index: 2;
+
+}
+.product-type-slider .swiper-button-prev:hover,
+.product-type-slider .swiper-button-next:hover
+{
+  color: #ffdb27;
+}
+.product-type-content-section .section-title
+{
+  margin-bottom: 80px;
+}
+.product-content-slider .slick-slide
+{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.product-content-slider .slick-slide .product-content-inner
+{
+  background-color: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.product-content-slider .product-image img
+{
+  height: 370px;
+  margin: auto;
+}
+.product-content-slider .product-content-wrap
+{
+  padding: 30px 30px 40px;
+}
+.product-content-slider .product-title
+{
+  color: #11582c;
+  padding-top: 25px;
+  position: relative;
+  padding-bottom: 0;
+  margin-bottom: 38px;
+}
+.product-content-slider .product-title::before
+{
+  content: '';
+  width: 50px;
+  height: 5px;
+  background-color: #ffdb27;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.product-content-slider .product-content-text
+{
+  margin-bottom: 40px;
+}
+.product-content-slider
+{
+  padding-top: 10px;
+  padding-bottom: 100px;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.letus-know-section .section-title
+{
+  margin-bottom: 70px;
+}
+.letus-know-row
+{
+  text-align: center;
+}
+.letus-know-row .icon-wrap img
+{
+  height: 64px;
+  width: 64px;
+}
+.letus-know-row .icon-wrap
+{
+  margin-bottom: 20px;
+}
+.letus-know-row .content-wrap h4
+{
+  color: #11582c;
+  margin-bottom: 10px;
+}
+/* Product main page End*/

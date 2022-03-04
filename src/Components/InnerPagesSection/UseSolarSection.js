@@ -16,8 +16,8 @@ const UseSolarSection = () => {
                                     <div className="col-inner">
                                         <div className="content-text">
                                             <h4>Return on investment can be as High as 30%</h4>
-                                            <p>Unlike traditional energy sources, the sun produces enough energy each second to sustain our power needs for 500,000 years!</p>
-                                            <p>The continuous emission of energy isn’t the only positive aspect of incorporating solar power for your requirements.The continuous emission of energy isn’t the only positive aspect of incorporating solar power for your requirements.</p>
+                                            <p>Installing solar is one of the most significant investments you will make. You'll see immediate reduction in your energy bill, shield yourself from increasing energy rates, and enhance your energy independence!</p>
+                                            <p>In fact, a system from WAAREE SOLAR can provide a quick pay back within 3 years and the rest 20 years of operation - free of cost. Investing in solar power plants attract tax savings via 80% accelerated depreciation and IRR that can go high as 30%, that's better performance than you'd get from the stock market!</p>
                                         </div>
                                     </div>
                                 </Col>

@@ -11,23 +11,23 @@ const CsrAwardSection = () => {
                 <Container>
                     <div className="section-wrap">
                         <Row className="csr-award-row">
-                            <Col lg={6} className="csr-award-left-col">
+                            <Col md={6} className="csr-award-left-col">
                                 <div className="col-inner">
                                     <SectionTitle sectionTitle="Awards" titleTheme="light-title" />
                                     <div className="content-text">
-                                        <p>Waaree Energies Ltd. is the flagship company of Waaree Group, founded in 1989 with headquarters in Mumbai, India. It has India's largest Solar PV Module manufacturing capacity of 2 GW's at its plants in Surat and Umbergaon in Gujarat. Waaree Energies is amongst the top player in India in providing EPC services, project development, rooftop solutions, and solar water pumps and also as an Independent Power Producer. Waaree has its presence in over 350 locations nationally and 68 countries internationally.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat pharetra quam euismod porttitor. Donec congue velit eu tortor efficitur venenatis. Vivamus dictum enim metus, rhoncus accumsan metus aliquam ac.</p>
                                     </div>
                                     <div className="btn-wrap">
                                         <ButtonDiv buttonHref="#" buttonText="Go to Awards" />
                                     </div>
                                 </div>
                             </Col>
-                            <Col lg={6} className="csr-award-right-col">
+                            <Col md={6} className="csr-award-right-col">
                                 <div className="col-inner">
                                     <div className="latest-award-text-box">
-                                        <span className="latest-label">Latest</span>
+                                        <h4 className="latest-label">Latest</h4>
                                         <div className="latest-award-text">
-                                            <p>Waaree Energies Ltd. is the flagship company of Waaree Group, founded in 1989 with headquarters in Mumbai, India. It has India's largest Solar PV Module manufacturing capacity of 2 GW's at its plants in Surat and Umbergaon in Gujarat. Waaree Energies is amongst the top player in India in providing EPC services, project development, rooftop solutions, and solar water pumps and also as an Independent Power Producer. Waaree has its presence in over 350 locations nationally and 68 countries internationally.</p>
+                                            <p>Waaree Energies Limited has announced that the World CSR Congress has recognised its Chairman and Managing Director Mr Hitesh Doshi as the Renewable Energy Leader of the Year.</p>
                                         </div>
                                     </div>
                                 </div>
