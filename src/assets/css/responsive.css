@@ -607,6 +607,11 @@
     .product-content-slider .product-image img
     {
         height: 350px;
+    
+    }
+    .job-opportunity-section .section-title
+    {
+        margin-bottom: 70px;
     }
 }
 
@@ -1140,6 +1145,23 @@
     .product-content-slider .product-content-text
     {
         margin-bottom: 30px;
+    }
+    .job-opportunity-row .icon-wrap
+    {
+        height: 75px;
+        width: 75px;
+    }
+    .job-opportunity-row > div .col-inner
+    {
+        padding: 40px 30px;
+    }
+    .job-opportunity-section .section-title
+    {
+        margin-bottom: 60px;
+    }
+    .explore-waaree-masonary .col-inner a
+    {
+        height: 200px;
     }
 }
 
@@ -2068,6 +2090,23 @@
     {
         height: 300px;
     }
+    .row .col-20
+    {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        margin-bottom: 10px;
+    }
+    .explore-waaree-masonary
+    {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .explore-waaree-masonary .grid-col-single
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px;
+    }
 }
 
 @media(max-width:991px) {
@@ -2409,7 +2448,10 @@
     {
         margin-bottom: 50px;
     }
-    
+    .explore-waaree-image-col
+    {
+        margin-top: 20px;
+    }
 }
 
 @media(max-width:767px) {
@@ -3300,6 +3342,20 @@
     {
         margin-bottom: 30px;
     }
+    .job-opportunity-row .icon-wrap
+    {
+        height: 65px;
+        width: 65px;
+    }
+    .job-opportunity-row > div .col-inner
+    {
+        padding: 30px 20px;
+    }
+    .job-opportunity-section .section-title
+    {
+        margin-bottom: 40px;
+    }
+
 }
 
 @media(max-width:575px) {
@@ -3913,6 +3969,20 @@
     .latest-award-text-box .latest-label {
         top: 30px;
         padding-left: 25px;
+    }
+    .row .col-20
+    {
+        flex:  0 0 50%;
+        max-width: 50%;
+    }
+    .explore-waaree-masonary .grid-col-single
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .explore-waaree-masonary .grid-col-single
+    {
+        margin-bottom: 20px;
     }
 }
 

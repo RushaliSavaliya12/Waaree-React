@@ -6929,3 +6929,180 @@ section.team-review-section
   margin-bottom: 10px;
 }
 /* Product main page End*/
+.row .col-20
+{
+  flex:0 0 20%;
+  max-width: 20%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.job-opportunity-row > div a
+{
+  display: block;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  transform: translateY(0px);
+  transition: all 500ms ease-in-out;
+}
+.job-opportunity-row > div .col-inner
+{
+  height: 100%;
+  padding: 50px 40px;
+}
+.job-opportunity-row > div .col-inner
+{
+    background-color: #25589d;
+}
+.job-opportunity-row > div:nth-child(2) .col-inner
+{
+    background-color: #9d5d25;
+}
+.job-opportunity-row > div:nth-child(3) .col-inner
+{
+    background-color: #96259d;
+}
+.job-opportunity-row > div:nth-child(4) .col-inner
+{
+    background-color: #259d5b;
+}
+.job-opportunity-row > div:last-child .col-inner
+{
+    background-color: #b2a916;
+}
+.job-opportunity-row .content-text
+{
+  font-weight: 500;
+  margin-top: 22px;
+} 
+.job-opportunity-row .content-text p
+{
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+.job-opportunity-row .icon-wrap
+{
+  height: 88px;
+  width: 88px;
+  margin: auto;
+}
+.job-opportunity-row .icon-wrap img
+{
+  width: 100%;
+}
+.job-opportunity-section .section-title
+{
+  margin-bottom: 85px;
+}
+.job-opportunity-row a .icon-wrap
+{
+  transform: scale(1);
+  transition: all 500ms ease-in-out;
+}
+.job-opportunity-row a:hover
+{
+  transform: translateY(-20px);
+  transition: all 500ms ease-in-out;
+}
+.job-opportunity-row a:hover .icon-wrap
+{
+  transform: scale(1.1);
+  transition: all 500ms ease-in-out;
+}
+.job-opportunity-row.row
+{
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.explore-waaree-row
+{
+  color: #fff;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.explore-waaree-row > div
+{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.explore-waaree-masonary
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.explore-waaree-masonary .grid-col-single
+{
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.explore-waaree-masonary .grid-col-single:first-child
+{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.explore-waaree-masonary .grid-bg
+{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.explore-waaree-masonary .grid-bg img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.explore-waaree-masonary .col-inner a
+{
+  display: block;
+  height: 240px;
+  overflow: hidden;
+  position: relative;
+}
+.explore-waaree-masonary .grid-title
+{
+  position: absolute;
+  bottom: 36px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+  color: #fff;
+}
+.explore-waaree-masonary a .grid-bg
+{
+  transform: scale(1);
+  transition: all 500ms ease-in-out;
+  position: relative;
+  
+}
+.explore-waaree-masonary a .grid-bg::before
+{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: -moz-linear-gradient(90deg, rgba(22, 26, 25, 0.5) 0%, rgba(0, 0, 0, 0.50196) 50%, rgba(0, 0, 0, 0.5) 50%, rgba(22, 26, 25, 0) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(22, 26, 25, 0.30196) 0%, rgba(0, 0, 0, 0.50196) 50%, rgba(0, 0, 0, 0.5) 50%, rgba(22, 26, 25, 0) 100%);
+  background: -ms-linear-gradient(90deg, rgba(22, 26, 25, 0.30196) 0%, rgba(0, 0, 0, 0.50196) 50%, rgba(0, 0, 0, 0.5) 50%, rgba(22, 26, 25, 0) 100%);
+  background: linear-gradient(180deg, rgba(22, 26, 25, 0.1) 10%, rgba(0, 0, 0, 0.8) 100%);
+}
+.explore-waaree-masonary a:hover
+{
+  transform: translateY(-20px);
+  transition: all 500ms ease-in-out;
+}
+.explore-waaree-masonary a:hover .grid-bg
+{
+  transform: scale(1.1);
+  transition: all 500ms ease-in-out;
+  
+}

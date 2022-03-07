@@ -5,32 +5,32 @@ import JobOpportunityRow from './JobOpportunityRow';
 
 const ExploreLifeWaaree = () => {
 
-    ExploreLifeGridData = [
+    const ExploreLifeGridData = [
         {
             id: 1,
             gridPageLink: "#",
-            gridBgSrc: "assets/images/",
-            gridTitle: "",
+            gridBgSrc: "assets/images/clean-box-bg.jpg",
+            gridTitle: "About us",
         },
         {
             id: 2,
             gridPageLink: "#",
-            gridBgSrc: "assets/images/",
-            gridTitle: "",
+            gridBgSrc: "assets/images/tumb-factory.jpg",
+            gridTitle: "Life at Waaree",
         },
         {
             id: 3,
             gridPageLink: "#",
-            gridBgSrc: "assets/images/",
-            gridTitle: "",
+            gridBgSrc: "assets/images/waaree-expert-bg.jpg",
+            gridTitle: "Our Culture",
         }
     ]
 
     const ExploreLifeGridSingle = () => {
         return (
             <>
-                {ExploreLifeGridData.map((key) =>
-                    <div className="grid-col-single" >
+                {ExploreLifeGridData.map((val) =>
+                    <div className="grid-col-single" key={val.id}>
                         <div className="col-inner">
                             <a href={val.gridPageLink}>
                                 <div className="grid-bg">
@@ -54,7 +54,10 @@ const ExploreLifeWaaree = () => {
                         <Row className="explore-waaree-row">
                             <Col lg={6} className="explore-waaree-text-col">
                                 <div className="col-inner">
-
+                                    <div className="content-text">
+                                        <p>WAAREE Recruitment process includes a selection stage when decisions are made as to the viability of a particular candidate's job application. We believe that it directly affects the overall productivity of an organization. A right selection may increase the overall performance of a company & a wrong one may lead to material and financial loss.</p>
+                                        <p>A perfect selection process can help to pick the most eligible candidates amongst all applicants. The process of selecting candidates focuses on abilities, knowledge, skills, experience and various other related factors.</p>
+                                    </div>
                                 </div>
                             </Col>
                             <Col lg={6} className="explore-waaree-image-col">
