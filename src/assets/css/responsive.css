@@ -613,6 +613,88 @@
     {
         margin-bottom: 70px;
     }
+    .team-detail-section .team-member-title span
+    {
+        font-size: 24px;
+    }
+    .team-quotes blockquote
+    {
+        font-size: 24px;
+    }
+    .team-quotes blockquote::before
+    {
+        font-size: 65px;
+    }
+    .team-detail-text .content-text,
+    .team-quotes blockquote
+    {
+        margin-bottom: 70px;
+    }
+    ul.social-icon li
+    {
+        margin-right: 20px;
+    }
+    .company-logo-filter .filter-btn-wrap,
+    .company-logo-listing .company-logo-row
+    {
+        margin-bottom: 80px;
+    }
+    .company-logo-listing .row .col-inner
+    {
+        height: 230px;
+    }
+    .two-col-slider-row .image-slider-col .slick-slide
+    {
+        height: 660px;
+    }
+    .core-value-tab-content .top-image-wrap
+    {
+        height: 300px;
+        width: 320px;
+    }
+    .core-value-tab-content .bottom-image-wrap
+    {
+        height: 400px;
+        width: 400px;
+        margin-left: 160px;
+        margin-top: -185px;
+    }
+    .image-wrap .tab-title-box
+    {
+        width: 235px;
+        min-height: 235px;
+    }
+    .custom-tab-nav .nav-item
+    {
+        margin-bottom: 40px;
+    }
+    .bottom-image-wrap .green-round
+    {
+        border-width: 40px;
+        height: 130px;
+        left: 235px;
+        width: 130px;
+    }
+    .core-value-tab-section .section-title
+    {
+        margin-bottom: 70px;
+    }
+    .team-thought-slider .people-image img
+    {
+        height: 420px;
+    }
+    .team-thought-slider .team-people-name h5
+    {
+        margin-bottom: 5px;
+    }
+    .team-thought-slider .slide-inner
+    {
+        padding-bottom: 80px;
+    }
+    .team-thought-section .section-title
+    {
+        margin-bottom: 70px;
+    }
 }
 
 @media(max-width:1400px) {
@@ -1163,6 +1245,67 @@
     {
         height: 200px;
     }
+    .team-member-title .section-title
+    {
+        margin-bottom: 15px;
+    }
+    .team-detail-section .team-member-title
+    {
+        margin-bottom: 70px;
+    }
+    .team-detail-section .team-member-title span
+    {
+        font-size: 22px;
+    }
+    .team-quotes blockquote
+    {
+        font-size: 22px;
+        padding-top: 36px;
+    }
+    .team-detail-text .content-text, .team-quotes blockquote
+    {
+        margin-bottom: 60px;
+    }
+    .company-logo-listing .row .col-inner
+    {
+        height: 210px;
+    }
+    .two-col-slider-row .image-slider-col .slick-slide
+    {
+        height: 600px;
+    }
+    .two-col-slider-row .image-slider-col
+    {
+        margin-top: 80px;
+    }
+    .two-col-slider-row > .content-col
+    {
+        margin-bottom: 80px;
+    }
+    .core-value-tab-section .section-title
+    {
+        margin-bottom: 50px;
+    }
+    .team-thought-slider .team-quotes blockquote::before
+    {
+        font-size: 100px;
+    }
+    .team-thought-slider .team-quotes blockquote, .team-thought-slider .team-people-name
+    {
+        padding-left: 60px;
+    }
+    .team-thought-slider .team-quotes blockquote
+    {
+        margin-bottom: 20px;
+    }
+    .team-thought-slider .people-image img
+    {
+        height: 390px;
+    }
+    .team-thought-section .section-title
+    {
+        margin-bottom: 50px;
+    }
 }
 
 @media(max-width:1365px) {
@@ -1303,6 +1446,57 @@
     .letus-know-section .section-title
     {
         margin-bottom: 50px;
+    }
+    .company-logo-listing .row .col-inner
+    {
+        height: 198px;
+    }
+    .company-logo-filter .filter-btn-wrap, .company-logo-listing .company-logo-row
+    {
+        margin-bottom: 60px;
+    }
+    .two-col-slider-row .image-slider-col .slick-slide
+    {
+        height: 570px;
+    }
+    .core-value-tab-content .bottom-image-wrap
+    {
+        height: 380px;
+        width: 380px;
+    }
+    .core-value-tab-content .top-image-wrap
+    {
+        height: 280px;
+        width: 300px;
+    }
+    .core-value-tab-wrap .nav-link.active + .tab-title-content
+    {
+        height: 70px;
+    }
+    .custom-tab-nav .nav-item .icon-wrap img
+    {
+        height: 50px;
+        width: 50px;
+    }
+    .custom-tab-nav .nav-item .icon-wrap
+    {
+        flex:  0 0 50px;
+        max-width: 50px;
+    }
+    .custom-tab-nav .nav-item .title-wrap
+    {
+        flex-basis: calc(100% - 50px);
+        max-width: calc(100% - 50px);
+        padding-left: 20px;
+
+    }
+    .custom-tab-nav .nav-item
+    {
+        margin-bottom: 30px;
+    }
+    .core-value-tab-wrap .tab-title-content
+    {
+        margin-left: 70px;
     }
 }
 
@@ -2107,6 +2301,78 @@
         padding-right: 15px;
         margin-bottom: 30px;
     }
+    .team-detail-row
+    {
+        padding-left: 80px;
+    }
+    .team-quotes blockquote,
+    .team-detail-section .team-member-title span
+    {
+        font-size: 20px;
+    }
+    .team-detail-text .content-text, .team-quotes blockquote
+    {
+        margin-bottom: 50px;
+    }
+    .company-logo-listing .row .col-inner
+    {
+        height: 290px;
+    }
+    .two-col-slider-row .image-slider-col .slick-slide
+    {
+        height: 490px;
+    }
+    .core-value-tab-content .bottom-image-wrap
+    {
+        height: 300px;
+        width: 300px;
+    }
+    .core-value-tab-content .top-image-wrap
+    {
+        height: 200px;
+        width: 220px;
+    }
+    .bottom-image-wrap .green-round
+    {
+        border-width: 30px;
+        height: 100px;
+        left: 180px;
+        width: 100px;
+    }
+    .core-value-tab-content .bottom-image-wrap
+    {
+        margin-top: -80px;
+    }
+    .core-value-tab-section .section-title
+    {
+        margin-bottom: 40px;
+    }
+    .team-thought-section .section-title
+    {
+        margin-bottom: 40px;
+    }
+    .team-thought-slider .slick-slide
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .team-thought-slider
+    {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .team-thought-slider .people-image img
+    {
+        height: 350px;
+    }
+    .team-thought-slider .team-quotes blockquote::before
+    {
+        font-size: 80px;
+    }
+    .team-thought-slider .team-quotes blockquote, .team-thought-slider .team-people-name
+    {
+        padding-left: 50px;
+    }
 }
 
 @media(max-width:991px) {
@@ -2451,6 +2717,46 @@
     .explore-waaree-image-col
     {
         margin-top: 20px;
+    }
+    .team-detail-row .people-detail-col
+    {
+        padding-left: 15px;
+    }
+    .team-detail-row
+    {
+        padding-left: 20px;
+    }
+    ul.social-icon li
+    {
+        margin-right: 5px;
+    }
+    .team-detail-section .team-member-title
+    {
+        margin-bottom: 60px;
+    }
+    .company-logo-listing .row .col-inner
+    {
+        height: 210px;
+    }
+    .two-col-slider-row .image-slider-col .slick-slide
+    {
+        height: 400px;
+    }
+    .two-col-slider-row > .content-col .col-inner
+    {
+        padding: 40px 30px;
+    }
+    .tab-content-col
+    {
+        margin-top: 30px;
+    }
+    .tab-content-wrap
+    {
+        justify-content: center;
+    }
+    .team-thought-slider
+    {
+        padding-bottom: 80px;
     }
 }
 
@@ -3355,7 +3661,58 @@
     {
         margin-bottom: 40px;
     }
-
+    .team-detail-row
+    {
+        padding-left: 0;
+    }
+    .team-detail-row .people-detail-col
+    {
+        margin-top: 40px;
+    }
+    .team-member-title .section-title
+    {
+        margin-bottom: 10px;
+    }
+    .team-detail-text .content-text, .team-quotes blockquote
+    {
+        margin-bottom: 40px;
+    }
+    .company-logo-listing .row .col-inner
+    {
+        height: 28.5vw;
+    }
+    .two-col-slider-row > .content-col
+    {
+        margin-bottom: 0;
+    }
+    .two-col-slider-row > .content-col
+    {
+        padding-right: 15px;
+    }
+    .two-col-slider-row .image-slider-col
+    {
+        padding-left: 15px;
+    }
+    .two-col-slider-row .image-slider-col
+    {
+        margin-top: 0;
+    }
+    .two-col-slider-row .image-slider-col .slick-slide
+    {
+        height: 70vw;
+    }
+    .core-value-tab-wrap .nav-link.active + .tab-title-content
+    {
+        height: 60px;
+    }
+    .custom-tab-nav .nav-item
+    {
+        margin-bottom: 20px;
+    }
+    .team-thought-slider .people-image img
+    {
+        height: 55vw;
+    }
 }
 
 @media(max-width:575px) {
@@ -3701,6 +4058,45 @@
     {
         margin-bottom: 20px;
     }
+    .team-quotes blockquote, .team-detail-section .team-member-title span
+    {
+        font-size: 18px;
+    }
+    .company-logo-listing .row .col-inner
+    {
+        height: 26vw;
+    }
+    .company-logo-filter .filter-btn-wrap
+    {
+        margin-bottom: 40px;
+    }
+    .company-logo-listing .company-logo-row
+    {
+        margin-bottom: 30px;
+    }
+    .company-logo-filter .row
+    {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .company-logo-filter .row .col-20
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 10px;
+    }
+    .two-col-slider-row .image-slider-col .slick-slide
+    {
+        height: 60vw;
+    }
+    .team-thought-slider .people-image img
+    {
+        height: 100vw;
+    }
+    .team-thought-slider .slide-inner
+    {
+        padding-bottom: 65px;
+    }
 }
 
 @media(max-width:480px) {
@@ -3983,6 +4379,69 @@
     .explore-waaree-masonary .grid-col-single
     {
         margin-bottom: 20px;
+    }
+    .company-logo-listing .row .col-inner
+    {
+        height: 42vw;
+    }
+    .custom-tab-nav .nav-item .icon-wrap
+    {
+        flex: 0 0 35px;
+        max-width: 35px;
+    }
+    .custom-tab-nav .nav-item .icon-wrap img
+    {
+        height: 35px;
+        width: 35px;
+    }
+    .custom-tab-nav .nav-item .title-wrap
+    {
+        flex-basis: calc(100% - 35px);
+        max-width: calc(100% - 35px);
+        padding-left: 10px;
+    }
+    .core-value-tab-wrap .tab-title-content
+    {
+        margin-left: 45px;
+    }
+    .core-value-tab-content .top-image-wrap
+    {
+        height: 50vw;
+        width: 50vw;
+    }
+    .core-value-tab-content .bottom-image-wrap
+    {
+        margin-left: 30px;
+    }
+    .core-value-tab-content .bottom-image-wrap
+    {
+        margin-top: -30px;
+    }
+    .core-value-tab-content .bottom-image-wrap
+    {
+        height: 80vw;
+        width: 80vw;
+    }
+    .image-wrap .tab-title-box
+    {
+        min-height: 180px;
+        width: 180px;
+        border-width: 5px;
+    }
+    .bottom-image-wrap .green-round
+    {
+        left: 120px;
+        height: 80px;
+        width: 80px;
+        border-width: 25px;
+        top: -40px;
+    }
+    .bottom-image-wrap .yellow-round
+    {
+        height: 100px;
+        width: 100px;
+        border-width: 30px;
+        left: -40px;
     }
 }
 

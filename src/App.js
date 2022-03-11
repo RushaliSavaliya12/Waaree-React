@@ -22,6 +22,9 @@ import Csr from './pages/CSR';
 import WhySolar from './pages/WhySolar';
 import ProductMainPvModule from './pages/ProductMainPvModule';
 import Careers from './pages/Careers';
+import TeamDetail from './pages/TeamDetail';
+import Clientele from './pages/Clientele';
+import LifeAtWaaree from './pages/LifeAtWaaree';
 
 const App = () => {
     return (
@@ -44,6 +47,9 @@ const App = () => {
                 <Route path="why-solar" element={<WhySolar />} />
                 <Route path="inverter" element={<ProductMainPvModule />} />
                 <Route path="careers" element={<Careers />} />
+                <Route path="team-detail" element={<TeamDetail />} />
+                <Route path="clientele" element={<Clientele />} />
+                <Route path="life-at-waaree" element={<LifeAtWaaree />} />
             </Routes>
         </>
     );
