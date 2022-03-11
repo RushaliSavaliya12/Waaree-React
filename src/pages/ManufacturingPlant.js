@@ -12,6 +12,7 @@ import ImageGallarySection from '../Components/InnerPagesSection/ImageGallarySec
 import VideoFullWidthSection from '../Components/InnerPagesSection/VideoFullWidthSection';
 import CompanyLogoSection from '../Components/InnerPagesSection/CompanyLogoSection';
 import ImageGallaryFiveCol from '../Components/InnerPagesSection/ImageGallaryFiveCol';
+import VideoPlayer from '../Components/HomepageSection/SectionInnerComponent/VideoPlayer';
 
 
 const ManufacturingPlant = () => {
@@ -26,7 +27,7 @@ const ManufacturingPlant = () => {
         <InnerBannerSection bgSrc="assets/images/investor-bg.jpg" pageTitle="Manufacturing Plant"/>
         <TwoColSection />
         <ImageGallarySection gallarySectionTitle="Lab Facility" gallaryType={<ImageGallaryFiveCol />}/>
-        <VideoFullWidthSection />
+        <VideoFullWidthSection bottomTextClass="" videoPlayerCom= {<VideoPlayer videoSrc="https://www.youtube.com/embed/_8Pwc5uBbGE?autoplay=1" videCoverBgSrc="assets/images/manufacture-plant-video-bg.jpg" videoCoverText="Best Business opportunities in solar industry? How to set up solar business with minimum investment?"/>}/>
         <CompanyLogoSection />
         <Footer />
         <SocialFixedBtn />
