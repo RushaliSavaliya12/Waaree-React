@@ -9,6 +9,7 @@ const TwoColSecContentCol = (props) => {
                     <h4 className="content-col-title">{props.contentColTitle}</h4>
                     <div className="content-col-text">
                         <p>{props.contentColText}</p>
+                        <p>{props.contentColText2}</p>
                     </div>
                 </div>
             </Col>
