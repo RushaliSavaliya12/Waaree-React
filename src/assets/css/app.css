@@ -7793,3 +7793,7 @@ section.team-review-section
 {
   align-items: flex-start;
 }
+.video-gallary-slider
+{
+  width: 100%;
+}

@@ -26,6 +26,7 @@ import TeamDetail from './pages/TeamDetail';
 import Clientele from './pages/Clientele';
 import LifeAtWaaree from './pages/LifeAtWaaree';
 import OurCulture from './pages/OurCulture';
+import Webinars from './pages/Webinars';
 
 const App = () => {
     return (
@@ -52,6 +53,7 @@ const App = () => {
                 <Route path="clientele" element={<Clientele />} />
                 <Route path="life-at-waaree" element={<LifeAtWaaree />} />
                 <Route path="work-culture" element={<OurCulture />} />
+                <Route path="webinars" element={<Webinars />} />
             </Routes>
         </>
     );
