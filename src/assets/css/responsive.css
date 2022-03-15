@@ -700,6 +700,14 @@
         padding-top: 80px;
         padding-bottom: 80px;
     }
+    .radial-chart-wrapper > div:nth-child(3)
+    {
+        margin-left: 20%;
+    }
+    .progressbar-inner h4
+    {
+        font-size: 24px;
+    }
 }
 
 @media(max-width:1400px) {
@@ -1319,6 +1327,37 @@
     .current-opening-slider
     {
         padding-bottom: 80px;
+    }
+    .radial-chart-wrapper
+    {
+        margin-left: 50px;
+    }
+    .radial-chart-wrapper > div
+    {
+        height: 250px;
+        width: 250px;
+    }
+    .radial-chart-wrapper > div:nth-child(2)
+    {
+        height: 190px;
+        width: 190px;
+    }
+    .radial-chart-wrapper > div:nth-child(3)
+    {
+        height: 160px;
+        width: 160px;
+    }
+    .progressbar-text
+    {
+        margin-bottom: 15px;
+    }
+    .progressbar-inner
+    {
+        max-width: 70px;
+    }
+    .progressbar-inner h4
+    {
+        font-size: 22px;
     }
 }
 
@@ -2387,6 +2426,14 @@
     {
         padding-left: 50px;
     }
+    .radial-chart-wrapper
+    {
+        margin-left: 0;
+    }
+    .radial-chart-wrapper > div:nth-child(2)
+    {
+        margin-top: -10%;
+    }
 }
 
 @media(max-width:991px) {
@@ -2779,6 +2826,16 @@
     .current-opening-row.row .image-col img
     {
         height: 450px;
+    }
+    .radial-chart-wrapper
+    {
+        max-width: 520px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .radial-chart-wrapper > div:nth-child(2)
+    {
+        margin-top: -20%;
     }
 }
 
@@ -3744,6 +3801,10 @@
     {
         height: 60vw;
     }
+    .progressbar-inner h4
+    {
+        font-size: 20px;
+    }
 }
 
 @media(max-width:575px) {
@@ -4481,6 +4542,29 @@
         width: 100px;
         border-width: 30px;
         left: -40px;
+    }
+    .radial-chart-wrapper > div
+    {
+        height: 200px;
+        width: 200px;
+    }
+    .radial-chart-wrapper > div:nth-child(2)
+    {
+        height: 160px;
+        width: 160px;
+    }
+    .radial-chart-wrapper > div:nth-child(3)
+    {
+        height: 120px;
+        width: 120px;
+    }
+    .progressbar-text
+    {
+        margin-bottom: 10px;
+    }
+    .radial-chart-wrapper > div:nth-child(2)
+    {
+        margin-top:0;
     }
 }
 

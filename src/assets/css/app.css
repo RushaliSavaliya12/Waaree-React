@@ -7716,11 +7716,14 @@ section.team-review-section
 {
   height: 210px;
   width: 210px;
+  margin-left: auto;
+  margin-top: -20%;
 }
 .radial-chart-wrapper > div:nth-child(3)
 {
   height: 180px;
   width: 180px;
+  margin-left: 30%;
 }
 .radial-chart-wrapper > div::before
 {
@@ -7733,6 +7736,14 @@ section.team-review-section
   transform: translate(-50%, -50%);
   background-color: #39b872;
   border-radius: 50%;
+}
+.radial-chart-wrapper > div:nth-child(2)::before
+{
+  background-color: #e4a268;
+}
+.radial-chart-wrapper > div:nth-child(3)::before
+{
+  background-color: #68c8e4;
 }
 .radial-chart-wrapper .CircularProgressbar .CircularProgressbar-trail
 {
@@ -7753,4 +7764,32 @@ section.team-review-section
 .radial-chart-wrapper > div:nth-child(3) .CircularProgressbar .CircularProgressbar-trail
 {
   stroke: #47abc8;
+}
+.progressbar-inner
+{
+  color: #fff;
+  max-width: 100px;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.progressbar-inner h4
+{
+  margin-bottom: 0;
+  font-size: 30px;
+  
+}
+.progressbar-text
+{
+  margin-bottom: 20px;
+  display: block;
+}
+.radial-chart-wrapper
+{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.image-content-row.title-none
+{
+  align-items: flex-start;
 }
