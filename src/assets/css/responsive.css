@@ -695,6 +695,11 @@
     {
         margin-bottom: 70px;
     }
+    .current-opening-row.row > .content-col
+    {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
 }
 
 @media(max-width:1400px) {
@@ -1305,6 +1310,15 @@
     .team-thought-section .section-title
     {
         margin-bottom: 50px;
+    }
+    .current-opening-row.row > .content-col
+    {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .current-opening-slider
+    {
+        padding-bottom: 80px;
     }
 }
 
@@ -2758,6 +2772,14 @@
     {
         padding-bottom: 80px;
     }
+    .current-opening-row.row .image-col
+    {
+        order: 2;
+    }
+    .current-opening-row.row .image-col img
+    {
+        height: 450px;
+    }
 }
 
 @media(max-width:767px) {
@@ -3713,6 +3735,15 @@
     {
         height: 55vw;
     }
+    .current-opening-row.row > .content-col
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .current-opening-row.row .image-col img
+    {
+        height: 60vw;
+    }
 }
 
 @media(max-width:575px) {
@@ -4096,6 +4127,14 @@
     .team-thought-slider .slide-inner
     {
         padding-bottom: 65px;
+    }
+    .current-opening-row.row > .content-col
+    {
+        padding:40px 30px;
+    }
+    .opening-content .content-text
+    {
+        margin-bottom: 20px;
     }
 }
 

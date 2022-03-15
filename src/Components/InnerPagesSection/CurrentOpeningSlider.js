@@ -31,11 +31,11 @@ const CurrentOpeningSlider = () => {
   };
   
     return (
-          <Slider className="current-opening-slider" {...CurrentOpeningSliderData}>
+          <Slider className="current-opening-slider" {...settingsOpeningSlider}>
                 {CurrentOpeningSliderData.map((val) =>
                   <div className="slide-inner" key={val.id}> 
                       <Row className="current-opening-row">
-                        <Col lg={6}>
+                        <Col lg={6} className="content-col">
                           <div className='col-inner'>
                               <h2 className="title">
                                 Current Opening
@@ -49,7 +49,7 @@ const CurrentOpeningSlider = () => {
                               </div>
                           </div>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={6} className="image-col">
                           <div className="col-inner">
                             <img src={val.imageSrc} alt="" />
                           </div>

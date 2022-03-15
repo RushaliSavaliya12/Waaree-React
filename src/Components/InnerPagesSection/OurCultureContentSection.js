@@ -14,10 +14,11 @@ const OurCultureContentSection = () => {
                             </div>
                         </div>
                     </Container>
-                    <div className="content-bg">
-                        <img src="assets/images/culture-content-bg.jpg" alt="content bg"/>
-                    </div>
+
                     <RoundSvgSectionTop />
+                </div>
+                <div className="content-bg">
+                    <img src="assets/images/culture-content-bg.jpg" alt="content bg" />
                 </div>
             </section>
         </>

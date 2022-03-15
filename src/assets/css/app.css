@@ -7627,3 +7627,130 @@ section.team-review-section
 {
   cursor: pointer;
 }
+.simple-content-section .content-text:last-child
+{
+  margin-bottom: 0;
+}
+.simple-content-section .content-bg
+{
+  width: 100%;
+}
+.current-opening-slider .slick-track
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.current-opening-slider .slick-slide
+{
+  background-color: #733256;
+  height: auto;
+} 
+.current-opening-slider .slick-slide > div
+{
+  height: 100%;
+}
+.current-opening-slider .slick-slide .slide-inner
+{
+  text-align: left;
+  height: 100%;
+}
+.current-opening-row.row
+{
+  margin-left: 0;
+  margin-right: 0;
+  height: 100%;
+}
+.current-opening-row.row > .content-col
+{
+  padding: 100px 45px;
+}
+.current-opening-row.row > .image-col
+{
+  padding: 0;
+}
+.current-opening-row.row .image-col .col-inner
+{
+  height: 100%;
+}
+.current-opening-row.row .image-col img
+{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slick-slide:nth-child(odd) .current-opening-row .content-col
+{
+  order: 2;
+}
+.current-opening-row .title
+{
+  margin-bottom: 10px;
+  color: #ffdb27;
+}
+.opening-content h4
+{
+  font-weight: 500;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+.opening-content .content-text
+{
+  margin-bottom: 40px;
+}
+.current-opening-slider
+{
+  padding-bottom: 100px;
+}
+.current-opening-slider.slick-slider .slick-dots, 
+.current-opening-slider.slick-slider .slick-arrow
+{
+  opacity: 1;
+}
+.radial-chart-wrapper > div
+{
+  height: 270px;
+  width: 270px;
+  position: relative;
+}
+.radial-chart-wrapper > div:nth-child(2)
+{
+  height: 210px;
+  width: 210px;
+}
+.radial-chart-wrapper > div:nth-child(3)
+{
+  height: 180px;
+  width: 180px;
+}
+.radial-chart-wrapper > div::before
+{
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: calc(100% + 10px);
+  width: calc(100% + 10px);
+  transform: translate(-50%, -50%);
+  background-color: #39b872;
+  border-radius: 50%;
+}
+.radial-chart-wrapper .CircularProgressbar .CircularProgressbar-trail
+{
+  stroke-width: 2.5px;
+  stroke: #359b62;
+}
+.radial-chart-wrapper .CircularProgressbar .CircularProgressbar-path
+{
+  stroke-width: 2.5px;
+  border-radius: 0;
+  stroke-linecap: square;
+  stroke: #ffffff;
+}
+.radial-chart-wrapper > div:nth-child(2) .CircularProgressbar .CircularProgressbar-trail
+{
+  stroke: #c17f45;
+}
+.radial-chart-wrapper > div:nth-child(3) .CircularProgressbar .CircularProgressbar-trail
+{
+  stroke: #47abc8;
+}
