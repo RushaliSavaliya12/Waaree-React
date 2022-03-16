@@ -596,117 +596,137 @@
         width: 380px;
         height: 400px;
     }
-    .content-text.big-text
-    {
+
+    .content-text.big-text {
         font-size: 24px;
     }
-    .product-type-content-section .section-title
-    {
+
+    .product-type-content-section .section-title {
         margin-bottom: 70px;
     }
-    .product-content-slider .product-image img
-    {
+
+    .product-content-slider .product-image img {
         height: 350px;
-    
+
     }
-    .job-opportunity-section .section-title
-    {
+
+    .job-opportunity-section .section-title {
         margin-bottom: 70px;
     }
-    .team-detail-section .team-member-title span
-    {
+
+    .team-detail-section .team-member-title span {
         font-size: 24px;
     }
-    .team-quotes blockquote
-    {
+
+    .team-quotes blockquote {
         font-size: 24px;
     }
-    .team-quotes blockquote::before
-    {
+
+    .team-quotes blockquote::before {
         font-size: 65px;
     }
+
     .team-detail-text .content-text,
-    .team-quotes blockquote
-    {
+    .team-quotes blockquote {
         margin-bottom: 70px;
     }
-    ul.social-icon li
-    {
+
+    ul.social-icon li {
         margin-right: 20px;
     }
+
     .company-logo-filter .filter-btn-wrap,
-    .company-logo-listing .company-logo-row
-    {
+    .company-logo-listing .company-logo-row {
         margin-bottom: 80px;
     }
-    .company-logo-listing .row .col-inner
-    {
+
+    .company-logo-listing .row .col-inner {
         height: 230px;
     }
-    .two-col-slider-row .image-slider-col .slick-slide
-    {
+
+    .two-col-slider-row .image-slider-col .slick-slide {
         height: 660px;
     }
-    .core-value-tab-content .top-image-wrap
-    {
+
+    .core-value-tab-content .top-image-wrap {
         height: 300px;
         width: 320px;
     }
-    .core-value-tab-content .bottom-image-wrap
-    {
+
+    .core-value-tab-content .bottom-image-wrap {
         height: 400px;
         width: 400px;
         margin-left: 160px;
         margin-top: -185px;
     }
-    .image-wrap .tab-title-box
-    {
+
+    .image-wrap .tab-title-box {
         width: 235px;
         min-height: 235px;
     }
-    .custom-tab-nav .nav-item
-    {
+
+    .custom-tab-nav .nav-item {
         margin-bottom: 40px;
     }
-    .bottom-image-wrap .green-round
-    {
+
+    .bottom-image-wrap .green-round {
         border-width: 40px;
         height: 130px;
         left: 235px;
         width: 130px;
     }
-    .core-value-tab-section .section-title
-    {
+
+    .core-value-tab-section .section-title {
         margin-bottom: 70px;
     }
-    .team-thought-slider .people-image img
-    {
+
+    .team-thought-slider .people-image img {
         height: 420px;
     }
-    .team-thought-slider .team-people-name h5
-    {
+
+    .team-thought-slider .team-people-name h5 {
         margin-bottom: 5px;
     }
-    .team-thought-slider .slide-inner
-    {
+
+    .team-thought-slider .slide-inner {
         padding-bottom: 80px;
     }
-    .team-thought-section .section-title
-    {
+
+    .team-thought-section .section-title {
         margin-bottom: 70px;
     }
-    .current-opening-row.row > .content-col
-    {
+
+    .current-opening-row.row>.content-col {
         padding-top: 80px;
         padding-bottom: 80px;
     }
-    .radial-chart-wrapper > div:nth-child(3)
-    {
+
+    .radial-chart-wrapper>div:nth-child(3) {
         margin-left: 20%;
     }
-    .progressbar-inner h4
-    {
+
+    .progressbar-inner h4 {
         font-size: 24px;
+    }
+
+    .counter-row .counter-text {
+        font-size: 24px;
+    }
+
+    .mb-80 {
+        margin-bottom: 70px;
+    }
+
+    .no-fullpage .join-community-section .section-inner {
+        padding-bottom: 40px;
+    }
+    .video-gallary-slider .gallary-item a img
+    {
+        height: 360px;
+    }
+    .gallary-text-wrap span
+    {
+        font-size: 16px;
     }
 }
 
@@ -1227,137 +1247,164 @@
     .product-type-image {
         width: 350px;
         height: 380px;
-    }   
-    .content-text.big-text
-    {
+    }
+
+    .content-text.big-text {
         font-size: 22px;
     }
-    .product-content-slider .product-image img
-    {
+
+    .product-content-slider .product-image img {
         height: 320px;
     }
+
     .product-content-slider .product-title,
-    .product-content-slider .product-content-text
-    {
+    .product-content-slider .product-content-text {
         margin-bottom: 30px;
     }
-    .job-opportunity-row .icon-wrap
-    {
+
+    .job-opportunity-row .icon-wrap {
         height: 75px;
         width: 75px;
     }
-    .job-opportunity-row > div .col-inner
-    {
+
+    .job-opportunity-row>div .col-inner {
         padding: 40px 30px;
     }
-    .job-opportunity-section .section-title
-    {
+
+    .job-opportunity-section .section-title {
         margin-bottom: 60px;
     }
-    .explore-waaree-masonary .col-inner a
-    {
+
+    .explore-waaree-masonary .col-inner a {
         height: 200px;
     }
-    .team-member-title .section-title
-    {
+
+    .team-member-title .section-title {
         margin-bottom: 15px;
     }
-    .team-detail-section .team-member-title
-    {
+
+    .team-detail-section .team-member-title {
         margin-bottom: 70px;
     }
-    .team-detail-section .team-member-title span
-    {
+
+    .team-detail-section .team-member-title span {
         font-size: 22px;
     }
-    .team-quotes blockquote
-    {
+
+    .team-quotes blockquote {
         font-size: 22px;
         padding-top: 36px;
     }
-    .team-detail-text .content-text, .team-quotes blockquote
-    {
+
+    .team-detail-text .content-text, .team-quotes blockquote {
         margin-bottom: 60px;
     }
-    .company-logo-listing .row .col-inner
-    {
+
+    .company-logo-listing .row .col-inner {
         height: 210px;
     }
-    .two-col-slider-row .image-slider-col .slick-slide
-    {
+
+    .two-col-slider-row .image-slider-col .slick-slide {
         height: 600px;
     }
-    .two-col-slider-row .image-slider-col
-    {
+
+    .two-col-slider-row .image-slider-col {
         margin-top: 80px;
     }
-    .two-col-slider-row > .content-col
-    {
+
+    .two-col-slider-row>.content-col {
         margin-bottom: 80px;
     }
-    .core-value-tab-section .section-title
-    {
+
+    .core-value-tab-section .section-title {
         margin-bottom: 50px;
     }
-    .team-thought-slider .team-quotes blockquote::before
-    {
+
+    .team-thought-slider .team-quotes blockquote::before {
         font-size: 100px;
     }
-    .team-thought-slider .team-quotes blockquote, .team-thought-slider .team-people-name
-    {
+
+    .team-thought-slider .team-quotes blockquote, .team-thought-slider .team-people-name {
         padding-left: 60px;
     }
-    .team-thought-slider .team-quotes blockquote
-    {
+
+    .team-thought-slider .team-quotes blockquote {
         margin-bottom: 20px;
     }
-    .team-thought-slider .people-image img
-    {
+
+    .team-thought-slider .people-image img {
         height: 390px;
     }
-    .team-thought-section .section-title
-    {
+
+    .team-thought-section .section-title {
         margin-bottom: 50px;
     }
-    .current-opening-row.row > .content-col
-    {
+
+    .current-opening-row.row>.content-col {
         padding-top: 70px;
         padding-bottom: 70px;
     }
-    .current-opening-slider
-    {
+
+    .current-opening-slider {
         padding-bottom: 80px;
     }
-    .radial-chart-wrapper
-    {
+
+    .radial-chart-wrapper {
         margin-left: 50px;
     }
-    .radial-chart-wrapper > div
-    {
+
+    .radial-chart-wrapper>div {
         height: 250px;
         width: 250px;
     }
-    .radial-chart-wrapper > div:nth-child(2)
-    {
+
+    .radial-chart-wrapper>div:nth-child(2) {
         height: 190px;
         width: 190px;
     }
-    .radial-chart-wrapper > div:nth-child(3)
-    {
+
+    .radial-chart-wrapper>div:nth-child(3) {
         height: 160px;
         width: 160px;
     }
-    .progressbar-text
-    {
+
+    .progressbar-text {
         margin-bottom: 15px;
     }
-    .progressbar-inner
-    {
+
+    .progressbar-inner {
         max-width: 70px;
     }
-    .progressbar-inner h4
-    {
+
+    .progressbar-inner h4 {
         font-size: 22px;
+    }
+
+    .counter-row .counter-text {
+        font-size: 22px;
+    }
+
+    .counter-row .icon-wrap {
+        height: 75px;
+        width: 75px;
+        top: -37.5px;
+    }
+
+    .counter-row .col-inner {
+        margin-top: 37px;
+        padding-top: 60px;
+    }
+
+    .mb-80 {
+        margin-bottom: 60px;
+    }
+    .video-gallary-slider .gallary-item a img
+    {
+        height: 300px;
+    }
+    .video-gallary-slider .gallary-item a::before
+    {
+        background-position: center 35%;
     }
 }
 
@@ -1489,6 +1536,7 @@
         flex: 0 0 calc(100% - 56px);
         max-width: calc(100% - 56px);
     }
+
     .product-type-slider .swiper-button-prev {
         left: calc(50% - 300px);
     }
@@ -1496,59 +1544,59 @@
     .product-type-slider .swiper-button-next {
         right: calc(50% - 300px);
     }
-    .letus-know-section .section-title
-    {
+
+    .letus-know-section .section-title {
         margin-bottom: 50px;
     }
-    .company-logo-listing .row .col-inner
-    {
+
+    .company-logo-listing .row .col-inner {
         height: 198px;
     }
-    .company-logo-filter .filter-btn-wrap, .company-logo-listing .company-logo-row
-    {
+
+    .company-logo-filter .filter-btn-wrap, .company-logo-listing .company-logo-row {
         margin-bottom: 60px;
     }
-    .two-col-slider-row .image-slider-col .slick-slide
-    {
+
+    .two-col-slider-row .image-slider-col .slick-slide {
         height: 570px;
     }
-    .core-value-tab-content .bottom-image-wrap
-    {
+
+    .core-value-tab-content .bottom-image-wrap {
         height: 380px;
         width: 380px;
     }
-    .core-value-tab-content .top-image-wrap
-    {
+
+    .core-value-tab-content .top-image-wrap {
         height: 280px;
         width: 300px;
     }
-    .core-value-tab-wrap .nav-link.active + .tab-title-content
-    {
+
+    .core-value-tab-wrap .nav-link.active+.tab-title-content {
         height: 70px;
     }
-    .custom-tab-nav .nav-item .icon-wrap img
-    {
+
+    .custom-tab-nav .nav-item .icon-wrap img {
         height: 50px;
         width: 50px;
     }
-    .custom-tab-nav .nav-item .icon-wrap
-    {
-        flex:  0 0 50px;
+
+    .custom-tab-nav .nav-item .icon-wrap {
+        flex: 0 0 50px;
         max-width: 50px;
     }
-    .custom-tab-nav .nav-item .title-wrap
-    {
+
+    .custom-tab-nav .nav-item .title-wrap {
         flex-basis: calc(100% - 50px);
         max-width: calc(100% - 50px);
         padding-left: 20px;
 
     }
-    .custom-tab-nav .nav-item
-    {
+
+    .custom-tab-nav .nav-item {
         margin-bottom: 30px;
     }
-    .core-value-tab-wrap .tab-title-content
-    {
+
+    .core-value-tab-wrap .tab-title-content {
         margin-left: 70px;
     }
 }
@@ -2322,6 +2370,7 @@
         width: 280px;
         height: 320px;
     }
+
     .product-type-slider .swiper-button-prev {
         left: calc(50% - 280px);
     }
@@ -2329,109 +2378,109 @@
     .product-type-slider .swiper-button-next {
         right: calc(50% - 280px);
     }
-    .content-text.big-text
-    {
+
+    .content-text.big-text {
         font-size: 20px;
     }
-    .product-content-slider .product-image img
-    {
+
+    .product-content-slider .product-image img {
         height: 300px;
     }
-    .row .col-20
-    {
+
+    .row .col-20 {
         flex: 0 0 33.33%;
         max-width: 33.33%;
         margin-bottom: 10px;
     }
-    .explore-waaree-masonary
-    {
+
+    .explore-waaree-masonary {
         margin-left: -15px;
         margin-right: -15px;
     }
-    .explore-waaree-masonary .grid-col-single
-    {
+
+    .explore-waaree-masonary .grid-col-single {
         padding-left: 15px;
         padding-right: 15px;
         margin-bottom: 30px;
     }
-    .team-detail-row
-    {
+
+    .team-detail-row {
         padding-left: 80px;
     }
+
     .team-quotes blockquote,
-    .team-detail-section .team-member-title span
-    {
+    .team-detail-section .team-member-title span {
         font-size: 20px;
     }
-    .team-detail-text .content-text, .team-quotes blockquote
-    {
+
+    .team-detail-text .content-text, .team-quotes blockquote {
         margin-bottom: 50px;
     }
-    .company-logo-listing .row .col-inner
-    {
+
+    .company-logo-listing .row .col-inner {
         height: 290px;
     }
-    .two-col-slider-row .image-slider-col .slick-slide
-    {
+
+    .two-col-slider-row .image-slider-col .slick-slide {
         height: 490px;
     }
-    .core-value-tab-content .bottom-image-wrap
-    {
+
+    .core-value-tab-content .bottom-image-wrap {
         height: 300px;
         width: 300px;
     }
-    .core-value-tab-content .top-image-wrap
-    {
+
+    .core-value-tab-content .top-image-wrap {
         height: 200px;
         width: 220px;
     }
-    .bottom-image-wrap .green-round
-    {
+
+    .bottom-image-wrap .green-round {
         border-width: 30px;
         height: 100px;
         left: 180px;
         width: 100px;
     }
-    .core-value-tab-content .bottom-image-wrap
-    {
+
+    .core-value-tab-content .bottom-image-wrap {
         margin-top: -80px;
     }
-    .core-value-tab-section .section-title
-    {
+
+    .core-value-tab-section .section-title {
         margin-bottom: 40px;
     }
-    .team-thought-section .section-title
-    {
+
+    .team-thought-section .section-title {
         margin-bottom: 40px;
     }
-    .team-thought-slider .slick-slide
-    {
+
+    .team-thought-slider .slick-slide {
         padding-left: 15px;
         padding-right: 15px;
     }
-    .team-thought-slider
-    {
+
+    .team-thought-slider {
         margin-left: -15px;
         margin-right: -15px;
     }
-    .team-thought-slider .people-image img
-    {
+
+    .team-thought-slider .people-image img {
         height: 350px;
     }
-    .team-thought-slider .team-quotes blockquote::before
-    {
+
+    .team-thought-slider .team-quotes blockquote::before {
         font-size: 80px;
     }
-    .team-thought-slider .team-quotes blockquote, .team-thought-slider .team-people-name
-    {
+
+    .team-thought-slider .team-quotes blockquote, .team-thought-slider .team-people-name {
         padding-left: 50px;
     }
-    .radial-chart-wrapper
-    {
+
+    .radial-chart-wrapper {
         margin-left: 0;
     }
-    .radial-chart-wrapper > div:nth-child(2)
-    {
+
+    .radial-chart-wrapper>div:nth-child(2) {
         margin-top: -10%;
     }
 }
@@ -2749,6 +2798,7 @@
     .energy-counter-text-col {
         margin-bottom: 50px;
     }
+
     .product-type-slider .swiper-button-prev {
         left: calc(50% - 220px);
     }
@@ -2756,87 +2806,103 @@
     .product-type-slider .swiper-button-next {
         right: calc(50% - 220px);
     }
-    .product-content-slider .slick-slide
-    {
+
+    .product-content-slider .slick-slide {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .product-content-slider
-    {
+
+    .product-content-slider {
         margin-left: -10px;
         margin-right: -10px;
         padding-bottom: 80px;
     }
-    .product-content-slider .product-image img
-    {
+
+    .product-content-slider .product-image img {
         height: 280px;
     }
-    .product-type-content-section .section-title
-    {
+
+    .product-type-content-section .section-title {
         margin-bottom: 50px;
     }
-    .explore-waaree-image-col
-    {
+
+    .explore-waaree-image-col {
         margin-top: 20px;
     }
-    .team-detail-row .people-detail-col
-    {
+
+    .team-detail-row .people-detail-col {
         padding-left: 15px;
     }
-    .team-detail-row
-    {
+
+    .team-detail-row {
         padding-left: 20px;
     }
-    ul.social-icon li
-    {
+
+    ul.social-icon li {
         margin-right: 5px;
     }
-    .team-detail-section .team-member-title
-    {
+
+    .team-detail-section .team-member-title {
         margin-bottom: 60px;
     }
-    .company-logo-listing .row .col-inner
-    {
+
+    .company-logo-listing .row .col-inner {
         height: 210px;
     }
-    .two-col-slider-row .image-slider-col .slick-slide
-    {
+
+    .two-col-slider-row .image-slider-col .slick-slide {
         height: 400px;
     }
-    .two-col-slider-row > .content-col .col-inner
-    {
+
+    .two-col-slider-row>.content-col .col-inner {
         padding: 40px 30px;
     }
-    .tab-content-col
-    {
+
+    .tab-content-col {
         margin-top: 30px;
     }
-    .tab-content-wrap
-    {
+
+    .tab-content-wrap {
         justify-content: center;
     }
-    .team-thought-slider
-    {
+
+    .team-thought-slider {
         padding-bottom: 80px;
     }
-    .current-opening-row.row .image-col
-    {
+
+    .current-opening-row.row .image-col {
         order: 2;
     }
-    .current-opening-row.row .image-col img
-    {
+
+    .current-opening-row.row .image-col img {
         height: 450px;
     }
-    .radial-chart-wrapper
-    {
+
+    .radial-chart-wrapper {
         max-width: 520px;
         margin: auto;
         margin-top: 30px;
     }
-    .radial-chart-wrapper > div:nth-child(2)
-    {
+
+    .radial-chart-wrapper>div:nth-child(2) {
         margin-top: -20%;
     }
+
+    .section-inner-round {
+        height: 100vw;
+        width: 100vw;
+    }
+    .video-gallary-slider
+    {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .video-gallary-slider .slick-slide
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
 }
 
 @media(max-width:767px) {
@@ -3719,92 +3785,105 @@
         width: 250px;
         height: 270px;
     }
-    .letus-know-section .section-title
-    {
+
+    .letus-know-section .section-title {
         margin-bottom: 40px;
     }
-    .letus-know-row > div
-    {
+
+    .letus-know-row>div {
         margin-bottom: 30px;
     }
-    .job-opportunity-row .icon-wrap
-    {
+
+    .job-opportunity-row .icon-wrap {
         height: 65px;
         width: 65px;
     }
-    .job-opportunity-row > div .col-inner
-    {
+
+    .job-opportunity-row>div .col-inner {
         padding: 30px 20px;
     }
-    .job-opportunity-section .section-title
-    {
+
+    .job-opportunity-section .section-title {
         margin-bottom: 40px;
     }
-    .team-detail-row
-    {
+
+    .team-detail-row {
         padding-left: 0;
     }
-    .team-detail-row .people-detail-col
-    {
+
+    .team-detail-row .people-detail-col {
         margin-top: 40px;
     }
-    .team-member-title .section-title
-    {
+
+    .team-member-title .section-title {
         margin-bottom: 10px;
     }
-    .team-detail-text .content-text, .team-quotes blockquote
-    {
+
+    .team-detail-text .content-text, .team-quotes blockquote {
         margin-bottom: 40px;
     }
-    .company-logo-listing .row .col-inner
-    {
+
+    .company-logo-listing .row .col-inner {
         height: 28.5vw;
     }
-    .two-col-slider-row > .content-col
-    {
+
+    .two-col-slider-row>.content-col {
         margin-bottom: 0;
     }
-    .two-col-slider-row > .content-col
-    {
+
+    .two-col-slider-row>.content-col {
         padding-right: 15px;
     }
-    .two-col-slider-row .image-slider-col
-    {
+
+    .two-col-slider-row .image-slider-col {
         padding-left: 15px;
     }
-    .two-col-slider-row .image-slider-col
-    {
+
+    .two-col-slider-row .image-slider-col {
         margin-top: 0;
     }
-    .two-col-slider-row .image-slider-col .slick-slide
-    {
+
+    .two-col-slider-row .image-slider-col .slick-slide {
         height: 70vw;
     }
-    .core-value-tab-wrap .nav-link.active + .tab-title-content
-    {
+
+    .core-value-tab-wrap .nav-link.active+.tab-title-content {
         height: 60px;
     }
-    .custom-tab-nav .nav-item
-    {
+
+    .custom-tab-nav .nav-item {
         margin-bottom: 20px;
     }
-    .team-thought-slider .people-image img
-    {
+
+    .team-thought-slider .people-image img {
         height: 55vw;
     }
-    .current-opening-row.row > .content-col
-    {
+
+    .current-opening-row.row>.content-col {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    .current-opening-row.row .image-col img
-    {
+
+    .current-opening-row.row .image-col img {
         height: 60vw;
     }
-    .progressbar-inner h4
-    {
+
+    .progressbar-inner h4 {
         font-size: 20px;
     }
+
+    .mb-80 {
+        margin-bottom: 40px;
+    }
+
+    .counter-row .counter-text {
+        font-size: 20px;
+    }
+
+    .join-community-section .inner-sec-round.custom-round.top-left {
+        display: none;
+    }
+    
 }
 
 @media(max-width:575px) {
@@ -4130,71 +4209,71 @@
     .energy-counter-col .counter-inner>span {
         font-size: 14px;
     }
-    .product-type-slider .swiper-button-next
-    {
-        right:10px;
+
+    .product-type-slider .swiper-button-next {
+        right: 10px;
     }
-    .product-type-slider .swiper-button-prev
-    {
-        left:10px;
+
+    .product-type-slider .swiper-button-prev {
+        left: 10px;
     }
-    .content-text.big-text
-    {
+
+    .content-text.big-text {
         font-size: 18px;
     }
-    .product-content-slider .product-content-wrap
-    {
+
+    .product-content-slider .product-content-wrap {
         padding: 20px 20px 30px;
     }
-    .product-content-slider .product-title, .product-content-slider .product-content-text
-    {
+
+    .product-content-slider .product-title, .product-content-slider .product-content-text {
         margin-bottom: 20px;
     }
-    .team-quotes blockquote, .team-detail-section .team-member-title span
-    {
+
+    .team-quotes blockquote, .team-detail-section .team-member-title span {
         font-size: 18px;
     }
-    .company-logo-listing .row .col-inner
-    {
+
+    .company-logo-listing .row .col-inner {
         height: 26vw;
     }
-    .company-logo-filter .filter-btn-wrap
-    {
+
+    .company-logo-filter .filter-btn-wrap {
         margin-bottom: 40px;
     }
-    .company-logo-listing .company-logo-row
-    {
+
+    .company-logo-listing .company-logo-row {
         margin-bottom: 30px;
     }
-    .company-logo-filter .row
-    {
+
+    .company-logo-filter .row {
         margin-left: -5px;
         margin-right: -5px;
     }
-    .company-logo-filter .row .col-20
-    {
+
+    .company-logo-filter .row .col-20 {
         padding-left: 5px;
         padding-right: 5px;
         margin-bottom: 10px;
     }
-    .two-col-slider-row .image-slider-col .slick-slide
-    {
+
+    .two-col-slider-row .image-slider-col .slick-slide {
         height: 60vw;
     }
-    .team-thought-slider .people-image img
-    {
+
+    .team-thought-slider .people-image img {
         height: 100vw;
     }
-    .team-thought-slider .slide-inner
-    {
+
+    .team-thought-slider .slide-inner {
         padding-bottom: 65px;
     }
-    .current-opening-row.row > .content-col
-    {
-        padding:40px 30px;
+
+    .current-opening-row.row>.content-col {
+        padding: 40px 30px;
     }
-    .opening-content .content-text
-    {
+
+    .opening-content .content-text {
         margin-bottom: 20px;
     }
 }
@@ -4466,105 +4545,109 @@
         top: 30px;
         padding-left: 25px;
     }
-    .row .col-20
-    {
-        flex:  0 0 50%;
+
+    .row .col-20 {
+        flex: 0 0 50%;
         max-width: 50%;
     }
-    .explore-waaree-masonary .grid-col-single
-    {
+
+    .explore-waaree-masonary .grid-col-single {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .explore-waaree-masonary .grid-col-single
-    {
+
+    .explore-waaree-masonary .grid-col-single {
         margin-bottom: 20px;
     }
-    .company-logo-listing .row .col-inner
-    {
+
+    .company-logo-listing .row .col-inner {
         height: 42vw;
     }
-    .custom-tab-nav .nav-item .icon-wrap
-    {
+
+    .custom-tab-nav .nav-item .icon-wrap {
         flex: 0 0 35px;
         max-width: 35px;
     }
-    .custom-tab-nav .nav-item .icon-wrap img
-    {
+
+    .custom-tab-nav .nav-item .icon-wrap img {
         height: 35px;
         width: 35px;
     }
-    .custom-tab-nav .nav-item .title-wrap
-    {
+
+    .custom-tab-nav .nav-item .title-wrap {
         flex-basis: calc(100% - 35px);
         max-width: calc(100% - 35px);
         padding-left: 10px;
     }
-    .core-value-tab-wrap .tab-title-content
-    {
+
+    .core-value-tab-wrap .tab-title-content {
         margin-left: 45px;
     }
-    .core-value-tab-content .top-image-wrap
-    {
+
+    .core-value-tab-content .top-image-wrap {
         height: 50vw;
         width: 50vw;
     }
-    .core-value-tab-content .bottom-image-wrap
-    {
+
+    .core-value-tab-content .bottom-image-wrap {
         margin-left: 30px;
     }
-    .core-value-tab-content .bottom-image-wrap
-    {
+
+    .core-value-tab-content .bottom-image-wrap {
         margin-top: -30px;
     }
-    .core-value-tab-content .bottom-image-wrap
-    {
+
+    .core-value-tab-content .bottom-image-wrap {
         height: 80vw;
         width: 80vw;
     }
-    .image-wrap .tab-title-box
-    {
+
+    .image-wrap .tab-title-box {
         min-height: 180px;
         width: 180px;
         border-width: 5px;
     }
-    .bottom-image-wrap .green-round
-    {
+
+    .bottom-image-wrap .green-round {
         left: 120px;
         height: 80px;
         width: 80px;
         border-width: 25px;
         top: -40px;
     }
-    .bottom-image-wrap .yellow-round
-    {
+
+    .bottom-image-wrap .yellow-round {
         height: 100px;
         width: 100px;
         border-width: 30px;
         left: -40px;
     }
-    .radial-chart-wrapper > div
-    {
+
+    .radial-chart-wrapper>div {
         height: 200px;
         width: 200px;
     }
-    .radial-chart-wrapper > div:nth-child(2)
-    {
+
+    .radial-chart-wrapper>div:nth-child(2) {
         height: 160px;
         width: 160px;
     }
-    .radial-chart-wrapper > div:nth-child(3)
-    {
+
+    .radial-chart-wrapper>div:nth-child(3) {
         height: 120px;
         width: 120px;
     }
-    .progressbar-text
-    {
+
+    .progressbar-text {
         margin-bottom: 10px;
     }
-    .radial-chart-wrapper > div:nth-child(2)
-    {
-        margin-top:0;
+
+    .radial-chart-wrapper>div:nth-child(2) {
+        margin-top: 0;
+    }
+
+    .counter-row .counter-text {
+        font-size: 18px;
     }
 }
 

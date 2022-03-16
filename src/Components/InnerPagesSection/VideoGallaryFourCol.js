@@ -45,13 +45,13 @@ const VideoGallaryFourCol = () => {
     return (
         <>
             <div className="video-gallary-row four-col-row">
+                <LightGallery
+                    speed={500}
+                    plugins={[lgVideo]}
+                >
+                    {VideoGallaryFourColData.map((val) =>
+                        <div className="gallary-item reveal-fade" key={val.id} data-sub-html={`<p> ${val.gallaryItemText} </p>`} data-src={val.gallaryVideoSrc} data-poster={val.gallaryImageSrc}>
 
-                {VideoGallaryFourColData.map((val) =>
-                    <div className="gallary-item reveal-fade" key={val.id} data-sub-html={`<p> ${val.gallaryItemText} </p>`} data-src={val.gallaryVideoSrc} data-poster={val.gallaryImageSrc}>
-                        <LightGallery
-                            speed={500}
-                            plugins={[lgVideo]}
-                        >
                             <a href={val.gallaryImageSrc}>
 
                                 <img alt="" src={val.gallaryImageSrc} />
@@ -59,10 +59,10 @@ const VideoGallaryFourCol = () => {
                                     <p>{val.gallaryItemText}</p>
                                 </div>
                             </a>
-                        </LightGallery>
-                    </div>
-                )}
 
+                        </div>
+                    )}
+                </LightGallery>
                 <div className="btn-wrap text-center">
                     <ButtonDiv buttonHref="" buttonText="Load More" />
                 </div>

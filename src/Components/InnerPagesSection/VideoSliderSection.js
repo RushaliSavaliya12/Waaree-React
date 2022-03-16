@@ -7,11 +7,11 @@ import VideoGallarySlider from './VideoGallarySlider';
 const VideoGallarySection = (props) => {
     return (
         <>
-            <section className="section video-gallary-section" style={{backgroundColor:"#fff"}}>
+            <section className="section video-slider-section" style={{backgroundColor:"#fff"}}>
                 <div className="section-inner">
                     <Container>
                         <div className="section-wrap">
-                            <SectionTitle sectionTitle="Mentors to help you grow" titleTheme="dark-title" />
+                            <SectionTitle sectionTitle="Mentors to help you grow" titleTheme="dark-title mb-80"/>
                             <div className="gallary-wrapper">
                                 <VideoGallarySlider />
                             </div>

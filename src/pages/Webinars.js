@@ -9,7 +9,7 @@ import ScrollToTopBtn from '../Components/ScrollToTopBtn';
 import InnerPageGsapAnimation from '../Components/InnerPageGsapAnimation';
 import IconCounterSection from '../Components/InnerPagesSection/IconCounterSection';
 import VideoSliderSection from '../Components/InnerPagesSection/VideoSliderSection';
-
+import VideoFilterSection from '../Components/InnerPagesSection/VideoFilterSection';
 
 const Webinars = () => {
     // Scroll magic - Inner page End
@@ -23,6 +23,7 @@ const Webinars = () => {
         <InnerBannerSection bgSrc="assets/images/investor-bg.jpg" pageTitle="Webinars   " bannerText="Waaree Energies Solar EPC solutions will provide a good return on investment by utilizing idle ground space or Land. Waaree provides customized EPC solution as per your need and energy consumption."/>
         <IconCounterSection />
         <VideoSliderSection />
+        <VideoFilterSection />
         <Footer />
         <SocialFixedBtn />
         <ContactBtnFix />
