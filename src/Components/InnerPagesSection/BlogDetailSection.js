@@ -23,7 +23,7 @@ const BlogDetailSection = (props) => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={4} className="blog-right-col">
+                                    <Col lg={4} className="blog-right-col reveal-fade">
                                         <div className="col-inner">
                                             <BlogRightCol />
                                         </div>

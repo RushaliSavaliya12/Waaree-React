@@ -29,7 +29,7 @@ const LetUsKnowRow = () => {
     return (
         <Row className="letus-know-row">
             {LetUsKnowRowData.map((val) =>
-                <Col md={4} key={val.id}>
+                <Col md={4} key={val.id} className="reveal-fade stagger-animation">
                     <div className="col-inner">
                         <div className="icon-wrap">
                             <img src={val.serviceIconSrc} alt="" />

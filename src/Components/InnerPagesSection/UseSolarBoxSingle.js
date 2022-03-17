@@ -23,7 +23,7 @@ const UseSolarBoxSingle = () => {
     return (
         <>
             {UseSolarBoxSingleData.map((val) =>
-                <div className="use-solar-box">
+                <div className="use-solar-box reveal-fade stagger-animation">
 
                     <div className="icon-wrap">
                         <img src={val.useSolarIconSrc} alt="" />

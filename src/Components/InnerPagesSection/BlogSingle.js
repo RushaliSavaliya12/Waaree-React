@@ -55,7 +55,7 @@ const BlogSingle = () => {
     return (
         <>
             {BlogSingleData.map((val) =>
-                <div className="blog-single" key={val.id}>
+                <div className="blog-single reveal-fade" key={val.id}>
                     <div class="blog-inner">
                         <div className="blog-image">
                             <a href={val.blogLink}>

@@ -45,7 +45,7 @@ const JobOpportunityRow = () => {
     return (
         <Row className="job-opportunity-row">
             {JobOpportunityRowData.map((val) =>
-                <Col md={3} key={val.id} className="col-20">
+                <Col md={3} key={val.id} className="col-20 reveal-fade stagger-animation">
                     <a href={val.contetLinkUrl}>
                         <div className="col-inner">
                             <div className="icon-wrap">

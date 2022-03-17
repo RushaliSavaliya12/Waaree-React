@@ -24,7 +24,7 @@ const SolarEnergyRow = () => {
         <>
             <Row className="solar-energy-row">
                 {SolarEnergyRowData.map((val) =>
-                    <Col md={6} className="solar-energy-col" key={val.id}>
+                    <Col md={6} className="solar-energy-col reveal-fade stagger-animation" key={val.id}>
                         <div className="col-inner">
                             <div className="energy-image">
                                 <img src={val.solarEnergyImageSrc} alt=""/>

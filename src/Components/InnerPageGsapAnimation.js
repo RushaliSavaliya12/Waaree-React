@@ -21,10 +21,10 @@ const InnerPageGsapAnimation = () =>{
                 const timeline = gsap.timeline({ paused: true });
 
                 var title = item.querySelectorAll('.inner-banner-content h1, .year-content, .section-title, .help-sec-row.row > div.help-col-single h3');
-                var paragraph = item.querySelectorAll('.company-logo-section .title-small, .contact-footer-row h4, .banner-text, .content-text, .subtitle-wrap, .team-content-text, .case-study-text');
+                var paragraph = item.querySelectorAll('.team-member-title > span ,.company-logo-section .title-small, .contact-footer-row h4, .banner-text, .content-text, .subtitle-wrap, .team-content-text, .case-study-text');
                 var readMoreLink =  item.querySelectorAll('.read-more-link');
-                var img = item.querySelectorAll('.map-col, .apply-now-banner, section.case-study-section .section-inner, .video-section .video-player,.video-grid-right,.case-study-single .featured-image, .case-study-image,.suitanable-image-column .image-wrap');
-                var staggerElement = item.querySelectorAll('.blog-row .reveal-fade, .video-gallary-row .reveal-fade, .custom-dropdown-wrapper, .location-info-wrapper, .service-list-row > div, .service-col-single, .green-box-row .service-green-col, .award-grid-single, .accordion > .accordion-item, .image-gallary-row .reveal-fade, .two-col-section .reveal-fade, .form-inner-row > div, .textarea-col .form-col, .form-inner .recaptcha-col, .location-sec-row .location-col-single ,.case-study-single,.core-value-row .core-value-single, .value-boxes-row .boxes-single, .board-director-slider .slide-single, .image-column-wrap .image-wrap, .company-logo-slider .slick-slide');
+                var img = item.querySelectorAll('.reveal-fade.content-bg, .map-col, .apply-now-banner, section.case-study-section .section-inner, .video-section .video-player,.video-grid-right,.case-study-single .featured-image, .case-study-image,.suitanable-image-column .image-wrap');
+                var staggerElement = item.querySelectorAll('.radial-chart-wrapper>div, .team-thought-slider .slick-slide,.video-gallary-slider .slick-slide, .stagger-animation, .slick-arrow, .slick-dots, .csr-award-row > div, .team-slider-main .row > div, .news-single, .blog-right-col, .blog-wrap > div,.blog-row .reveal-fade, .video-gallary-row .reveal-fade, .custom-dropdown-wrapper, .location-info-wrapper, .service-list-row > div, .service-col-single, .green-box-row .service-green-col, .award-grid-single, .accordion > .accordion-item, .image-gallary-row .reveal-fade, .two-col-section .reveal-fade, .form-inner-row > div, .textarea-col .form-col, .form-inner .recaptcha-col, .location-sec-row .location-col-single ,.case-study-single,.core-value-row .core-value-single, .value-boxes-row .boxes-single, .board-director-slider .slide-single, .image-column-wrap .image-wrap, .company-logo-slider .slick-slide');
                 var buttonLink = item.querySelectorAll('.view-all-btn, .btn-wrap');
                 var greenRound = item.querySelectorAll('.big-round-shape, .big-round-shape .inner-round-shape');
 
@@ -80,7 +80,7 @@ const InnerPageGsapAnimation = () =>{
             // footer Animation
 
             var roundAnimation = gsap.timeline();
-            roundAnimation.to('.green-round, .yellow-round', 1, { autoAlpha: 1,scale:1 }, 0.5).pause();
+            roundAnimation.to('.green-round, .yellow-round, .section-inner-round', 1, { autoAlpha: 1,scale:1 }, 0.5).pause();
 
 
             ScrollTrigger.create({

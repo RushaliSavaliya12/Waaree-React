@@ -74,6 +74,12 @@ const VideoGallarySlider = () => {
               slidesToShow: 2,
           }
       },
+      {
+        breakpoint: 480,
+        settings: {
+            slidesToShow: 1,
+        }
+    },
     ]
   };
 
@@ -84,8 +90,10 @@ const VideoGallarySlider = () => {
         {VideoGallaryFourColData.map((val) =>
           <LightGallery
             speed={500}
-            plugins={[lgVideo]}>
-            <div className="gallary-item" key={val.id} data-sub-html={`<p> ${val.gallaryItemText} </p>`} data-src={val.gallaryVideoSrc} data-poster={val.gallaryImageSrc}>
+            plugins={[lgVideo]}
+            closable={true}
+             key={val.id}>
+            <div className="gallary-item" data-sub-html={`<p> ${val.gallaryItemText} </p>`} data-src={val.gallaryVideoSrc} data-poster={val.gallaryImageSrc}>
               <a href={val.gallaryImageSrc}>
                 <img alt="" src={val.gallaryImageSrc} />
                 <div className="gallary-text-wrap">

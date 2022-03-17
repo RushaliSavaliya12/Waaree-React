@@ -728,6 +728,14 @@
     {
         font-size: 16px;
     }
+    .video-filter-btn .filter-btn-list
+    {
+        margin-bottom: 80px;
+    }
+    .core-value-tab-content::before
+    {
+        width: 400px    ;
+    }
 }
 
 @media(max-width:1400px) {
@@ -1406,6 +1414,10 @@
     {
         background-position: center 35%;
     }
+    .video-filter-btn .filter-btn-list
+    {
+        margin-bottom: 70px;
+    }
 }
 
 @media(max-width:1365px) {
@@ -1598,6 +1610,10 @@
 
     .core-value-tab-wrap .tab-title-content {
         margin-left: 70px;
+    }
+    .core-value-tab-content::before
+    {
+        width: 380px;
     }
 }
 
@@ -2483,6 +2499,10 @@
     .radial-chart-wrapper>div:nth-child(2) {
         margin-top: -10%;
     }
+    .core-value-tab-content::before
+    {
+        width: 300px;
+    }
 }
 
 @media(max-width:991px) {
@@ -2902,7 +2922,23 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    
+    .video-gallary-slider
+    {
+        padding-bottom: 80px;
+    }
+    .video-filter-btn .filter-btn-list li
+    {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .video-filter-btn .filter-btn-list li
+    {
+        margin-bottom: 10px;
+    }
+    .core-value-tab-content::before
+    {
+        display: none;
+    }
 }
 
 @media(max-width:767px) {
@@ -3694,7 +3730,7 @@
     }
 
     .four-col-row .gallary-item a img {
-        height: 162px;
+        height: 32vw;
     }
 
     .partner-detail-section P {
@@ -3883,7 +3919,18 @@
     .join-community-section .inner-sec-round.custom-round.top-left {
         display: none;
     }
-    
+    .video-gallary-slider .gallary-item a img
+    {
+        height: 52vw;
+    }
+    .video-gallary-slider
+    {
+        padding-bottom: 60px;
+    }
+    .video-filter-btn .filter-btn-list
+    {
+        margin-bottom: 50px;
+    }
 }
 
 @media(max-width:575px) {
@@ -4276,6 +4323,24 @@
     .opening-content .content-text {
         margin-bottom: 20px;
     }
+    .video-gallary-slider .slick-slide
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .video-gallary-slider
+    {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .gallary-text-wrap span
+    {
+        font-size: 14px;
+    }
+    .video-filter-btn .filter-btn-list
+    {
+        margin-bottom: 40px;
+    }
 }
 
 @media(max-width:480px) {
@@ -4648,6 +4713,10 @@
 
     .counter-row .counter-text {
         font-size: 18px;
+    }
+    .video-gallary-slider .gallary-item a img
+    {
+        height: 90vw;
     }
 }
 

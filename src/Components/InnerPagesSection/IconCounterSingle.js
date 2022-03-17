@@ -1,8 +1,14 @@
 import React from 'react';
 import { Container, Col, Row, ButtonGroup } from 'react-bootstrap';
+import CounterAnimation from '../CounterAnimation';
+import { useState, useEffect } from "react";
 
 
 const IconCounterSingle = () => {
+
+    useEffect(() => {
+        CounterAnimation();
+    });
 
     const IconCounterData = [
         {
@@ -32,7 +38,7 @@ const IconCounterSingle = () => {
         <>
             {IconCounterData.map((val) =>
 
-                <Col lg={4} className="counter-single" key={val.id}>
+                <Col lg={4} className="counter-single reveal-fade stagger-animation" key={val.id}>
                     <div className='col-inner'>
                         <div className='icon-wrap'>
                             <img src={val.counterIconSrc} />

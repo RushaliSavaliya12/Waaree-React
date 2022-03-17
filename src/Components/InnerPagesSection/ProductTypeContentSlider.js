@@ -52,7 +52,7 @@ const ProductTypeContentSlider = () => {
     };
 
     return (
-        <Slider className="product-content-slider" {...settingsProductType}>
+        <Slider className="product-content-slider reveal-fade stagger-animation" {...settingsProductType}>
             {ProductTypeSliderData.map((val) =>
                 <div className="product-content-inner" key={val.id}>
                     <div className="product-type-content">

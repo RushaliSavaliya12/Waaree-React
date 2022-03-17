@@ -11,7 +11,7 @@ const CsrAwardSection = () => {
                 <Container>
                     <div className="section-wrap">
                         <Row className="csr-award-row">
-                            <Col md={6} className="csr-award-left-col">
+                            <Col md={6} className="csr-award-left-col reveal-fade">
                                 <div className="col-inner">
                                     <SectionTitle sectionTitle="Awards" titleTheme="light-title" />
                                     <div className="content-text">
@@ -22,7 +22,7 @@ const CsrAwardSection = () => {
                                     </div>
                                 </div>
                             </Col>
-                            <Col md={6} className="csr-award-right-col">
+                            <Col md={6} className="csr-award-right-col reveal-fade">
                                 <div className="col-inner">
                                     <div className="latest-award-text-box">
                                         <h4 className="latest-label">Latest</h4>

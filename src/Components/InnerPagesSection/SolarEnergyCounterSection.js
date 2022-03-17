@@ -10,7 +10,7 @@ const SolarEnergyCounterSection = () => {
                     <Container>
                         <div className="section-wrap">
                             <Row className="energy-counter-main-row">
-                                <Col lg={4} className="energy-counter-text-col">
+                                <Col lg={4} className="energy-counter-text-col reveal-fade stagger-animation">
                                     <div className="col-inner">
                                         <h4 className="energy-counter-title">Solar energy: <br />a bright alternative.</h4>
                                         <span>Save the polar. Go solar.</span>

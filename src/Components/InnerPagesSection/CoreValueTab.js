@@ -59,7 +59,7 @@ const CoreValueTab = () => {
                     <Nav variant="pills" className="flex-column custom-tab-nav">
 
                         {CoreValueTabData.map((val) =>
-                            <Nav.Item>
+                            <Nav.Item className="reveal-fade stagger-animation">
                                 <Nav.Link eventKey={val.id}>
                                     <div className="icon-wrap">
                                         <img src={val.TabTitleIcon} alt="" className="icon-default" />
@@ -77,7 +77,7 @@ const CoreValueTab = () => {
                         )}
                     </Nav>
                 </Col>
-                <Col lg={6} className="tab-content-col">
+                <Col lg={6} className="tab-content-col reveal-fade stagger-animation">
                     <Tab.Content>
                         {CoreValueTabData.map((val) =>
                             <Tab.Pane eventKey={val.id} key={val.id}>

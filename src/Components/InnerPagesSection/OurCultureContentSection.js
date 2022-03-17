@@ -9,7 +9,7 @@ const OurCultureContentSection = () => {
                 <div className="section-inner">
                     <Container>
                         <div className="section-wrap">
-                            <div className="content-text">
+                            <div className="content-text reveal-fade">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in sem eu purus sollicitudin scelerisque sed id tellus. Phasellus ac aliquam velit, vel placerat lectus. Aliquam erat volutpat. Maecenas consectetur velit id laoreet euismod. Mauris dapibus id lorem sed egestas. Cras eget interdum metus. Maecenas a augue accumsan, ultrices velit ut, auctor dui. Pellentesque at hendrerit quam. Ut et urna in tortor tempus cursus. Vivamus dignissim fringilla mi sed dignissim. Nam hendrerit tempor justo, sit amet pretium est fermentum vitae. </p>
                             </div>
                         </div>
@@ -17,7 +17,7 @@ const OurCultureContentSection = () => {
 
                     <RoundSvgSectionTop />
                 </div>
-                <div className="content-bg">
+                <div className="content-bg reveal-fade">
                     <img src="assets/images/culture-content-bg.jpg" alt="content bg" />
                 </div>
             </section>

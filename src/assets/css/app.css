@@ -5930,7 +5930,7 @@ section.service-grid-section .section-inner {
 
 /* Partner page ENd*/
 /* Videos page */
-.video-gallary-row.four-col-row .lg-react-element {
+.four-col-row .lg-react-element {
   display: flex;
   flex-wrap: wrap;
   margin-left: -25px;
@@ -7611,7 +7611,7 @@ section.team-review-section {
   position: absolute;
   left: 0;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-50%) scale(0);
   width: 620px;
   height: 620px;
   border: 150px solid #e5f1e7;
@@ -7620,7 +7620,10 @@ section.team-review-section {
 }
 
 .team-thought-section .slick-slider .slick-dots,
-.team-thought-section .slick-slider .slick-arrow {
+.team-thought-section .slick-slider .slick-arrow,
+.team-thought-section .slick-slider .slick-dots,
+.team-thought-section .slick-slider .slick-arrow 
+{
   opacity: 1;
 }
 
@@ -7940,7 +7943,7 @@ section.team-review-section {
 {
   position: relative;
 }
-.video-gallary-section .gallary-item a::before,
+.video-gallary-section .without-gallary-text .gallary-item a::before,
 .video-gallary-slider .gallary-item a::before
 {
   background-color: transparent;
@@ -7949,7 +7952,7 @@ section.team-review-section {
   visibility: visible;
   background-size: 50px;
 }
-.video-gallary-section .gallary-item a:hover::before,
+.video-gallary-section .without-gallary-text .gallary-item a:hover::before,
 .video-gallary-slider .gallary-item a:hover:before
 {
   background-color: rgba(0, 0, 0, 0.6);
@@ -7959,3 +7962,56 @@ section.team-review-section {
 {
   background-position: center 40%;
 }
+.video-gallary-slider
+{
+  padding-bottom: 100px;
+}
+.video-filter-section .section-inner
+{
+  overflow: hidden;
+}
+.video-filter-btn .filter-btn.btn:hover, 
+.video-filter-btn .filter-btn.btn.active
+{
+  background-color: #ffdb27;
+  color: #000;
+}
+.video-filter-btn .filter-btn.btn
+{
+  background-color:transparent;
+}
+.video-filter-btn .filter-btn-list
+{
+  text-align: left;
+  margin-bottom: 100px;
+}
+.without-gallary-text .gallary-text
+{
+  display: none;
+}
+.lg-download.lg-icon
+{
+  display: none!important;
+}
+.core-value-tab-content
+{
+  position: relative;
+}
+.core-value-tab-content::before
+{
+  content: '';
+  height: 100%;
+  width: 490px;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  position: absolute;
+  z-index: 0;
+}
+.team-thought-slider .slick-slide,
+.radial-chart-wrapper>div,
+.video-gallary-slider .slick-slide
+{
+  opacity: 0;
+}
+

@@ -12,7 +12,7 @@ const WhySolarContentSection = () => {
                     <Container>
                         <div className="section-wrap">
                             <SectionTitle sectionTitle="What is solar power?" titleTheme="dark-title" />
-                            <div className="content-text">
+                            <div className="content-text reveal-fade">
                                 <p>Waaree Energies Solar EPC solutions will provide a good return on investment by utilizing idle ground space or Land. Waaree provides customized EPC solution as per your need and energy consumption.</p>
                                 <p>Waaree Energies Solar EPC solutions will provide a good return on investment by utilizing idle ground space or Land. Waaree provides customized EPC solution as per your need and energy consumption.Waaree Energies Solar EPC solutions will provide a good return on investment by utilizing idle ground space or Land. Waaree provides customized EPC solution as per your need and energy consumption.</p>
                             </div>

@@ -11,7 +11,7 @@ const VideoFilterSection = () => {
                 <div className="section-inner">
                     <Container>
                         <div className="section-wrap">
-                            <SectionTitle sectionTitle="Workshops" titleTheme="dark-title" />
+                            <SectionTitle sectionTitle="Workshops" titleTheme="dark-title mb-80" />
                             <div className="video-filter-btn">
                                 <div className="filter-btn-wrap">
                                     <ul className='filter-btn-list'>
@@ -33,7 +33,7 @@ const VideoFilterSection = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="gallary-wrapper">
+                            <div className="gallary-wrapper without-gallary-text">
                                 <VideoGallaryFourCol />
                             </div>
                         </div>

@@ -1,8 +1,12 @@
 import React from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
-
+import { useState, useEffect } from "react";
+import CounterAnimation from '../CounterAnimation';
 
 const EnergyCounterRow = () => {
+
+    useEffect(() => {
+        CounterAnimation();
+    });
 
     const EnergyCounterRowData = [
         {
@@ -32,7 +36,7 @@ const EnergyCounterRow = () => {
     return (
         <>
             {EnergyCounterRowData.map((val) =>
-                <div className="energy-counter-single">
+                <div className="energy-counter-single reveal-fade stagger-animation">
                     <div className="counter-inner">
                         <h4 className="counter-title">
                             <span className="coun-anim">{val.counterNumber}</span> <span>{val.counterText}<sub>{val.subText}</sub></span>

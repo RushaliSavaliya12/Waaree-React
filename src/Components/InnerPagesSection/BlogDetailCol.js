@@ -7,7 +7,7 @@ const BlogDetailCol = (props) => {
 
     return (
         <>
-            <div className="blog-single">
+            <div className="blog-single reveal-fade">
                 <div class="blog-inner">
                     <div className="blog-image">
                         <a href="">

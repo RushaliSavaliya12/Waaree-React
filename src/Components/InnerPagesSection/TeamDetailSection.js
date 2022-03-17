@@ -14,10 +14,10 @@ const TeamDetailSection = () => {
                     <div className="section-wrap">
                         <div className="team-member-title">
                             <SectionTitle sectionTitle="Hitesh Chimanlal Doshi" titleTheme="dark-title" />
-                            <span className="team-member-post">Chairman & Managing Director</span>
+                            <span className="team-member-post reveal-fade">Chairman & Managing Director</span>
                         </div>
                         <Row className="team-detail-row">
-                            <Col md={4} className="people-image-col">
+                            <Col md={4} className="people-image-col reveal-fade stagger-animation">
                                 <div className="col-inner">
                                     <div className='people-image'>
                                         <img src="assets/images/hitesh-chimanlal.jpg" alt=''/>
@@ -27,7 +27,7 @@ const TeamDetailSection = () => {
                                     </div>
                                 </div>  
                             </Col>
-                            <Col md={8} className="people-detail-col">
+                            <Col md={8} className="people-detail-col reveal-fade stagger-animation">
                                 <div className="col-inner">
                                     <div className="team-detail-text">
                                         <div className="team-quotes"> 

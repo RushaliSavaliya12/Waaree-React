@@ -98,10 +98,10 @@ const ClienteleLogoSection = () => {
                         <div className="company-logo-filter">
                             <div className="filter-btn-wrap">
                                 <ul className='filter-btn-list'>
-                                    <li>
+                                    <li className="reveal-fade stagger-animation">
                                         <a className="filter-btn btn active">Domestic</a>
                                     </li>
-                                    <li>
+                                    <li className="reveal-fade stagger-animation">
                                         <a className="filter-btn btn">International</a>
                                     </li>
                                 </ul>
@@ -109,7 +109,7 @@ const ClienteleLogoSection = () => {
                             <div className="company-logo-listing">
                                 <Row className="company-logo-row">
                                     {CompanyLogoSliderData.map((val) =>
-                                        <Col lg={3} md={4} sm={6} className="col-20" key={val.key}>
+                                        <Col lg={3} md={4} sm={6} className="col-20 reveal-fade stagger-animation" key={val.key}>
                                             <div className="col-inner">
                                                 <img src={val.logoSrc} alt="" />
                                             </div>
@@ -117,7 +117,7 @@ const ClienteleLogoSection = () => {
                                     )}
 
                                 </Row>
-                                <div className="load-more-btn btn-wrap text-center">
+                                <div className="load-more-btn btn-wrap text-center reveal-fade">
                                     <ButtonDiv buttonHref="#" buttonText="Load More" />
                                 </div>
                             </div>

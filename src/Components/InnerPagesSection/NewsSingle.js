@@ -90,7 +90,7 @@ const NewsSingle = () => {
     return (
         <>
             {NewsData.map((val) =>
-                <div className="news-single">
+                <div className="news-single reveal-fade">
                     <div className="news-single-wrap">
                         <Row>
                             <Col lg={4} md={5} className="news-image-col">

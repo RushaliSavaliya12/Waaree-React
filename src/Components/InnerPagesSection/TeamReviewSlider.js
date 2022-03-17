@@ -44,7 +44,7 @@ const TeamReviewSlider = () => {
                   <div className="slide-inner">
                       <Container>
                       <Row>
-                          <Col lg={7} className="review-left-col">
+                          <Col lg={7} className="review-left-col reveal-fade">
                               <div className="col-inner">
                                   <div className="review-text">
                                       <h4>{val.teamReviewText}</h4>
@@ -55,7 +55,7 @@ const TeamReviewSlider = () => {
                                   </div>
                               </div>
                           </Col>
-                          <Col lg={5} className="team-image-col">
+                          <Col lg={5} className="team-image-col reveal-fade">
                             <div className="col-inner">
                                 <div className="team-member-image">
                                     <img src={val.teamMemberImageSrc} alt="" />

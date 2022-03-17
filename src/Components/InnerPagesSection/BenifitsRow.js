@@ -32,7 +32,7 @@ const BenifitsRow = () => {
         <>
             <Row className="benifits-row">
                 {BenifitRowData.map((val) =>
-                    <Col md={4} className="benifit-col" key={val.id}>
+                    <Col md={4} className="benifit-col reveal-fade stagger-animation" key={val.id}>
                         <div className="col-inner" style={{backgroundImage:`url(${val.benifitBgSrc})`}}>
                             <div className='icon-wrap'>
                                 <img src={val.benifitIconSrc} />

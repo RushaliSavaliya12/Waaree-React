@@ -31,7 +31,7 @@ const CurrentOpeningSlider = () => {
   };
   
     return (
-          <Slider className="current-opening-slider" {...settingsOpeningSlider}>
+          <Slider className="current-opening-slider reveal-fade stagger-animation" {...settingsOpeningSlider}>
                 {CurrentOpeningSliderData.map((val) =>
                   <div className="slide-inner" key={val.id}> 
                       <Row className="current-opening-row">

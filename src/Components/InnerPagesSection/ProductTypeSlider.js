@@ -60,7 +60,7 @@ const ProductTypeSlider = () => {
     return (
           <Swiper className="product-type-slider" {...settingsProductType}>
                 {ProductTypeSliderData.map((val) =>
-                  <SwiperSlide key={val.id}>
+                  <SwiperSlide key={val.id} className="reveal-fade stagger-animation">
                   <div className="product-type-inner">
                       <div className="product-type-content">
                         <div className="product-type-title">

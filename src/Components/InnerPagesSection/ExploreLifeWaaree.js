@@ -30,7 +30,7 @@ const ExploreLifeWaaree = () => {
         return (
             <>
                 {ExploreLifeGridData.map((val) =>
-                    <div className="grid-col-single" key={val.id}>
+                    <div className="grid-col-single reveal-fade stagger-animation" key={val.id}>
                         <div className="col-inner">
                             <a href={val.gridPageLink}>
                                 <div className="grid-bg">
@@ -54,7 +54,7 @@ const ExploreLifeWaaree = () => {
                         <Row className="explore-waaree-row">
                             <Col lg={6} className="explore-waaree-text-col">
                                 <div className="col-inner">
-                                    <div className="content-text">
+                                    <div className="content-text reveal-fade">
                                         <p>WAAREE Recruitment process includes a selection stage when decisions are made as to the viability of a particular candidate's job application. We believe that it directly affects the overall productivity of an organization. A right selection may increase the overall performance of a company & a wrong one may lead to material and financial loss.</p>
                                         <p>A perfect selection process can help to pick the most eligible candidates amongst all applicants. The process of selecting candidates focuses on abilities, knowledge, skills, experience and various other related factors.</p>
                                     </div>

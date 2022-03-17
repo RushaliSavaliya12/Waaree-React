@@ -85,8 +85,8 @@ const Header = () =>{
                             <Navbar.Collapse id="navbarMain">
                                 <Nav className="ml-auto main-navigation">
                                     <LinkContainer to="/about-waaree"><Nav.Link>About us</Nav.Link></LinkContainer>
-                                    <Nav.Link href="#Products">Products</Nav.Link>
-                                    <Nav.Link href="#Services">Services</Nav.Link>
+                                    <LinkContainer to="#product"><Nav.Link>Products</Nav.Link></LinkContainer>
+                                    <LinkContainer to="/services"><Nav.Link>Services</Nav.Link></LinkContainer>
                                     <LinkContainer to="/contact-waaree"><Nav.Link>Contact Us</Nav.Link></LinkContainer>
                                     <MoreMenuModel />
                                     <SearchPopup />

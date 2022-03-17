@@ -11,7 +11,7 @@ const TwoColSliderSection = () => {
                     <Container>
                         <div className="section-wrap">
                             <Row className="two-col-slider-row">
-                                <Col md={6} className="content-col">
+                                <Col md={6} className="content-col reveal-fade stagger-animation">
                                     <div className="col-inner">
                                         <div className="content-text">
                                             <h2 className="section-title dark-title">People. <br /> Activities at Glance</h2>
@@ -19,7 +19,7 @@ const TwoColSliderSection = () => {
                                         </div>  
                                     </div>
                                 </Col>
-                                <Col md={6} className="image-slider-col">
+                                <Col md={6} className="image-slider-col reveal-fade stagger-animation">
                                     <div className="col-inner">
                                         <TwoColImageSlider />
                                     </div>
