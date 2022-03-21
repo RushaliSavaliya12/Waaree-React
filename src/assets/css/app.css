@@ -7622,8 +7622,7 @@ section.team-review-section {
 .team-thought-section .slick-slider .slick-dots,
 .team-thought-section .slick-slider .slick-arrow,
 .team-thought-section .slick-slider .slick-dots,
-.team-thought-section .slick-slider .slick-arrow 
-{
+.team-thought-section .slick-slider .slick-arrow {
   opacity: 1;
 }
 
@@ -7817,6 +7816,10 @@ section.team-review-section {
 .p-inner-50>div {
   padding-left: 25px;
   padding-right: 25px;
+
+}
+
+.counter-row .counter-single {
   margin-bottom: 90px;
 }
 
@@ -7939,66 +7942,66 @@ section.team-review-section {
   background: -ms-linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 100%);
   z-index: 1;
 }
-.video-gallary-slider .gallary-item
-{
+
+.video-gallary-slider .gallary-item {
   position: relative;
 }
+
 .video-gallary-section .without-gallary-text .gallary-item a::before,
-.video-gallary-slider .gallary-item a::before
-{
+.video-gallary-slider .gallary-item a::before {
   background-color: transparent;
   background-image: url(../images/play-icon-small.png);
   opacity: 1;
   visibility: visible;
   background-size: 50px;
 }
+
 .video-gallary-section .without-gallary-text .gallary-item a:hover::before,
-.video-gallary-slider .gallary-item a:hover:before
-{
+.video-gallary-slider .gallary-item a:hover:before {
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 3;
 }
-.video-gallary-slider .gallary-item a::before
-{
+
+.video-gallary-slider .gallary-item a::before {
   background-position: center 40%;
 }
-.video-gallary-slider
-{
+
+.video-gallary-slider {
   padding-bottom: 100px;
 }
-.video-filter-section .section-inner
-{
+
+.video-filter-section .section-inner {
   overflow: hidden;
 }
-.video-filter-btn .filter-btn.btn:hover, 
-.video-filter-btn .filter-btn.btn.active
-{
+
+.video-filter-btn .filter-btn.btn:hover,
+.video-filter-btn .filter-btn.btn.active {
   background-color: #ffdb27;
   color: #000;
 }
-.video-filter-btn .filter-btn.btn
-{
-  background-color:transparent;
+
+.video-filter-btn .filter-btn.btn {
+  background-color: transparent;
 }
-.video-filter-btn .filter-btn-list
-{
+
+.video-filter-btn .filter-btn-list {
   text-align: left;
   margin-bottom: 100px;
 }
-.without-gallary-text .gallary-text
-{
+
+.without-gallary-text .gallary-text {
   display: none;
 }
-.lg-download.lg-icon
-{
-  display: none!important;
+
+.lg-download.lg-icon {
+  display: none !important;
 }
-.core-value-tab-content
-{
+
+.core-value-tab-content {
   position: relative;
 }
-.core-value-tab-content::before
-{
+
+.core-value-tab-content::before {
   content: '';
   height: 100%;
   width: 490px;
@@ -8008,10 +8011,81 @@ section.team-review-section {
   position: absolute;
   z-index: 0;
 }
+
 .team-thought-slider .slick-slide,
 .radial-chart-wrapper>div,
-.video-gallary-slider .slick-slide
-{
+.video-gallary-slider .slick-slide {
   opacity: 0;
 }
 
+/* Event page */
+.event-col-single {
+  margin-bottom: 50px;
+  height: 370px;
+}
+
+.event-col-single .col-inner {
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0px 2px 30px 0px rgb(0 0 0 / 10%);
+  position: relative;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.event-hover-content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #733256;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 30px;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transform: rotateY(100deg);
+  transition: all 500ms ease-in-out;
+  color: #fff;
+}
+
+.event-col-single .col-inner:hover .event-hover-content {
+  opacity: 1;
+  visibility: visible;
+  transform: rotateY(0deg);
+  transition: all 500ms ease-in-out;
+  transform-origin: left;
+}
+
+.event-listing-wrap .load-more-btn {
+  margin-top: 40px;
+}
+
+.upcoming-event-section .section-inner {
+  padding-bottom: 50px;
+}
+
+.past-event-section .section-inner {
+  padding-top: 0 !important;
+}
+
+.event-hover-content h4 {
+  margin-bottom: 5px;
+  color: #ffdb27;
+  line-height: 1.1;
+}
+
+.gallry-text-item .content-text p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* Event page End*/

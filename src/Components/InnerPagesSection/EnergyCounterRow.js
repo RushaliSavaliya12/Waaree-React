@@ -11,7 +11,7 @@ const EnergyCounterRow = () => {
     const EnergyCounterRowData = [
         {
             id: 1,
-            counterNumber: "54",
+            counterNumber: "54.3",
             counterText: "kg coal",
             subText: "",
             counterSubText: "from being burned",
