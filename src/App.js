@@ -28,6 +28,7 @@ import LifeAtWaaree from './pages/LifeAtWaaree';
 import OurCulture from './pages/OurCulture';
 import Webinars from './pages/Webinars';
 import Events from './pages/Events';
+import WaareePrime from './pages/WaareePrime';
 
 const App = () => {
     return (
@@ -56,6 +57,7 @@ const App = () => {
                 <Route path="work-culture" element={<OurCulture />} />
                 <Route path="webinars" element={<Webinars />} />
                 <Route path="events" element={<Events />} />
+                <Route path="waaree-prime" element={<WaareePrime />} />
             </Routes>
         </>
     );

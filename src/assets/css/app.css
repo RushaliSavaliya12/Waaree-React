@@ -5638,7 +5638,9 @@ section.service-grid-section .section-inner {
   height: 340px;
 }
 
-.four-col-row .gallary-item a::after {
+.four-col-row .gallary-item a::after,
+.two-col-row .gallary-item a::after
+ {
   content: '';
   height: 100%;
   width: 100%;
@@ -8048,8 +8050,8 @@ section.team-review-section {
   text-align: center;
   opacity: 0;
   visibility: hidden;
-  transform: rotateY(100deg);
-  transition: all 500ms ease-in-out;
+  transform: rotateY(90deg);
+  transition: all 800ms ease-in-out;
   color: #fff;
 }
 
@@ -8057,7 +8059,7 @@ section.team-review-section {
   opacity: 1;
   visibility: visible;
   transform: rotateY(0deg);
-  transition: all 500ms ease-in-out;
+  transition: all 800ms ease-in-out;
   transform-origin: left;
 }
 
@@ -8089,3 +8091,261 @@ section.team-review-section {
 }
 
 /* Event page End*/
+/* Waaree Prime page */
+.two-col-section .image-col img
+{
+  width: 100%;
+}
+.two-col-section .content-col-text p
+{
+  margin-bottom: 20px;
+}
+.two-col-section .content-col-text p:last-child
+{
+  margin-bottom: 0;
+}
+.prime-col-section.two-col-section .section-title
+{
+  margin-bottom: 30px;
+}
+.step-row
+{
+  align-items: center;
+}
+.step-title-col .col-inner
+{
+  padding-right: 150px;
+}
+.step-content
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 100px 70px 50px;
+}
+.step-single:nth-child(even) .step-content
+{
+  padding-right: 50px;
+}
+.step-content .icon-wrap
+{
+  flex: 0 0 80px;
+  max-width: 80px;
+}
+.step-content h4
+{
+  margin-bottom: 0;
+  flex: 0 0 calc(100% - 80px);
+  max-width: calc(100% - 80px);
+  padding-left: 25px;
+}
+.step-single:nth-child(even)
+{
+  text-align: right;
+}
+.step-single:nth-child(even) .icon-wrap
+{
+  order: 2;
+}
+.step-single:nth-child(even) h4
+{
+  padding-right: 25px;
+  padding-left: 0;
+}
+.step-single
+{
+  border:1px dashed #000;
+  position: relative;
+}
+.step-single:nth-child(odd)
+{
+  border-top: none;
+  border-right: none;
+}
+.step-single:nth-child(even)
+{
+  border-top: none;
+  border-left: none;
+}
+.step-no
+{
+  background-color: #000;
+  color: #fff;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  display: block;
+  position: absolute;
+  top: -35px;
+  left: -35px;
+}
+.step-single:nth-child(even) .step-no
+{
+  left: auto;
+  right: -35px;
+}
+.prime-icon-section .row
+{
+  box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-color: #fff;
+}
+.prime-icon-section .icon-box-single
+{
+  border: 5px solid #f0faf2;
+  border-left: none;
+  border-bottom: none;
+}
+.prime-icon-section .icon-box-single:first-child,
+.prime-icon-section .icon-box-single:nth-child(2)
+{
+  border-top: none;
+}
+.prime-icon-section .icon-box-single:nth-child(even)
+{
+  border-right: none;
+}
+.prime-icon-section .icon-box-single .col-inner
+{
+  padding: 65px 80px 90px;
+  text-align: center;
+}
+.prime-icon-section .icon-wrap
+{
+  margin-bottom: 40px;
+}
+.prime-box-title h4
+{
+  margin-bottom: 0;
+}
+.prime-box-title h4 span
+{
+  color: #11582c;
+}
+.prime-icon-section .icon-wrap
+{
+  height: 128px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 128px;
+  transform: scale(1);
+  transition: all 500ms ease-in-out;
+}
+.prime-icon-section .row
+{
+  margin-left: 0;
+  margin-right: 0;
+}
+.prime-icon-section .icon-box-single:hover .icon-wrap
+{
+  transform: scale(1.1);
+  transition: all 500ms ease-in-out;
+}
+.prime-icon-section
+{
+  position: relative;
+}
+.prime-icon-section::before
+{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 48.5%;
+  width: 100%;
+  background-color: #f0faf2;
+}
+.offers-slider
+{
+  padding-bottom: 80px;
+}
+.offers-slider .slick-slide
+{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.offers-slider
+{
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.offers-slider .slick-slide img
+{
+  height: 338px;
+  object-fit: cover;
+  width: 100%;
+}
+.offers-slider .slide-inner
+{
+  color: #000;
+}
+.offers-slider .slick-track
+{
+  padding-bottom: 10px;
+}
+.slick-slide .offers-content
+{
+  background-color: #fff;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+  margin-top: -50px;
+  z-index: 1;
+  position: relative;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding: 25px 30px;
+}
+.slick-slide .offers-content a:hover,
+.slick-slide .offers-content a:focus
+{
+  color: #11582c;
+}
+.slick-slide .offers-content h5
+{
+  margin-bottom: 18px;
+  padding-bottom: 15px;
+  position: relative;
+}
+.slick-slide .offers-content h5::before
+{
+  content: '';
+  height: 3px;
+  width: 70px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #ffdb27;
+}
+.offers-valid-date
+{
+  font-size: 20px;
+  color: #733256;
+  display: block;
+}
+.video-gallary-row.two-col-row .lg-react-element 
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+.video-gallary-row.two-col-row .lg-react-element > div
+{
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 50px;
+}
+.two-col-row .gallary-item a img
+{
+    height: 570px;
+} 
+.two-col-row .btn-wrap
+{
+  margin-top: 50px;
+}
+/* Waaree Prime page End*/
