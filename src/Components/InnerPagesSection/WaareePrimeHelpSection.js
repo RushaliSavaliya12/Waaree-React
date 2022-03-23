@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import ContactHelpColSingle from './ContactHelpColSingle';
+import WaareePrimeHelpCol from './WaareePrimeHelpCol';
 
-const ContactHelpSection = (props) => {
+const WaareePrimeHelpSection = (props) => {
     return (
-        <section className="section contact-help-section">
+        <section className="section contact-help-section two-col-section">
             <div className="section-inner ">
                 <div className="section-wrap">
                     <Row className="help-sec-row">
-                        {props.ContactHelpSection}
+                        <WaareePrimeHelpCol />
                     </Row>
                 </div>
             </div>
@@ -16,4 +16,4 @@ const ContactHelpSection = (props) => {
     )
 }
 
-export default ContactHelpSection;
+export default WaareePrimeHelpSection;

@@ -748,17 +748,29 @@
     .step-content {
         padding: 80px 70px 30px;
     }
-    .offers-slider .slick-slide img
-    {
+
+    .offers-slider .slick-slide img {
         height: 300px;
     }
-    .offers-valid-date
-    {
+
+    .offers-valid-date {
         font-size: 18px;
     }
-    .two-col-row .gallary-item a img
-    {
+
+    .two-col-row .gallary-item a img {
         height: 540px;
+    }
+
+    .download-app-section::before {
+        height: 190px;
+    }
+
+    .custom-dropdown .dropdown-menu .dropdown-item {
+        font-size: 20px;
+    }
+    .testimonial-listing .content-text
+    {
+        font-size: 18px;
     }
 }
 
@@ -1458,25 +1470,59 @@
     .step-single:nth-child(even) .step-no {
         right: -30px;
     }
-    .prime-icon-section .icon-box-single .col-inner
-    {
+
+    .prime-icon-section .icon-box-single .col-inner {
         padding: 60px 60px 70px;
     }
-    .offers-valid-date
+
+    .offers-valid-date {
+        font-size: 16px;
+    }
+
+    .slick-slide .offers-content {
+        padding: 20px 25px;
+    }
+
+    .offers-slider .slick-slide img {
+        height: 280px;
+    }
+
+    .two-col-row .gallary-item a img {
+        height: 470px;
+    }
+
+    .download-app-section .download-app-content {
+        max-width: 500px;
+    }
+
+    .download-app-section::before {
+        height: 228px;
+    }
+
+    .custom-dropdown .dropdown-menu .dropdown-item {
+        font-size: 20px;
+    }
+
+    .custom-dropdown .dropdown-menu,
+    .custom-dropdown .dropdown-toggle {
+        min-width: 230px;
+    }
+    .testimonial-listing .content-text
     {
         font-size: 16px;
     }
-    .slick-slide .offers-content
+    .testimonial-listing-wrapper .testimonial-image
     {
-        padding: 20px 25px;
+        height: 160px;
     }
-    .offers-slider .slick-slide img
+    .testimonial-listing-wrapper .testimonial-image-col
     {
-        height: 280px;
+        flex: 0 0 175px;
+        max-width: 175px;
     }
-    .two-col-row .gallary-item a img
+    .testimonial-listing-wrapper .testimonial-content-col
     {
-        height: 470px;
+        padding-left: 80px;
     }
 }
 
@@ -1679,16 +1725,16 @@
     .event-col-single {
         height: 250px;
     }
-    .offers-slider .slick-slide img
-    {
+
+    .offers-slider .slick-slide img {
         height: 260px;
     }
-    .two-col-row .gallary-item a img
-    {
+
+    .two-col-row .gallary-item a img {
         height: 430px;
     }
-    .two-col-row .btn-wrap
-    {
+
+    .two-col-row .btn-wrap {
         margin-top: 30px;
     }
 }
@@ -2587,41 +2633,45 @@
     .step-content {
         padding: 70px 50px 30px;
     }
-    .prime-icon-section .icon-box-single .col-inner
-    {
+
+    .prime-icon-section .icon-box-single .col-inner {
         padding: 40px 30px 60px;
     }
-    .prime-icon-section .icon-wrap
-    {
+
+    .prime-icon-section .icon-wrap {
         margin-bottom: 30px;
     }
-    .offers-slider .slick-slide
-    {
+
+    .offers-slider .slick-slide {
         padding-left: 15px;
         padding-right: 15px;
     }
-    .offers-slider
-    {
+
+    .offers-slider {
         margin-left: -15px;
         margin-right: -15px;
     }
-    .slick-slide .offers-content
-    {
+
+    .slick-slide .offers-content {
         width: 85%;
     }
-    .two-col-row .gallary-item a img
-    {
+
+    .two-col-row .gallary-item a img {
         height: 380px;
     }
-    .video-gallary-row.two-col-row .lg-react-element
-    {
+
+    .video-gallary-row.two-col-row .lg-react-element {
         margin-left: -15px;
         margin-right: -15px;
     }
-    .video-gallary-row.two-col-row .lg-react-element > div
-    {
+
+    .video-gallary-row.two-col-row .lg-react-element>div {
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .testimonial-listing-wrapper .testimonial-content-col
+    {
+        padding-left: 60px;
     }
 }
 
@@ -3077,6 +3127,7 @@
     .steps-section .section-inner-round {
         height: 70vw;
         width: 70vw;
+        border-width: 20vw;
     }
 
     .step-title-col .col-inner {
@@ -3090,16 +3141,27 @@
         top: -25px;
         left: -25px;
     }
-    .prime-icon-section .icon-wrap
-    {
+
+    .prime-icon-section .icon-wrap {
         height: 100px;
         width: 100px;
     }
-    .two-col-row .gallary-item a img
-    {
+
+    .two-col-row .gallary-item a img {
         height: 300px;
     }
-    
+
+    .download-app-section.section .section-title {
+        margin-bottom: 40px;
+    }
+    .custom-dropdown .dropdown-menu
+    {
+        min-height: 30vh;
+    }
+    .testimonial-single-wrap .row
+    {
+        align-items: flex-start;
+    }
 }
 
 @media(max-width:767px) {
@@ -4123,30 +4185,68 @@
         width: 80%;
         margin: auto;
     }
-    .prime-icon-section .icon-box-single .col-inner
-    {
+
+    .prime-icon-section .icon-box-single .col-inner {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .offers-slider .slick-slide img
-    {
+
+    .offers-slider .slick-slide img {
         height: 35vw;
     }
-    .offers-valid-date
-    {
+
+    .offers-valid-date {
         font-size: 14px;
     }
-    .slick-slide .offers-content h5::before
-    {
+
+    .slick-slide .offers-content h5::before {
         width: 50px;
     }
-    .offers-slider
-    {
+
+    .offers-slider {
         padding-bottom: 60px;
     }
-    .two-col-row .gallary-item a img
-    {
+
+    .two-col-row .gallary-item a img {
         height: 40vw;
+    }
+
+    .download-app-section .image-col img {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+
+    .download-app-section .download-app-content {
+        text-align: center;
+    }
+
+    .download-app-section .download-app-content {
+        margin-bottom: 20px;
+    }
+    .custom-dropdown .dropdown-menu .dropdown-item
+    {
+        font-size: 16px;
+        margin-bottom: 12px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .custom-dropdown .dropdown-menu, .custom-dropdown .dropdown-toggle
+    {
+        min-width: 200px;
+    }
+    .testimonial-listing-wrapper .testimonial-content-col
+    {
+        padding-left: 40px;
+    }
+    .testimonial-listing .testimonial-company-title
+    {
+        margin-bottom: 15px;
+    }
+    .testimonial-single
+    {
+        padding-bottom: 30px;
+        margin-bottom: 30px;
     }
 }
 
@@ -4574,15 +4674,34 @@
     .step-title-col .col-inner {
         padding-right: 0;
     }
-    .prime-icon-section .icon-box-single:nth-child(2)
-    {
+
+    .prime-icon-section .icon-box-single:nth-child(2) {
         border-top: 5px solid #f0faf2;
     }
-    .slick-slide .offers-content
-    {
+
+    .slick-slide .offers-content {
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    .download-app-section .image-col img {
+        width: 100%;
+    }
+
+    .download-app-content a {
+        margin-bottom: 20px;
+    }
+
+    .qr-code-col {
+        margin-top: 20px;
+    }
+
+    .download-app-content img {
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+    
 }
 
 @media(max-width:480px) {
@@ -4998,32 +5117,48 @@
         top: -20px;
         left: -20px;
     }
-    .step-single:nth-child(even) .step-no
-    {
+
+    .step-single:nth-child(even) .step-no {
         right: -20px
     }
-    .prime-icon-section .icon-box-single .col-inner
-    {
-        padding:30px 20px;
+
+    .prime-icon-section .icon-box-single .col-inner {
+        padding: 30px 20px;
     }
-    .prime-icon-section .icon-wrap
-    {
+
+    .prime-icon-section .icon-wrap {
         height: 80px;
         width: 80px;
     }
-    .offers-slider .slick-slide img
-    {
+
+    .offers-slider .slick-slide img {
         height: 55vw;
     }
-    .video-gallary-row.two-col-row .lg-react-element > div
-    {
+
+    .video-gallary-row.two-col-row .lg-react-element>div {
         flex: 0 0 100%;
         max-width: 100%;
         margin-bottom: 20px;
     }
-    .two-col-row .gallary-item a img
-    {
+
+    .two-col-row .gallary-item a img {
         height: 60vw;
+    }
+    .custom-dropdown .dropdown-menu
+    {
+        padding-top: 15px;
+    }
+    .testimonial-listing-wrapper .testimonial-image-col,
+    .testimonial-listing-wrapper .testimonial-content-col
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .testimonial-listing-wrapper .testimonial-image-col
+    {
+        margin-bottom: 30px;
     }
 }
 
@@ -5110,5 +5245,10 @@
     .product-type-image {
         width: 210px;
         height: 240px;
+    }
+    .press-release-wrapper .custom-dropdown span
+    {
+        margin-right: 0;
+        margin-bottom: 5px;
     }
 }

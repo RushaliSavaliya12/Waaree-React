@@ -12,6 +12,8 @@ import WaareePrimeStepsSection from '../Components/InnerPagesSection/WaareePrime
 import WaareePrimeIconBoxSection from '../Components/InnerPagesSection/WaareePrimeIconBoxSection';
 import OffersSection from '../Components/InnerPagesSection/OffersSection';
 import VideoGallaryTwoColSection from '../Components/InnerPagesSection/VideoGallaryTwoColSection';
+import WaareePrimeHelpSection from '../Components/InnerPagesSection/WaareePrimeHelpSection';
+import WaareePrimeDownloadAppSection from '../Components/InnerPagesSection/WaareePrimeDownloadAppSection';
 
 const WaareePrime = () => {
     // Scroll magic - Inner page End
@@ -28,6 +30,8 @@ const WaareePrime = () => {
         <WaareePrimeIconBoxSection />
         <OffersSection />
         <VideoGallaryTwoColSection />
+        <WaareePrimeHelpSection />
+        <WaareePrimeDownloadAppSection />
         <Footer />
         <SocialFixedBtn />
         <ContactBtnFix />

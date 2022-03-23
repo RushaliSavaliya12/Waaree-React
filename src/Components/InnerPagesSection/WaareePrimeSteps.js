@@ -27,7 +27,7 @@ const WaareePrimeSteps = () => {
             <div className="steps-wrap">
                 {StepData.map((val) =>
 
-                    <div className="step-single" key={val.id}>
+                    <div className="step-single reveal-fade stagger-animation" key={val.id}>
                         <span className="step-no h3">{val.id}</span>
                         <div className="step-content">
 

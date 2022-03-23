@@ -37,7 +37,7 @@ const WaareePrimeIconBoxCol = () => {
 
             {IconBoxData.map((val) =>
 
-                <Col sm={6} className="icon-box-single">
+                <Col sm={6} className="icon-box-single reveal-fade stagger-animation">
                     <div className="col-inner">
                         <div className="icon-wrap">
                             <img src={val.iconSrc} />
