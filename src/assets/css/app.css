@@ -3909,6 +3909,7 @@ section.core-value-section {
   font-weight: 700;
   border: none;
   background-color: transparent;
+  color: #000;
 }
 
 .accordion>.accordion-item>.accordion-header button:hover,
@@ -4405,7 +4406,10 @@ form .submit-group::after {
   background-color: #fff;
 }
 
-.accordion-boxes-row .column-inner:hover .download-btn i {
+.accordion-boxes-row .column-inner:hover .download-btn i,
+.btn-wrap .btn-small.btn-white:hover i,
+.download a.btn:hover i
+{
   animation: downloadAnim 1.5s infinite;
 }
 
@@ -8989,4 +8993,15 @@ section.inner-banner-section + .video-section .inner-sec-round
 {
   display: none!important;
 }
+
 /* Product sub page End*/
+.blog-search input[type=search]
+{
+  border-radius: 0;
+  background-color: transparent;
+}
+.custom-dropdown-wrapper select
+{
+  background-color: transparent;
+  color: #000;
+}
