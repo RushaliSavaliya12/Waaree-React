@@ -8211,7 +8211,7 @@ section.team-review-section {
   text-align: center;
 }
 
-.prime-icon-section .icon-wrap {
+.prime-icon-section .icon-box-row .icon-wrap {
   margin-bottom: 40px;
 }
 
@@ -8223,7 +8223,7 @@ section.team-review-section {
   color: #11582c;
 }
 
-.prime-icon-section .icon-wrap {
+.prime-icon-section .icon-box-row .icon-wrap {
   height: 128px;
   margin-left: auto;
   margin-right: auto;
@@ -8370,7 +8370,7 @@ section.team-review-section {
   position: relative;
 }
 
-section.download-app-section .section-inner {
+section.prime-app-section .section-inner {
   padding-bottom: 20px;
   padding-top: 50px;
 }
@@ -8548,3 +8548,445 @@ section.download-app-section .section-inner {
 {
   align-items: center;
 }
+/* Waaree expert */
+.prime-icon-section .simple-content
+{
+  text-align: center;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.prime-icon-section .simple-content p
+{
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+.expert-app-section .image-col img
+{
+  width: auto;
+  display: block;
+  margin-left: auto;
+}
+.expert-app-section::before
+{
+  background-color: #dedfda;
+}
+.expert-app-section.section .section-title
+{
+  padding-right: 100px;
+  margin-bottom: 35px;
+}
+.expert-app-section .sub-title
+{
+  margin-bottom: 40px;
+  font-weight: 700;
+  display: block;
+}
+.skill-icon-box
+{
+  color: #fff;
+  margin-bottom: 50px;
+  transform: translate(0);
+  transition: all 500ms ease-in-out;
+}
+.skill-icon-box:hover
+{
+  transform: translateY(-20px);
+  transition: all 500ms ease-in-out;
+}
+.skill-icon-box .icon-box-top,
+.product-info-row .icon-box-single .col-inner
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.skill-icon-box .icon-box-top .icon-wrap,
+.product-info-row .icon-box-single .icon-wrap
+{
+  flex: 0 0 64px;
+  max-width: 64px;
+}
+.skill-icon-box .icon-box-top .skills-title,
+.product-info-row .icon-box-single .box-title
+{
+  flex: 0 0 calc(100% - 64px);
+  max-width: calc(100% - 64px);
+  padding-left: 26px;
+}
+.skills-title h5
+{
+  margin-bottom: 0;
+}
+.skill-icon-box .col-inner
+{
+  background-color: #0e4a25;
+  padding: 30px 30px 25px;
+  height: 100%;
+}
+.skill-icon-box .icon-box-content p
+{
+ font-size: 18px;
+  margin-bottom: 0;
+}
+.skills-icon-section .btn-wrap
+{
+  margin-top: 50px;
+}
+/* Waaree expert End*/
+/* Product sub page */
+.product-info-row .icon-box-single .col-inner
+{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom:30px;
+  margin-bottom: 30px;
+}
+.product-info-row .icon-box-single:last-child .col-inner,
+.product-info-row .icon-box-single:nth-last-child(2) .col-inner
+{
+  border-bottom: 0;
+}
+.product-info-row .icon-box-single h4
+{
+  margin-bottom: 5px;
+}
+.product-service-row.row
+{
+  padding-right:200px;
+  margin-bottom: 30px;
+}
+.product-info-row .icon-box-single span
+{
+  font-size: 18px;
+}
+section.product-info-section
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.product-info-section .section-inner
+{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+section.product-info-section .product-info-col
+{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+section.product-info-section .product-info-row
+{
+  position: relative;
+}
+section.product-info-section .product-image
+{
+  position: absolute;
+  right: 0;
+  top: -45px;
+  bottom: -45px;
+}
+section.product-info-section .product-image .col-inner
+{
+  height: 100%;
+}
+section.product-info-section .product-image img
+{
+  display: block;
+  margin-left: auto;
+}
+.product-feature-wrap .product-feature
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-feature-wrap .product-feature > div
+{
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+.feature-single .icon-wrap
+{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid #33a93d;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.feature-single
+{
+  position: relative;
+  padding-bottom: 100px;
+}
+.feature-single .icon-line
+{
+  content: '';
+  position: absolute;
+  left: 120px;
+  height: 2px;
+  width:100%;
+  background-color: #33a93d;
+  top: 60px;
+}
+.feature-single .icon-line::after
+{
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #33a93d;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+.feature-single .feature-text
+{
+  position: absolute;
+  text-align: right;
+  width: 100%;
+  padding-left: 190px;
+  padding-right: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  top: 70px;
+}
+.right-side-feature .feature-single .icon-wrap
+{
+  margin-left: auto;
+}
+.right-side-feature .feature-single .icon-line
+{
+  left: auto;
+  right: 120px;
+  bottom:60px;
+  top: auto;
+}
+.right-side-feature .feature-single .icon-line::after
+{
+  left: 0;
+  right: auto;
+}
+.right-side-feature .feature-single .feature-text
+{
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 190px;
+  top:auto;
+  bottom: 70px;
+}
+.right-side-feature .feature-single
+{
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+.right-side-feature 
+{
+  margin-top: auto;
+}
+.product-info-row .image-col
+{
+  padding-left: 0;
+}
+.custom-two-grid
+{
+  -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 60px;
+    -moz-column-gap: 60px;
+    column-gap: 60px;
+    list-style: none;
+    padding-left: 0;
+}
+.no-type-list
+{
+  counter-reset: no-list;
+  margin-bottom: 0;
+}
+.no-type-list li
+{
+  padding-left: 60px;
+  position: relative;
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.no-type-list li::before
+{
+  counter-increment: no-list;
+  content: counter(no-list);
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #11582c;
+  color: #fff;
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  font-size: 24px;
+}
+.product-info-row .content-col
+{
+  padding-right: 100px;
+}
+.product-advantage-section .section-inner
+{
+  padding-bottom: 60px;
+}
+.video-section.full-width .container
+{
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+}
+.video-section.full-width + .product-type-content-section
+{
+  border-top: 0;
+}
+.video-section.full-width .section-inner
+{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.product-type-content-row .col-inner
+{
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.product-type-content-row .product-image img
+{
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+.product-type-content-row .product-image::before
+{
+  display: none;
+}
+.product-type-content-row .product-content-wrap
+{
+  padding: 30px 30px 50px;
+}
+.product-type-content-row .product-title
+{
+  position: relative;
+  color: #11582c;
+    padding-top: 25px;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 12px;
+}
+.product-type-content-row .product-title::before
+{
+  content: '';
+    width: 50px;
+    height: 5px;
+    background-color: #ffdb27;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.product-type-content-row .product-data-list
+{
+  list-style: none;
+  margin-bottom: 40px;
+  padding-left: 0;
+}
+.product-type-content-row .product-data-list li
+{
+  display: block;
+  padding-left: 15px;
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.product-type-content-row .product-data-list li::before
+{
+  content: '-';
+  position: absolute;
+  left: 0;
+}
+.btn-small
+{
+  font-size: 20px;
+  padding: 12px 23px;
+}
+.product-content-wrap .btn-small
+{
+  background-color: #000;
+  color: #fff;
+}
+.product-content-wrap .btn-small i
+{
+  color: #fff;
+}
+.product-content-wrap .btn-small.btn-white
+{
+  background-color: transparent;
+  border: 1px solid #f0faf2;
+  color: #000;
+}
+.product-content-wrap .btn-small.btn-white i
+{
+  color: #000;
+}
+.product-content-wrap .btn-small:first-child
+{
+  margin-right: 30px;
+}
+.product-content-wrap .btn-small i
+{
+  background-color: transparent;
+  color: #fff;
+  height: auto;
+  width: auto;
+  font-size: 22px;
+}
+.product-content-wrap .btn-small i::before
+{
+  margin-left: 0;
+}
+.product-content-wrap .btn-small:hover
+{
+  color: #000;
+  background-color: #ffdb27;
+}
+.product-content-wrap .btn-small:hover i
+{
+  color:#000;
+}
+.form-inner-col .custom-dropdown-wrapper
+{
+  margin-bottom: 0;
+}
+.fadeIn-left .reveal-fade
+{
+  transform: translateX(-200px);
+}
+.fadeIn-right .reveal-fade
+{
+  transform: translateX(200px);
+}
+.video-section .inner-sec-round
+{
+  display: none;
+}
+section.inner-banner-section + .video-section .inner-sec-round
+{
+  display: block;
+}
+.team-review-slider .slick-dots, 
+.team-review-slider .slick-arrow
+{
+  display: none!important;
+}
+/* Product sub page End*/

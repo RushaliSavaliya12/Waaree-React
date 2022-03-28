@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import SectionTitle from '../HomepageSection/SectionInnerComponent/SectionTitle';
+import { Outlet, Link } from "react-router-dom";
 
 
 const AboutJoinTeamSection = (props) => {
@@ -15,7 +16,7 @@ const AboutJoinTeamSection = (props) => {
                                 <p>{props.joinTeamContent}</p>
                             </div>
                             <div className="btn-wrap reveal-fade">
-                                <a href={props.joinBtnLink} className="btn btn-primary" target="_blank">{props.BgbtnText}<i className="fas fa-chevron-right"></i></a>
+                                <Link to={props.joinBtnLink} className="btn btn-primary">{props.BgbtnText}<i className="fas fa-chevron-right"></i></Link>
                             </div>
                         </div>
                     </div>

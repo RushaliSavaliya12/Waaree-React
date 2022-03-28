@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
+import { Outlet, Link } from "react-router-dom";
 
 const ArchievementGrid = (props) => {
   return(
@@ -14,7 +15,7 @@ const ArchievementGrid = (props) => {
             <div className="content-text">
               <p>{props.achievementText}</p>
               <div className="read-more-link">
-                <a href={props.achievementButton} className="read-more">Read More<i className="fa fa-chevron-right"></i></a>
+                <Link to={props.achievementButton} className="read-more">Read More<i className="fa fa-chevron-right"></i></Link>
               </div>
             </div>
           </div>

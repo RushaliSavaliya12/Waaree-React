@@ -1,12 +1,13 @@
 import React from 'react';
 import {Container, Col, Row} from 'react-bootstrap';
 import VideoPlayer from '../HomepageSection/SectionInnerComponent/VideoPlayer';
+import RoundSvgSectionTop from './RoundSvgSectionTop';
 
 
 const VideoFullWidthSection = (props) => {
     return (
         <>
-            <section className="section video-section">
+            <section className={`section video-section ${props.fullWidth}`}>
                 <div className="section-inner">
                     <Container>
                         <div className="section-wrap">
@@ -16,6 +17,7 @@ const VideoFullWidthSection = (props) => {
                         </div>
                     </Container>
                 </div>
+                <RoundSvgSectionTop />
             </section>
         </>
     )

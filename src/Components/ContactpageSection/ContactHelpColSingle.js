@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Outlet, Link } from "react-router-dom";
 
 const ContactHelpSection = () => {
 
@@ -15,7 +16,7 @@ const ContactHelpSection = () => {
             id:"2",
             helpSecBgSrc:"assets/images/franchiees-image.jpg",
             helpSecTitle:"Franchisee",
-            helpSecLink:"https://www.waaree.com/enquiry",
+            helpSecLink:"/enquiry",
             helpSecBtnText:"Franchise Enquiry",
         },
         {
@@ -35,7 +36,7 @@ const ContactHelpSection = () => {
                 <div className="col-inner">
                     <h3 className="reveal-fade">{val.helpSecTitle}</h3>
                     <div className="btn-wrap reveal-fade">
-                        <a href={val.helpSecLink} className="btn btn-primary" target="_blank">{val.helpSecBtnText}<i className="fas fa-chevron-right"></i></a>
+                        <Link to={val.helpSecLink} className="btn btn-primary">{val.helpSecBtnText}<i className="fas fa-chevron-right"></i></Link>
                     </div>
                 </div>
         </Col>

@@ -11,7 +11,7 @@ import ServiceGreenBoxSection from '../Components/InnerPagesSection/ServiceGreen
 import ServicesGridSection from '../Components/InnerPagesSection/ServicesGridSection';
 import WaareePrimeSection from '../Components/InnerPagesSection/WaareePrimeSection';
 import AboutJoinTeamSection from '../Components/AboutpageSection/AboutJoinTeamSection';
-
+import ServicesSingleCol from '../Components/InnerPagesSection/ServicesSingleCol';
 
 const Services = () => {
     // Scroll magic - Inner page End
@@ -24,10 +24,10 @@ const Services = () => {
         <main className="no-fullpage">
         <InnerBannerSection bgSrc="assets/images/investor-bg.jpg" pageTitle="Services" bannerText="Waaree Energies Solar EPC solutions will provide a good return on investment by utilizing idle ground space or Land. Waaree provides customized EPC solution as per your need and energy consumption."/>
         <ServiceGreenBoxSection />
-        <ServicesGridSection />
+        <ServicesGridSection gridType={<ServicesSingleCol />}/>
         <WaareePrimeSection />
         <AboutJoinTeamSection titleTheme="light-title" joinTeamBgSrc="assets/images/waaree-expert-bg.jpg" joinTeamTitle="Join the Fastest Growing solar Industry" joinTeamContent="Opportunities that shine like sCun! Join and Grow your income by
-utilizing your skills to spread solar to the remotest corners." joinBtnLink="#" BgbtnText="Waaree Expert" />
+utilizing your skills to spread solar to the remotest corners." joinBtnLink="/waaree-expert" BgbtnText="Waaree Expert" />
         <Footer />
         <SocialFixedBtn />
         <ContactBtnFix />

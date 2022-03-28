@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 import SocialMediaIcon from '../SocialMediaIcon';
+import { Outlet, Link } from "react-router-dom";
 
 const BlogSingle = () => {
 
@@ -8,7 +9,7 @@ const BlogSingle = () => {
         {
             id: 1,
             blogImageSrc: "assets/images/franchiees-image.jpg",
-            blogLink: "#",
+            blogLink: "/blog-detail",
             blogTitleText: "Solar Water Heater: The Complete Guide",
             blogDate: "03 December 2021",
             BlogdateType: "Solar Panel",
@@ -17,7 +18,7 @@ const BlogSingle = () => {
         {
             id: 2,
             blogImageSrc: "assets/images/restaurant-case-study.jpg",
-            blogLink: "#",
+            blogLink: "/blog-detail",
             blogTitleText: "What is a Solar Biscuit (Digital Solar)?",
             blogDate: "03 December 2021",
             BlogdateType: "Solar Panel",
@@ -26,7 +27,7 @@ const BlogSingle = () => {
         {
             id: 3,
             blogImageSrc: "assets/images/franchiees-image.jpg",
-            blogLink: "#",
+            blogLink: "/blog-detail",
             blogTitleText: "Solar Water Heater: The Complete Guide",
             blogDate: "03 December 2021",
             BlogdateType: "Solar Panel",
@@ -35,7 +36,7 @@ const BlogSingle = () => {
         {
             id: 4,
             blogImageSrc: "assets/images/franchiees-image.jpg",
-            blogLink: "#",
+            blogLink: "/blog-detail",
             blogTitleText: "What is a Solar Biscuit (Digital Solar)?",
             blogDate: "24 November 2021",
             BlogdateType: "Solar Panel",
@@ -44,7 +45,7 @@ const BlogSingle = () => {
         {
             id: 5,
             blogImageSrc: "assets/images/rooftop-solar.jpg",
-            blogLink: "#",
+            blogLink: "/blog-detail",
             blogTitleText: "Solar Heated Tent for Soldiers - Features, Benefits & Applications",
             blogDate: "24 November 2021",
             BlogdateType: "Sun Power",
@@ -58,13 +59,13 @@ const BlogSingle = () => {
                 <div className="blog-single reveal-fade" key={val.id}>
                     <div class="blog-inner">
                         <div className="blog-image">
-                            <a href={val.blogLink}>
+                            <Link to={val.blogLink}>
                                 <img src={val.blogImageSrc} />
-                            </a>
+                            </Link>
                         </div>
                         <div className="blog-title-wrap">
                             <h4>
-                                <a href={val.blogLink}>{val.blogTitleText}</a>
+                                <Link to={val.blogLink}>{val.blogTitleText}</Link>
                             </h4>
                             <div className="blog-date-share-wrap">
                                 <div class="blog-date">{val.blogDate} at <span>{val.BlogdateType}</span></div>

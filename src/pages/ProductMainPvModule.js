@@ -21,7 +21,7 @@ const ProductMainPvModule = () => {
         <>
         <Header />
         <main className="no-fullpage">
-        <InnerBannerSection bgSrc="assets/images/investor-bg.jpg" pageTitle="Pv Module" bannerText="Waaree Energies Solar EPC solutions will provide a good return on investment by utilizing idle ground space or Land. Waaree provides customized EPC solution as per your need and energy consumption."/>
+        <InnerBannerSection bgSrc="assets/images/investor-bg.jpg" pageTitle="Inverter" bannerText="Waaree Energies Solar EPC solutions will provide a good return on investment by utilizing idle ground space or Land. Waaree provides customized EPC solution as per your need and energy consumption."/>
         <SimpleContentSection />
         <ProductTypeSliderSection />
         <ProductTypeContentSliderSection />

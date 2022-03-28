@@ -18,7 +18,7 @@ const CsrAwardSection = () => {
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat pharetra quam euismod porttitor. Donec congue velit eu tortor efficitur venenatis. Vivamus dictum enim metus, rhoncus accumsan metus aliquam ac.</p>
                                     </div>
                                     <div className="btn-wrap">
-                                        <ButtonDiv buttonHref="#" buttonText="Go to Awards" />
+                                        <ButtonDiv buttonHref="/awards" buttonText="Go to Awards" />
                                     </div>
                                 </div>
                             </Col>

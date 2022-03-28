@@ -23,7 +23,7 @@ const HomeAboutSection = () => {
                                                 <p>Waaree Energies Ltd. is the flagship company of Waaree Group, founded in 1989 with headquarters in Mumbai, India. It has India's largest Solar PV Module manufacturing capacity of 2 GW's at its plants in Surat and Umbergaon in Gujarat. Waaree Energies is amongst the top player in India in providing EPC services, project development, rooftop solutions, and solar water pumps and also as an Independent Power Producer. </p>
                                             </div>
                                             <div className="btn-wrap">
-                                                <ButtonDiv buttonHref="#" buttonText="Read More" />
+                                                <ButtonDiv buttonHref="/about-waaree" buttonText="Read More" />
                                             </div>
                                         </div>
                                     </div>
@@ -32,9 +32,9 @@ const HomeAboutSection = () => {
                             <Col xl={6} className="about-right-column">
                                 <div className="column-wrap about-value-box">
                                     <Row>
-                                        <AboutValueboxes col="6" valueURL="#" valueImageSrc="assets/images/vision-image.jpg" valueText="Our Vision is to provide high quality and cost effective sustainable energy solutions across all the markets, redu" valueBoxTitle="Vision" />
-                                        <AboutValueboxes col="6" valueURL="#" valueImageSrc="assets/images/mission-image.jpg" valueText="By virtue of our commitment to our stakeholders, we strive for continuous improvement in the quality of our products." valueBoxTitle="Mission" />
-                                        <AboutValueboxes col="12" extraclassName="yellow-bg" valueURL="#" valueText="The core values of our organization are those values that underlie our work & strategies we employ to fulfill our vision & mission." valueBoxTitle="Values" />
+                                        <AboutValueboxes col="6" valueURL="/about-waaree#visionMissionSec" valueImageSrc="assets/images/vision-image.jpg" valueText="Our Vision is to provide high quality and cost effective sustainable energy solutions across all the markets, redu" valueBoxTitle="Vision" />
+                                        <AboutValueboxes col="6" valueURL="/about-waaree#visionMissionSec" valueImageSrc="assets/images/mission-image.jpg" valueText="By virtue of our commitment to our stakeholders, we strive for continuous improvement in the quality of our products." valueBoxTitle="Mission" />
+                                        <AboutValueboxes col="12" extraclassName="yellow-bg" valueURL="/about-waaree#coreValueSec" valueText="The core values of our organization are those values that underlie our work & strategies we employ to fulfill our vision & mission." valueBoxTitle="Values" />
                                     </Row>
                                 </div>
                             </Col>

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import 'swiper/css';
 import './assets/css/app.css';
 import './assets/css/responsive.css';
+import { useState, useEffect } from "react";
 import Home from './pages/home';
 import About from './pages/About';
 import Investors from './pages/Investors';
@@ -31,8 +32,16 @@ import Events from './pages/Events';
 import WaareePrime from './pages/WaareePrime';
 import MediaCoverage from './pages/MediaCoverage';
 import Testimonials from './pages/Testimonials';
+import Products from './pages/Products';
+import WaareeExpert from './pages/WaareeExpert';
+import ProductSubPVModulePoly from './pages/ProductSubPVModulePoly';
+import Enquiry from './pages/Enquiry';
 
 const App = () => {
+    
+        
+
+
     return (
         <>
             <Routes>
@@ -43,7 +52,7 @@ const App = () => {
                 <Route path="manufacturing-plant" element={<ManufacturingPlant />} />
                 <Route path="awards" element={<Awards />} />
                 <Route path="services" element={<Services />} />
-                <Route path="epc-floating-solar-solution" element={<ServiceFloatingSolar />} />
+                <Route path="service-epc-floating-solar-solution" element={<ServiceFloatingSolar />} />
                 <Route path="partners" element={<Partners />} />
                 <Route path="videos" element={<Videos />} />
                 <Route path="blog" element={<Blog />} />
@@ -62,6 +71,10 @@ const App = () => {
                 <Route path="waaree-prime" element={<WaareePrime />} />
                 <Route path="media-coverage" element={<MediaCoverage />} />
                 <Route path="testimonials" element={<Testimonials />} />
+                <Route path="products" element={<Products />} />
+                <Route path="waaree-expert" element={<WaareeExpert />} />
+                <Route path="pv-module-poly" element={<ProductSubPVModulePoly />} />
+                <Route path="enquiry" element={<Enquiry />} />
             </Routes>
         </>
     );

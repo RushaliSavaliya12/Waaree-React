@@ -1,22 +1,23 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Outlet, Link } from "react-router-dom";
 
 const BlogSingle = (props) => {
   return(
     <Col xl={4} md={6} className="blog-col reveal-fade">
       <div className="col-inner">
         <div className="blog-image">
-          <a href={props.blogLink}>
+          <Link to={props.blogLink}>
             <img src={props.blogBg} alt="Blog Image" />
-          </a>
+          </Link>
         </div>
         <div className="blog-content">
           <span className="blog-date">{props.blogDate}</span>
           <div className="blog-title">
-            <a href={props.blogLink}>{props.blogTitle}</a>
+            <Link to={props.blogLink}>{props.blogTitle}</Link>
           </div>
           <div className="read-more-link">
-            <a href={props.blogLink} className="read-more">Read More<i className="fa fa-chevron-right"></i></a>
+            <Link to={props.blogLink} className="read-more">Read More<i className="fa fa-chevron-right"></i></Link>
           </div>
         </div>
       </div>

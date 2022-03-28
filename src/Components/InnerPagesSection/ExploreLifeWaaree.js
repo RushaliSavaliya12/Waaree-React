@@ -2,25 +2,26 @@ import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 import SectionTitle from '../HomepageSection/SectionInnerComponent/SectionTitle';
 import JobOpportunityRow from './JobOpportunityRow';
+import { Outlet, Link } from "react-router-dom";
 
 const ExploreLifeWaaree = () => {
 
     const ExploreLifeGridData = [
         {
             id: 1,
-            gridPageLink: "#",
+            gridPageLink: "/waaree-about",
             gridBgSrc: "assets/images/clean-box-bg.jpg",
             gridTitle: "About us",
         },
         {
             id: 2,
-            gridPageLink: "#",
+            gridPageLink: "/life-at-waaree",
             gridBgSrc: "assets/images/tumb-factory.jpg",
             gridTitle: "Life at Waaree",
         },
         {
             id: 3,
-            gridPageLink: "#",
+            gridPageLink: "/work-culture",
             gridBgSrc: "assets/images/waaree-expert-bg.jpg",
             gridTitle: "Our Culture",
         }
@@ -32,12 +33,12 @@ const ExploreLifeWaaree = () => {
                 {ExploreLifeGridData.map((val) =>
                     <div className="grid-col-single reveal-fade stagger-animation" key={val.id}>
                         <div className="col-inner">
-                            <a href={val.gridPageLink}>
+                            <Link to={val.gridPageLink}>
                                 <div className="grid-bg">
                                     <img src={val.gridBgSrc} />
                                 </div>
                                 <h4 className="grid-title">{val.gridTitle}</h4>
-                            </a>
+                            </Link>
                         </div>
                     </div >
                 )}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import SectionTitle from '../HomepageSection/SectionInnerComponent/SectionTitle';
+import { Outlet, Link } from "react-router-dom";
 
 
 const AboutAwardsSection = () => {
@@ -37,7 +38,7 @@ const AboutAwardsSection = () => {
                                         <p>Waaree has acquired honors on numerous occasions from Industry, Government and Our Overseas partners.</p>
                                     </div>
                                     <div className="btn-wrap reveal-fade">
-                                        <a href="https://www.waaree.com/awards" className="btn btn-primary" target="_blank">Read More<i className="fas fa-chevron-right"></i></a>
+                                        <Link to="/awards" className="btn btn-primary">Read More<i className="fas fa-chevron-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

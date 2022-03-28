@@ -16,7 +16,7 @@ const PrivacyPolicyPopup = () => {
                 </div>
                 <div className="col-lg-5 cookie-btn">
                     <a href="#" className="btn">Cookie Policy</a>
-                    <a href="#" className="btn btn-primary" id="cookieAcceptBtn" onClick={handleClose}>Accept & Close</a>
+                    <a className="btn btn-primary" id="cookieAcceptBtn" onClick={handleClose}>Accept & Close</a>
                 </div>
             </div>
         </div>

@@ -16,7 +16,7 @@ const HomeProductSection = () => {
                                 <ProductSlider />
                             </div>
                             <div className="view-all-btn text-center reveal-fade">
-                                <ButtonDiv buttonText="View All Products" buttonHref="#" />
+                                <ButtonDiv buttonText="View All Products" buttonHref="/products" />
                             </div>
                         </div>
                     </div>

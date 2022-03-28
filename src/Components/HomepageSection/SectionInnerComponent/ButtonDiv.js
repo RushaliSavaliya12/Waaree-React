@@ -1,9 +1,9 @@
 import React from 'react';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Outlet, Link } from "react-router-dom";
 
 const ButtonDiv = (props) =>{
     return(
-        <a href={props.buttonHref} className="btn btn-primary">{props.buttonText}<i className="fa fa-chevron-right"></i></a>
+        <Link to={props.buttonHref} className="btn btn-primary">{props.buttonText}<i className="fa fa-chevron-right"></i></Link>
     )
 }
 

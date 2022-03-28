@@ -22,10 +22,10 @@ const HomeAchievementSection = () => {
                                 <Col xl={6} className="grid-right grid-column">
                                     <div className="col-inner">
                                         <Row className="inner-row">
-                                            <ArchievementGrid archivementBg="assets/images/film-history.jpg" achievementTitle="Firm History" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="#" bgtheme="green-bg" />
-                                            <ArchievementGrid archivementBg="assets/images/leadershipl.jpg" achievementTitle="Leadership" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="#" bgtheme="pink-bg" />
-                                            <ArchievementGrid archivementBg="assets/images/awards.jpg" achievementTitle="Awards" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="#" bgtheme="pink-bg" />
-                                            <ArchievementGrid archivementBg="assets/images/CSR.jpg" achievementTitle="CSR" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="#" bgtheme="green-bg" />
+                                            <ArchievementGrid archivementBg="assets/images/film-history.jpg" achievementTitle="Firm History" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="/contact-waaree" bgtheme="green-bg" />
+                                            <ArchievementGrid archivementBg="assets/images/leadershipl.jpg" achievementTitle="Leadership" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="/about-waaree" bgtheme="pink-bg" />
+                                            <ArchievementGrid archivementBg="assets/images/awards.jpg" achievementTitle="Awards" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="/awards" bgtheme="pink-bg" />
+                                            <ArchievementGrid archivementBg="assets/images/CSR.jpg" achievementTitle="CSR" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="/csr" bgtheme="green-bg" />
                                         </Row>
                                     </div>
                                 </Col>

@@ -1,14 +1,15 @@
 import React from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
+import { Outlet, Link } from "react-router-dom";
 
 const AboutValueboxes = (props) =>{
   return (
     <Col xl={props.col} className={`value-box-col reveal-fade ${props.extraclassName}`}>
       <div className="value-col-inner">
         <div className="box-image">
-          <a href={props.valueURL}>
+          <Link to={props.valueURL}>
             <img src={props.valueImageSrc} alt="Vision Image" />
-          </a>
+          </Link>
         </div>
         <div className="box-content">
           <h4 className="box-title">{props.valueBoxTitle}</h4>
@@ -16,7 +17,7 @@ const AboutValueboxes = (props) =>{
             <p>{props.valueText}</p>
           </div>
           <div className="read-more-link">
-            <a href={props.valueURL} className="read-more">Read More<i className="fa fa-chevron-right"></i></a>
+            <Link to={props.valueURL} className="read-more">Read More<i className="fa fa-chevron-right"></i></Link>
           </div>
         </div>
       </div>

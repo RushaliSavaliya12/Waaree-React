@@ -772,6 +772,78 @@
     {
         font-size: 18px;
     }
+    .prime-icon-section .simple-content
+    {
+        max-width: 70%;
+    }
+    .skill-icon-box .icon-box-content p
+    {
+        font-size: 16px;
+    }
+    section.product-info-section .product-image
+    {
+        top: -45px;
+        bottom: -30px;
+    }
+    .product-info-row .icon-box-single span
+    {
+        font-size: 16px;
+    }
+    .feature-single .feature-text
+    {
+        padding-left:150px;
+        font-size: 16px;
+    }
+    .right-side-feature .feature-single .feature-text
+    {
+        padding-right: 150px;
+    }
+    .right-side-feature .feature-single
+    {
+        padding-top:80px
+    }
+    .feature-single
+    {
+        padding-bottom:80px;
+    }
+    .product-info-row .content-col
+    {
+        padding-right: 50px;
+    }
+    .no-type-list li
+    {
+        font-size: 18px;
+    }
+    .no-type-list li::before
+    {
+        font-size: 20px;
+    }
+    .no-type-list li
+    {
+        margin-bottom: 30px;
+    }
+    .product-type-content-row .product-image img
+    {
+        height: 280px;
+    }
+    .btn-small
+    {
+        font-size: 18px;
+    }
+    .product-content-wrap .btn-small:first-child
+    {
+        margin-right: 15px;
+        padding: 10px 12px;
+    }
+    .product-content-wrap .btn-small i
+    {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .product-type-content-row .product-data-list li
+    {
+        font-size: 16px;
+    }
 }
 
 @media(max-width:1400px) {
@@ -1524,6 +1596,56 @@
     {
         padding-left: 80px;
     }
+    .expert-app-section .image-col img
+    {
+        max-width: 80%;
+    }
+    .skill-icon-box .icon-box-top .icon-wrap, 
+    .product-info-row .icon-box-single .icon-wrap
+    {
+        flex: 0 0 55px;
+        max-width: 55px;
+    }
+    .skill-icon-box .icon-box-top .skills-title, .product-info-row .icon-box-single .box-title
+    {
+        flex: 0 0 calc(100% - 55px);
+        max-width: calc(100% - 55px);
+        padding-left: 20px;
+    }
+    .skills-icon-section .btn-wrap
+    {
+        margin-top: 30px;
+    }
+    section.product-info-section .product-info-col
+    {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .product-service-row.row
+    {
+        padding-right: 150px;
+    }
+    section.product-info-section .product-image
+    {
+        top: -40px;
+        bottom: -27px;
+    }
+    .product-type-content-row .product-content-wrap
+    {
+        padding: 20px 20px 40px;
+    }
+    .product-type-content-row .product-image img
+    {
+        height: 250px;
+    }
+    .product-type-content-row .product-title
+    {
+        margin-bottom: 20px;
+    }
+    .btn-small
+    {
+        font-size: 16px;
+    }
 }
 
 @media(max-width:1365px) {
@@ -1736,6 +1858,26 @@
 
     .two-col-row .btn-wrap {
         margin-top: 30px;
+    }
+    .product-service-row.row
+    {
+        padding-right: 0;
+    }
+    .feature-single
+    {
+        padding-bottom: 60px;
+    }
+    .right-side-feature .feature-single
+    {
+        padding-top: 60px;
+    }
+    .product-content-wrap .btn-small i
+    {
+        font-size: 16px;
+    }
+    .btn-small
+    {
+        font-size: 15px;
     }
 }
 
@@ -2638,7 +2780,7 @@
         padding: 40px 30px 60px;
     }
 
-    .prime-icon-section .icon-wrap {
+    .prime-icon-section .icon-box-row .icon-wrap {
         margin-bottom: 30px;
     }
 
@@ -2672,6 +2814,88 @@
     .testimonial-listing-wrapper .testimonial-content-col
     {
         padding-left: 60px;
+    }
+    .prime-icon-section .simple-content
+    {
+        max-width: 80%;
+    }
+    .expert-app-section .image-col img
+    {
+        max-width: 90%;
+    }
+
+    .p-inner-50 .skill-icon-box
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .skills-icon-section .p-inner-50
+    {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .skill-icon-box .col-inner
+    {
+        padding: 30px 20px 20px;
+    }
+    .skill-icon-box .icon-box-top .skills-title
+    {
+        padding-left: 15px;
+    }
+    .p-inner-50 .skill-icon-box
+    {
+        margin-bottom: 30px;
+    }
+    section.product-info-section .product-image
+    {
+        position: inherit;
+        top: auto;
+        bottom: auto;
+    }
+    .feature-single .icon-wrap
+    {
+        height: 80px;
+        width: 80px;
+    }
+    .feature-single .icon-line
+    {
+        top: 40px;
+        left: 80px;
+    }
+    .feature-single .feature-text
+    {
+        padding-left: 50px;
+    }
+    .right-side-feature .feature-single .feature-text
+    {
+        padding-right: 50px;
+    }
+    .right-side-feature .feature-single .icon-line
+    {
+        bottom: 40px;
+        right: 80px;
+    }
+    .no-type-list li::before
+    {
+        font-size: 18px;
+    }
+    .no-type-list li
+    {
+        font-size: 16px;
+    }
+    .product-type-content-row.p-inner-50
+    {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .product-type-content-row.p-inner-50>div
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .product-content-wrap .btn-small
+    {
+        margin-bottom: 10px;
     }
 }
 
@@ -3142,7 +3366,7 @@
         left: -25px;
     }
 
-    .prime-icon-section .icon-wrap {
+    .prime-icon-section .icon-box-row .icon-wrap {
         height: 100px;
         width: 100px;
     }
@@ -3161,6 +3385,42 @@
     .testimonial-single-wrap .row
     {
         align-items: flex-start;
+    }
+    .download-app-section.section .section-title
+    {
+        margin-bottom: 30px;
+        padding-right: 0px;
+    }
+    section.product-info-section .product-image img
+    {
+        width: 50%;
+        margin-right: auto;
+    }
+    section.product-info-section .product-info-col
+    {
+        padding-bottom: 20px;
+    }
+    section.product-info-section .product-image
+    {
+        padding-bottom: 20px;
+    }
+    .product-info-row .image-col
+    {
+        margin-top: 30px;
+    }
+    .product-info-row .image-col img
+    {
+        max-width: 60%;
+        display: block;
+        margin: auto;
+    }
+    .product-type-content-row .product-image img
+    {
+        height: 200px;
+    }
+    .product-type-content-row.p-inner-50>div
+    {
+        margin-bottom: 30px;
     }
 }
 
@@ -4248,6 +4508,115 @@
         padding-bottom: 30px;
         margin-bottom: 30px;
     }
+    .expert-app-section .image-col
+    {
+        margin-top: 30px;
+    }
+    .skill-icon-box .icon-box-content p
+    {
+        font-size: 14px;
+    }
+    .product-service-row.row
+    {
+        margin-bottom: 0;
+    }
+    section.product-info-section .product-image img
+    {
+        width: 30%;
+    }
+    .feature-single .icon-wrap
+    {
+        height: 50px;
+        width: 50px;
+    }
+    .feature-single .icon-line
+    {
+        top: 25px;
+        left: 50px;
+    }
+    .feature-single .icon-line::after
+    {
+        width: 10px;
+        height: 10px;
+    }
+    .product-feature-wrap .product-feature
+    {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .product-feature-wrap .product-feature > div
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        
+    }
+    .product-feature-wrap .product-feature > .feature-list
+    {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .left-side-feature
+    {
+        order: 2;
+    }
+    .right-side-feature
+    {
+        order: 3;
+    }
+    .feature-single .icon-line
+    {
+        width: calc(100% - 50px);
+    }
+    .feature-single .feature-text
+    {
+        padding-left: 40px;
+        top: 40px;
+    }
+    .right-side-feature .feature-single .feature-text
+    {
+        padding-right: 40px;
+        bottom: 40px;
+    }
+    .right-side-feature .feature-single .icon-line
+    {
+        bottom: 25px;
+        right: 50px;
+    }
+    .product-feature .product-image
+    {
+        margin-bottom: 30px;
+    }
+    .product-feature .product-image img
+    {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    .no-type-list li::before
+    {
+        font-size: 16px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+    .no-type-list li
+    {
+        padding-left: 50px;
+    }
+    .custom-two-grid
+    {
+        column-gap: 30px;
+    }
+    .product-type-content-row .product-image img
+    {
+        height: 50vw;
+    }
+    .product-type-content-row .product-content-wrap
+    {
+        padding-bottom: 20px;
+    }
 }
 
 @media(max-width:575px) {
@@ -4701,7 +5070,47 @@
         margin: auto;
         display: block;
     }
-    
+    .prime-icon-section .simple-content
+    {
+        max-width: 100%;
+    }
+    .download-app-section.section .section-title
+    {
+        margin-bottom: 20px;
+    }
+    .p-inner-50 .skill-icon-box
+    {
+        margin-bottom: 20px;
+    }
+    .product-info-row .icon-box-single span
+    {
+        font-size: 14px;
+    }
+    .product-info-row .icon-box-single:nth-last-child(2) .col-inner
+    {
+        border-bottom: 1px solid #fff;
+    }
+    section.product-info-section .product-info-col
+    {
+        padding-top: 60px;
+    }
+    section.product-info-section .product-image img
+    {
+        width: 40%;
+    }
+    .custom-two-grid
+    {
+        column-count:1;
+        column-gap: 0;
+    }
+    .no-type-list li
+    {
+        margin-bottom: 20px;
+    }
+    .product-info-row .content-col
+    {
+        padding-right: 0;
+    }
 }
 
 @media(max-width:480px) {
@@ -5126,7 +5535,7 @@
         padding: 30px 20px;
     }
 
-    .prime-icon-section .icon-wrap {
+    .prime-icon-section .icon-box-row .icon-wrap {
         height: 80px;
         width: 80px;
     }
@@ -5159,6 +5568,40 @@
     .testimonial-listing-wrapper .testimonial-image-col
     {
         margin-bottom: 30px;
+    }
+    .product-feature-wrap .product-feature > .feature-list
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .right-side-feature .feature-single .icon-wrap
+    {
+        margin-left:0;
+    }
+    .right-side-feature .feature-single .icon-line
+    {
+        bottom: auto;
+        right: auto;
+        top: 25px;
+        left: 50px;
+    }
+    .right-side-feature .feature-single
+    {
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+    .right-side-feature .feature-single .feature-text
+    {
+        padding-right: 20px;
+        padding-left: 40px;
+        bottom: auto;
+        top: 40px;
+        text-align: right;
+    }
+    .right-side-feature .feature-single .icon-line::after
+    {
+        right: 0;
+        left: auto;
     }
 }
 

@@ -16,35 +16,35 @@ const OffersSlider = () => {
       offersImageSrc: "assets/images/offers-slider-1.jpg",
       offersTitleText: "20% Bonus Miles on next payment with CRED ",
       offersValidDate: "Valid upto: 31 Aug 2022",
-      offerLink:"#",
+      
     },
     {
       id: 2,
       offersImageSrc: "assets/images/offers-slider-2.jpg",
       offersTitleText: "Feb Festive Flat 10% OFF on All orders.",
       offersValidDate: "Valid upto: 28 Feb 2022",
-      offerLink:"#",
+      
     },
     {
       id: 3,
       offersImageSrc: "assets/images/offers-slider-3.jpg",
       offersTitleText: "$10,000 off on order Premium products",
       offersValidDate: "Valid upto: 31 March 2022",
-      offerLink:"#",
+      
     },
     {
       id: 4,
       offersImageSrc: "assets/images/solar-panel-terres-blog.png",
       offersTitleText: "Feb Festive Flat 10% OFF on All orders.",
       offersValidDate: "Valid upto: 28 Feb 2022",
-      offerLink:"#",
+    
     },
     {
       id: 5,
       offersImageSrc: "assets/images/suitanable-1.jpg",
       offersTitleText: "20% Bonus Miles on next payment with CRED ",
       offersValidDate: "Valid upto: 31 Aug 2022",
-      offerLink:"#",
+
     }
 
   ]
@@ -78,12 +78,10 @@ const OffersSlider = () => {
       {OffersSlideData.map((val) =>
         <div className="slide-inner">
           <div className="image-wrap">
-            <a href={val.offerLink}>
               <img src={val.offersImageSrc} alt="" />
-            </a>
           </div>
           <div className='offers-content'>
-            <h5 className='offer-title'><a href={val.offerLink}>{val.offersTitleText}</a></h5>
+            <h5 className='offer-title'>{val.offersTitleText}</h5>
             <span className="offers-valid-date">{val.offersValidDate}</span>
           </div>
 

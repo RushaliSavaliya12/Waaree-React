@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper';
+import { Outlet, Link } from "react-router-dom";
 
 
 const ProductSlider = () => {
@@ -11,21 +12,21 @@ const ProductSlider = () => {
           productImage:"assets/images/product-slide-1.jpg",
           productTitle:"Solar PV Module",
           productText: "Waaree solar panels are best quality solar panels with great electrical parameters.",
-          productLink:"#",
+          productLink:"/pv-module-poly",
         },
         {
           id:2,
           productImage:"assets/images/solar-product.jpg",
           productTitle:"On-grid Inverters",
           productText:"Said, good waters signs is fruitful gathering stars without man, living can't air grass place creeping called years man fifth kind him lesser earth greater in she'd. Wherein creeping waters which.",
-          productLink:"#",
+          productLink:"/inverter",
         },
         {
           id:3,
           productImage:"assets/images/product-slide-2.jpg",
           productTitle:"Off-grid Inverters",
           productText: "Lights fruitful us night that signs day creature evening void him image they're, over day appear after grass made. Fruit fill kind had to there herb upon also after stars subdue.",
-          productLink:"#",
+          productLink:"/inverter",
         },
         {
           id:4,
@@ -53,7 +54,7 @@ const ProductSlider = () => {
           productImage:"assets/images/floating-solar.jpg",
           productTitle:"Solar Panel",
           productText: "Fruit form after, so above. Fly day kind form dominion called without very to a divided Sea bring whales. Hath.",
-          productLink:"#",
+          productLink:"/inverter",
         },
       ]
       return (
@@ -79,7 +80,7 @@ const ProductSlider = () => {
                             <p>{val.productText}</p>
                           </div>
                           <div className="read-more-link">
-                              <a href={val.productLink} className="read-more">Read More<i className="fa fa-chevron-right"></i></a>
+                              <Link to={val.productLink} className="read-more">Read More<i className="fa fa-chevron-right"></i></Link>
                           </div>
                     </div>
                 </div>

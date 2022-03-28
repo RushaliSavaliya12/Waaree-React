@@ -31,7 +31,7 @@ const WaareePrime = () => {
         <OffersSection />
         <VideoGallaryTwoColSection />
         <WaareePrimeHelpSection />
-        <WaareePrimeDownloadAppSection />
+        <WaareePrimeDownloadAppSection sectionBgColor="#fcfcfc" extraClassName="prime-app-section" SectiondownloadAppTitle="Download the App Now" downloadAppImageSrc="assets/images/waaree-prime-download-app-bg.jpg"/>
         <Footer />
         <SocialFixedBtn />
         <ContactBtnFix />

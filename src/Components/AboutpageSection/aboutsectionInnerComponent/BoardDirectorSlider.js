@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import Slider from 'react-slick';
+import { Outlet, Link } from "react-router-dom";
 
 
 const BoardDirectorSlider = () => {
@@ -10,49 +11,49 @@ const BoardDirectorSlider = () => {
       boardDirectorImage: "assets/images/hitesh-chimanlal.jpg",
       boardDirectorTitle: "Hitesh Chimanlal Doshi",
       boardDirectorPosition: "Chairman & Managing Director",
-      boardDirectorLink: "https://www.waaree.com/board-directors",
+      boardDirectorLink: "/team-detail",
     },
     {
       id: 2,
       boardDirectorImage: "assets/images/hitesh-mehta.jpg",
       boardDirectorTitle: "Hitesh Pranjivan Mehta",
       boardDirectorPosition: "Whole-time Director & CFO",
-      boardDirectorLink: "https://www.waaree.com/board-directors",
+      boardDirectorLink: "/team-detail",
     },
     {
       id: 3,
       boardDirectorImage: "assets/images/richa-goyal.jpg",
       boardDirectorTitle: "Richa Manoj Goyal",
       boardDirectorPosition: "Independent Director",
-      boardDirectorLink: "https://www.waaree.com/board-directors",
+      boardDirectorLink: "/team-detail",
     },
     {
       id: 4,
       boardDirectorImage: "assets/images/Jayesh-D-shah.jpg",
       boardDirectorTitle: "JAYESH DHIRAJLAL SHAH",
       boardDirectorPosition: "Independent Director",
-      boardDirectorLink: "https://www.waaree.com/board-directors",
+      boardDirectorLink: "/team-detail",
     },
     {
       id: 5,
       boardDirectorImage: "assets/images/R-M-Mall.jpg",
       boardDirectorTitle: "Rajendar Mohan Malla",
       boardDirectorPosition: "Independent Director",
-      boardDirectorLink: "https://www.waaree.com/board-directors",
+      boardDirectorLink: "/team-detail",
     },
     {
       id: 6,
       boardDirectorImage: "assets/images/Waaree-Viren-Doshi.jpg",
       boardDirectorTitle: "Virenkumar Chimanlal Doshi",
       boardDirectorPosition: "Whole-time Director",
-      boardDirectorLink: "https://www.waaree.com/board-directors",
+      boardDirectorLink: "/team-detail",
     },
     {
       id: 7,
       boardDirectorImage: "assets/images/sujit_kumar_varma.jpg",
       boardDirectorTitle: "Sujit Kumar Varma",
       boardDirectorPosition: "Independent Director",
-      boardDirectorLink: "https://www.waaree.com/board-directors",
+      boardDirectorLink: "/team-detail",
     },
   ]
 
@@ -87,15 +88,15 @@ const BoardDirectorSlider = () => {
         <div className="slide-single reveal-fade" key={val.id}>
           <div className="slide-inner">
             <div className="board-member-image">
-              <a href={val.boardDirectorLink}>
+              <Link to={val.boardDirectorLink}>
                 <img src={val.boardDirectorImage} alt="" />
-              </a>
+              </Link>
             </div>
             <div className="board-member-detail">
               <h5 className="member-title">{val.boardDirectorTitle}</h5>
               <span className="member-position">{val.boardDirectorPosition}</span>
               <div className="read-more-link">
-                <a href={val.boardDirectorLink} className="read-more">View More<i className="fas fa-chevron-right"></i></a>
+                <Link to={val.boardDirectorLink} className="read-more">View More<i className="fas fa-chevron-right"></i></Link>
               </div>
             </div>
           </div>

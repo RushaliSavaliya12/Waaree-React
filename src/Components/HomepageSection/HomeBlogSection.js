@@ -13,12 +13,12 @@ const HomeBlogSection = () => {
                         <div className="blog-inner">
                             <SectionTitle sectionTitle="Blogs" titleTheme="dark-title" />
                             <Row className="blog-row">
-                                <BlogSingle blogBg="assets/images/solar-panel-blog.png" blogDate="16 September 2021" blogTitle="Types of solar panels find the Right Solar Panel That Fits yor Home" blogLink="#" />
-                                <BlogSingle blogBg="assets/images/solar-panel-house-blog.png" blogDate="14 September 2021" blogTitle="Awesome Facts about Solar Energy You Can’t Miss" blogLink="#" />
-                                <BlogSingle blogBg="assets/images/solar-panel-terres-blog.png" blogDate="16 September 2021" blogTitle="Best Solar System for Home" blogLink="#" />
+                                <BlogSingle blogBg="assets/images/solar-panel-blog.png" blogDate="16 September 2021" blogTitle="Types of solar panels find the Right Solar Panel That Fits yor Home" blogLink="/blog-detail" />
+                                <BlogSingle blogBg="assets/images/solar-panel-house-blog.png" blogDate="14 September 2021" blogTitle="Awesome Facts about Solar Energy You Can’t Miss" blogLink="/blog-detail" />
+                                <BlogSingle blogBg="assets/images/solar-panel-terres-blog.png" blogDate="16 September 2021" blogTitle="Best Solar System for Home" blogLink="/blog-detail" />
                             </Row>
                             <div className="view-all-btn text-center reveal-fade">
-                                <ButtonDiv buttonText="View All Blogs" buttonHref="#" />
+                                <ButtonDiv buttonText="View All Blogs" buttonHref="/blog" />
                             </div>
                         </div>
                     </div>

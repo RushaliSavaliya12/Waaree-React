@@ -11,7 +11,7 @@ const BannerSlider = () => {
               bgSrc:"assets/images/banner-image.jpg",
               slideTitle:"#1",
               slideMainTitle: "Indian Solar Panel Manufacturer",
-              buttonLink:"#",
+              buttonLink:"/about-waaree",
               titleBtnAnimation:"fadeInDown",
             },
             {
@@ -19,7 +19,7 @@ const BannerSlider = () => {
               bgSrc:"assets/images/banner-image-2.jpg",
               slideTitle:"#2GW",
               slideMainTitle:"India's Largest Solar Panel Manufacturer",
-              buttonLink:"#",
+              buttonLink:"/manufacturing-plant",
               titleBtnAnimation:"fadeInLeft",
             },
             {
@@ -35,7 +35,7 @@ const BannerSlider = () => {
               bgSrc:"assets/images/banner-image-2.jpg",
               slideTitle:"10000+",
               slideMainTitle:"Projects Commissioned",
-              buttonLink:"#",
+              buttonLink:"/services",
               titleBtnAnimation:"fadeInUp",
             }
         ]

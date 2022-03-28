@@ -1,18 +1,16 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import RoundSvgSectionTop from './RoundSvgSectionTop';
 import ServicesSingleCol from './ServicesSingleCol';
 
 
-
-const ServicesGridSection = () => {
+const ServicesGridSection = (props) => {
     return (
         <section className="section service-grid-section">
             <div className="section-inner">
                 <Container>
                     <div className="section-wrap">
                         <Row className="service-grid-row">
-                            <ServicesSingleCol />
+                           {props.gridType}
                         </Row>
                     </div>
                 </Container>

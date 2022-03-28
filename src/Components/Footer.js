@@ -3,6 +3,7 @@ import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
 import { Navbar, Nav, NavDropdown, Container, row, Col, Row, Modal} from 'react-bootstrap';
 import SocialMediaIcon from './SocialMediaIcon';
 import { useState } from 'react';
+import { Outlet, Link } from "react-router-dom";
 
 const NewsLetter = () =>{
     return(
@@ -48,49 +49,49 @@ const FooterMainCol = (props) =>{
     const footerCol = {
         'Company' : {
             
-                'about-us':'About Us',
-                'board-of-directors':'Board of Directors',
-                'manufacturing-plant':'Manufacturing Plant',
-                'why-solar':'Why Solar',
-                'clientele':'Clientele',
-                'awards':'Awards',
-                'sustainable-living-csr':'Sustainable Living (CSR)'
+                '/about-waaree':'About Us',
+                '#':'Board of Directors',
+                '/manufacturing-plant':'Manufacturing Plant',
+                '/why-solar':'Why Solar',
+                '/clientele':'Clientele',
+                '/awards':'Awards',
+                '/csr':'Sustainable Living (CSR)'
             
         },
         'Product' : {
             
-                'pv-modules':'PV Modules',
-                'on-grid-investers':'On-grid Inverters',
-                'off-grid-investers':'Off-grid Inverters',
+                '/pv-module-poly':'PV Modules',
+                '/inverter':'On-grid Inverters',
+                '/inverter':'Off-grid Inverters',
                 'batteries':'Batteries',
                 'water-pumps-solar-products':'Water Pumps Solar Products',
             
         },
         'Services' : {
             
-            'epc-ground-mount':'EPC Ground Mount',
-            'epc-floating-solar':'EPC Floating Solar',
+            '/':'EPC Ground Mount',
+            '/service-epc-floating-solar-solution':'EPC Floating Solar',
             'epc-Rooftop-solar':'EPC Rooftop',
             'solar-finance':'Solar Finance',
         },
         'Insights' : {
             
-            'company':'Company',
-            'blog':'Blog',
-            'investors':'Investors',
-            'why-solar':'Why Solar',
-            'people-careers':'People Careers',
+            '/about-waaree':'Company',
+            '/blog':'Blog',
+            '/ipo':'Investors',
+            '/why-solar':'Why Solar',
+            '/careers':'People Careers',
             'fAQs':'FAQs',
-            'press-release':'Press Release',
+            '/all-news':'Press Release',
         
         },
         'Others' : {
             
-            'events':'Events',
-            'media-coverage':'Media Coverage',
-            'videos':'Videos',
+            '/events':'Events',
+            '/media-coverage':'Media Coverage',
+            '/videos':'Videos',
             'support':'Support',
-            'enquiry-form':'Enquiry Form',
+            '/enquiry':'Enquiry Form',
         
         },
 
@@ -108,7 +109,7 @@ const FooterMainCol = (props) =>{
                         {/* {console.log(footerCol[key])} */}
                         {Object.keys(footerCol[key]).map((footerlinkKey) => (
                                 <li key={footerlinkKey}>
-                                    <a href={footerlinkKey}>{footerCol[key][footerlinkKey]}</a>
+                                    <Link to={footerlinkKey}>{footerCol[key][footerlinkKey]}</Link>
                                 </li>
                            
                         ))}
@@ -165,8 +166,8 @@ const Footer = () => {
                             <Row className="reveal-fade">
                                 <Col lg={5} className="footer-col">
                                     <ul>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><Link to="#">Privacy Policy</Link></li>
+                                        <li><Link to="#">Terms & Conditions</Link></li>
                                     </ul>
                                 </Col>
                                 <Col lg={7} className="footer-col">

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import SectionTitle from '../HomepageSection/SectionInnerComponent/SectionTitle';
-import CaseStudySingle from './aboutsectionInnerComponent/CaseStudySingle';
+import { Outlet, Link } from "react-router-dom";
 
 
 const AboutCsrSection = () => {
@@ -37,7 +36,7 @@ const AboutCsrSection = () => {
                                 </div>
                             </div>
                             <div className="col-12 btn-wrap text-center reveal-fade">
-                                <a href="https://www.waaree.com/csr" className="btn btn-primary" target="_blank">Read More<i className="fas fa-chevron-right"></i></a>
+                                <Link to="/csr" className="btn btn-primary">Read More<i className="fas fa-chevron-right"></i></Link>
                             </div>
                         </Row>
                     </div>

@@ -19,7 +19,7 @@ const HomeServiceSection = () => {
                                       <SectionTitle sectionTitle="Services" titleTheme="light-title" />
                                       <ServiceSlider />
                                       <div className="view-all-btn text-center reveal-fade">
-                                            <ButtonDiv buttonText="View All Service" buttonHref="#"/>
+                                            <ButtonDiv buttonText="View All Service" buttonHref="/services"/>
                                       </div>
                                   </div>
                                 </div>

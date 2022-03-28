@@ -27,6 +27,9 @@ const InnerPageGsapAnimation = () =>{
                 var staggerElement = item.querySelectorAll('.radial-chart-wrapper>div, .team-thought-slider .slick-slide,.video-gallary-slider .slick-slide, .stagger-animation, .slick-arrow, .slick-dots, .csr-award-row > div, .team-slider-main .row > div, .news-single, .blog-right-col, .blog-wrap > div,.blog-row .reveal-fade, .video-gallary-row .reveal-fade, .custom-dropdown-wrapper, .location-info-wrapper, .service-list-row > div, .service-col-single, .green-box-row .service-green-col, .award-grid-single, .accordion > .accordion-item, .image-gallary-row .reveal-fade, .two-col-section .reveal-fade, .form-inner-row > div, .textarea-col .form-col, .form-inner .recaptcha-col, .location-sec-row .location-col-single ,.case-study-single,.core-value-row .core-value-single, .value-boxes-row .boxes-single, .board-director-slider .slide-single, .image-column-wrap .image-wrap, .company-logo-slider .slick-slide');
                 var buttonLink = item.querySelectorAll('.view-all-btn, .btn-wrap');
                 var greenRound = item.querySelectorAll('.big-round-shape, .big-round-shape .inner-round-shape');
+                var fadeInLeft = item.querySelectorAll('.fadeIn-left .reveal-fade');
+                var fadeInRight = item.querySelectorAll('.fadeIn-right .reveal-fade');
+
 
                 timeline
 
@@ -47,6 +50,8 @@ const InnerPageGsapAnimation = () =>{
                         .staggerTo(staggerElement, 0.5, { opacity: 1 }, 0.3, "-=1.5")
                         .staggerTo(readMoreLink, 1, { opacity: 1 }, 0.2, "-=0.5")
                         .staggerTo(buttonLink, 1, { opacity: 1 }, 0.2, "-=1")
+                        .staggerTo(fadeInLeft, 1, { x: "0", opacity: 1 }, 0.5, "-=1")
+                        .staggerTo(fadeInRight, 1, { x: "0", opacity: 1 }, 0.5, "-=1")
 
                 ScrollTrigger.create({
                     trigger: item,
