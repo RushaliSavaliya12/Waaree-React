@@ -21,7 +21,7 @@ import BlogDetail from './pages/BlogDetail';
 import PressRelease from './pages/PressRelease';
 import Csr from './pages/CSR';
 import WhySolar from './pages/WhySolar';
-import ProductMainPvModule from './pages/ProductMainPvModule';
+import ProductMainInverter from './pages/ProductMainInverter';
 import Careers from './pages/Careers';
 import TeamDetail from './pages/TeamDetail';
 import Clientele from './pages/Clientele';
@@ -36,12 +36,18 @@ import Products from './pages/Products';
 import WaareeExpert from './pages/WaareeExpert';
 import ProductSubPVModulePoly from './pages/ProductSubPVModulePoly';
 import Enquiry from './pages/Enquiry';
+import ProductMainPvModule from './pages/ProductMainPvModule';
+import ProductMainSolarProducts from './pages/ProductMainSolarProducts';
+import ProductSubPVModuleSmallModule from './pages/ProductSubPVModuleSmallModule';
+import ProductSubPVModuleMonoPerc from './pages/ProductSubPVModuleMonoPerc';
+import ProductSubPVModuleBifacial from './pages/ProductSubPVModuleBifacial';
+import ProductSubPVModuleFlexible from './pages/ProductSubPVModuleFlexible';
+import ProductSubPVModuleBIPVModule from './pages/ProductSubPVModuleBIPVModule';
+import ProductSubInverterOnGrid from './pages/ProductSubInverterOnGrid';
 
 const App = () => {
     
         
-
-
     return (
         <>
             <Routes>
@@ -60,7 +66,7 @@ const App = () => {
                 <Route path="all-news" element={<PressRelease />} />
                 <Route path="csr" element={<Csr />} />
                 <Route path="why-solar" element={<WhySolar />} />
-                <Route path="inverter" element={<ProductMainPvModule />} />
+                <Route path="inverter" element={<ProductMainInverter />} />
                 <Route path="careers" element={<Careers />} />
                 <Route path="team-detail" element={<TeamDetail />} />
                 <Route path="clientele" element={<Clientele />} />
@@ -75,6 +81,14 @@ const App = () => {
                 <Route path="waaree-expert" element={<WaareeExpert />} />
                 <Route path="pv-module-poly" element={<ProductSubPVModulePoly />} />
                 <Route path="enquiry" element={<Enquiry />} />
+                <Route path="pv-module" element={<ProductMainPvModule />} />
+                <Route path="solar-products" element={<ProductMainSolarProducts />} />
+                <Route path="small-module" element={<ProductSubPVModuleSmallModule />} />
+                <Route path="mono-perc" element={<ProductSubPVModuleMonoPerc />} />
+                <Route path="bifacial" element={<ProductSubPVModuleBifacial />} />
+                <Route path="merlin-flexible-pv-module" element={<ProductSubPVModuleFlexible />} />
+                <Route path="bipv-modules" element={<ProductSubPVModuleBIPVModule />} />
+                <Route path="on-grid-inverter" element={<ProductSubInverterOnGrid />} />
             </Routes>
         </>
     );

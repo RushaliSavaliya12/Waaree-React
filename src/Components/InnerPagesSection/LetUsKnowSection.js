@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 import SectionTitle from '../HomepageSection/SectionInnerComponent/SectionTitle';
-import ProductTypeSlider from './ProductTypeSlider';
 import LetUsKnowRow from './LetUsKnowRow';
 
 const LetUsKnowSection = () => {

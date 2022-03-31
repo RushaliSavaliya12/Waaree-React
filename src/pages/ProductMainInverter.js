@@ -11,10 +11,10 @@ import SimpleContentSection from '../Components/InnerPagesSection/SimpleContentS
 import ProductTypeSliderSection from '../Components/InnerPagesSection/productmainpagesection/ProductTypeSliderSection';
 import ProductTypeContentSliderSection from '../Components/InnerPagesSection/productmainpagesection/ProductTypeContentSliderSection';
 import LetUsKnowSection from '../Components/InnerPagesSection/LetUsKnowSection';
-import ProductTypeSliderPvModule from  '../Components/InnerPagesSection/productmainpagesection/ProductTypeSliderPvModule'
-import ProductTypeContentSliderPvModule from '../Components/InnerPagesSection/productmainpagesection/ProductTypeContentSliderPvModule';
+import ProductTypeSliderInverter from '../Components/InnerPagesSection/productmainpagesection/ProductTypeSliderInverter';
+import ProductTypeContentSliderInverter from '../Components/InnerPagesSection/productmainpagesection/ProductTypeContentSliderInverter';
 
-const ProductMainPvModule = () => {
+const ProductMainInverter = () => {
     // Scroll magic - Inner page End
     InnerPageGsapAnimation();
     // Scroll magic - Inner page End
@@ -23,10 +23,10 @@ const ProductMainPvModule = () => {
         <>
         <Header />
         <main className="no-fullpage">
-        <InnerBannerSection bgSrc="assets/images/investor-bg.jpg" pageTitle="Pv Module" bannerText="Waaree Energies Solar EPC solutions will provide a good return on investment by utilizing idle ground space or Land. Waaree provides customized EPC solution as per your need and energy consumption."/>
+        <InnerBannerSection bgSrc="assets/images/investor-bg.jpg" pageTitle="Inverter" bannerText="Waaree Energies Solar EPC solutions will provide a good return on investment by utilizing idle ground space or Land. Waaree provides customized EPC solution as per your need and energy consumption."/>
         <SimpleContentSection />
-        <ProductTypeSliderSection productSlider={<ProductTypeSliderPvModule />} SliderbgSrc="assets/images/product-type-slider-sticky-bg.jpg"/>
-        <ProductTypeContentSliderSection contentTypeSlider={<ProductTypeContentSliderPvModule />} productTitle="Pv Module"/>
+        <ProductTypeSliderSection productSlider={<ProductTypeSliderInverter />} SliderbgSrc="assets/images/product-type-slider-sticky-bg.jpg" sliderText="zdfgdd"/>
+        <ProductTypeContentSliderSection contentTypeSlider={<ProductTypeContentSliderInverter />} productTitle="Inverter"/>
         <LetUsKnowSection />
         <Footer />
         <SocialFixedBtn />
@@ -39,4 +39,4 @@ const ProductMainPvModule = () => {
 
 }
 
-export default ProductMainPvModule;
+export default ProductMainInverter;

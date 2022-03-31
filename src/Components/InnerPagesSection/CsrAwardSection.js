@@ -29,6 +29,7 @@ const CsrAwardSection = () => {
                                         <div className="latest-award-text">
                                             <p>Waaree Energies Limited has announced that the World CSR Congress has recognised its Chairman and Managing Director Mr Hitesh Doshi as the Renewable Energy Leader of the Year.</p>
                                         </div>
+                                        <div class="read-more-link"><a href="#" class="read-more">Read More<i class="fa fa-chevron-right"></i></a></div>
                                     </div>
                                 </div>
                             </Col>

@@ -1,9 +1,8 @@
 import React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import Slider from 'react-slick';
-import ButtonDiv from '../HomepageSection/SectionInnerComponent/ButtonDiv';
 
-const ProductTypeContentSlider = () => {
+const ProductTypeContentSliderInverter = () => {
     const ProductTypeSliderData = [
         {
             id: 1,
@@ -77,4 +76,4 @@ const ProductTypeContentSlider = () => {
 
     );
 }
-export default ProductTypeContentSlider;
+export default ProductTypeContentSliderInverter;

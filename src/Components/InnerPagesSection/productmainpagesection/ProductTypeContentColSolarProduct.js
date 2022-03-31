@@ -1,29 +1,29 @@
 import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
 
-const ProductTypeContentCol = () => {
+const ProductTypeContentColSolarProduct = () => {
 
     const ProductTypeData = [
         {
             id: 1,
-            productTitle: "Aditya Series 60 cells",
-            productTypeImageSrc: "assets/images/aditya-series-66.jpg",
+            productTitle: "All in one solar street light WEPSWS612",
+            productTypeImageSrc: "assets/images/Solar-Street-Light.jpg",
             productLinkUrl: "#",
-            datasheetLink: "#",
+        
         },
         {
             id: 2,
-            productTitle: "Aditya Series 72 cells",
-            productTypeImageSrc: "assets/images/aditya-series-72.jpg",
+            productTitle: "Solar mobile charger WEPCWS305",
+            productTypeImageSrc: "assets/images/Solar-power-bank.jpg",
             productLinkUrl: "#",
-            datasheetLink: "#"
+            
         },
         {
             id: 3,
-            productTitle: "Aditya Series 144 cells",
-            productTypeImageSrc: "assets/images/aditya-series-144.jpg",
+            productTitle: "Waaree Solar bag VX WEPBVX0001",
+            productTypeImageSrc: "assets/images/waaree-solar-bag.jpg",
             productLinkUrl: "#",
-            datasheetLink: "#"
+            
         },
     ]
 
@@ -54,7 +54,7 @@ const ProductTypeContentCol = () => {
                                 </div>
                                 <div className="btn-wrap">
                                     <a href={val.shopNowLink} className="btn-small btn btn-primary">Shop Now<i class="fas fa-cart-arrow-down"></i></a>
-                                    <a href={val.datasheetLink} className="btn-white btn-small small-btn btn btn-primary" download>Data Sheet<i class="fas fa-arrow-down"></i></a>
+
                                 </div>
                             </div>
                         </div>
@@ -66,4 +66,4 @@ const ProductTypeContentCol = () => {
 
 }
 
-export default ProductTypeContentCol;
+export default ProductTypeContentColSolarProduct;

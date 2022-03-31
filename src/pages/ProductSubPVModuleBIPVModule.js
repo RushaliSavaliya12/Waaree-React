@@ -17,7 +17,7 @@ import VideoPlayer from '../Components/HomepageSection/SectionInnerComponent/Vid
 import ProductThreeColContentSection from '../Components/InnerPagesSection/ProductThreeColContentSection';
 import ProductTypeContentColPoly from '../Components/InnerPagesSection/productsubpagesection/ProductTypeContentColPoly'
 
-const ProductSubPVModulePoly = () => {
+const ProductSubPVModuleBIPVModule = () => {
     // Scroll magic - Inner page End
     InnerPageGsapAnimation();
     // Scroll magic - Inner page End
@@ -26,7 +26,7 @@ const ProductSubPVModulePoly = () => {
         <>
         <Header />
         <main className="no-fullpage">
-        <InnerBannerSection bgSrc="assets/images/investor-bg.jpg" pageTitle="PV Module - Poly" bannerText="Waaree Energies Solar EPC solutions will provide a good return on investment by utilizing idle ground space or Land. Waaree provides customized EPC solution as per your need and energy consumption."/>
+        <InnerBannerSection bgSrc="assets/images/investor-bg.jpg" pageTitle="PV Module - Bifacial" bannerText="Waaree Energies Solar EPC solutions will provide a good return on investment by utilizing idle ground space or Land. Waaree provides customized EPC solution as per your need and energy consumption."/>
         <SimpleContentSection />
         <ProductRelatedInfoSection />
         <ProductFeaturedSection />
@@ -45,4 +45,4 @@ const ProductSubPVModulePoly = () => {
 
 }
 
-export default ProductSubPVModulePoly;
+export default ProductSubPVModuleBIPVModule;

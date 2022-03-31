@@ -1,9 +1,9 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper';
-import ButtonDiv from '../HomepageSection/SectionInnerComponent/ButtonDiv';
+import ButtonDiv from '../../HomepageSection/SectionInnerComponent/ButtonDiv';
 
-const ProductTypeSlider = () => {
+const ProductTypeSliderInverter = () => {
   const ProductTypeSliderData = [
     {
       id:1,
@@ -81,4 +81,4 @@ const ProductTypeSlider = () => {
       
     );
   }
-export default ProductTypeSlider;
+export default ProductTypeSliderInverter;

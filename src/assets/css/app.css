@@ -9005,3 +9005,29 @@ section.inner-banner-section + .video-section .inner-sec-round
   background-color: transparent;
   color: #000;
 }
+.filter-btn-list.nav .nav-item
+{
+  margin-left: 10px;
+    margin-right: 10px;
+}
+.filter-btn-list.nav
+{
+  justify-content: center;
+}
+.latest-award-text-box .read-more-link
+{
+  margin-top: 15px;
+}
+.latest-award-text-box .latest-award-text
+{
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.team-thought-slider
+{
+  padding-bottom: 80px;
+}
