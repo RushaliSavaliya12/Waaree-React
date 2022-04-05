@@ -13,9 +13,9 @@ const HomeBlogSection = () => {
                         <div className="blog-inner">
                             <SectionTitle sectionTitle="Blogs" titleTheme="dark-title" />
                             <Row className="blog-row">
-                                <BlogSingle blogBg="assets/images/solar-panel-blog.png" blogDate="16 September 2021" blogTitle="Types of solar panels find the Right Solar Panel That Fits yor Home" blogLink="/blog-detail" />
-                                <BlogSingle blogBg="assets/images/solar-panel-house-blog.png" blogDate="14 September 2021" blogTitle="Awesome Facts about Solar Energy You Can’t Miss" blogLink="/blog-detail" />
-                                <BlogSingle blogBg="assets/images/solar-panel-terres-blog.png" blogDate="16 September 2021" blogTitle="Best Solar System for Home" blogLink="/blog-detail" />
+                                <BlogSingle blogBg="assets/images/solar-panel-blog.png" blogDate="3 July 2021" blogTitle="5 MW Solar Power Energy Plant in India: Profit, Cost & Land Requirement" blogLink="/blog-detail" />
+                                <BlogSingle blogBg="assets/images/solar-panel-house-blog.png" blogDate="5 August 2021" blogTitle="What is a Solar Inverter?" blogLink="/blog-detail" />
+                                <BlogSingle blogBg="assets/images/solar-panel-terres-blog.png" blogDate="9 August 2021" blogTitle="Solar Energy - Advantages and Disadvantages" blogLink="/blog-detail" />
                             </Row>
                             <div className="view-all-btn text-center reveal-fade">
                                 <ButtonDiv buttonText="View All Blogs" buttonHref="/blog" />

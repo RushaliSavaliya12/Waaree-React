@@ -20,7 +20,7 @@ const HomeAboutSection = () => {
                                         <div className="about-content-text reveal-fade">
                                             <AboutYearSec />
                                             <div className="about-text">
-                                                <p>Waaree Energies Ltd. is the flagship company of Waaree Group, founded in 1989 with headquarters in Mumbai, India. It has India's largest Solar PV Module manufacturing capacity of 2 GW's at its plants in Surat and Umbergaon in Gujarat. Waaree Energies is amongst the top player in India in providing EPC services, project development, rooftop solutions, and solar water pumps and also as an Independent Power Producer. </p>
+                                                <p>Waaree Energies is the flagship company of Waaree Group, founded in 1989 with headquarters in Mumbai, India. It has India’s largest Solar PV module manufacturing capacity of 2GW’s at its manufacturing plants in Surat and Umbergaon in Gujarat. We are amongst the top players in India in providing <a href="https://www.waaree.com/solar-panels" >Solar Panels</a>, Inverters, Batteries, EPC services, rooftop solar solutions, and solar water pumps, and also as an Independent Power Producer (IPP).</p>
                                             </div>
                                             <div className="btn-wrap">
                                                 <ButtonDiv buttonHref="/about-waaree" buttonText="Read More" />

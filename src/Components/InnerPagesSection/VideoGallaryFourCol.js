@@ -47,6 +47,7 @@ const VideoGallaryFourCol = () => {
             <div className="video-gallary-row four-col-row">
                 <LightGallery
                     speed={500}
+                    closable={true}
                     plugins={[lgVideo]}
                 >
                     {VideoGallaryFourColData.map((val) =>

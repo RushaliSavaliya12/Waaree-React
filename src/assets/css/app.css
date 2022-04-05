@@ -2775,6 +2775,12 @@ ul.social-icon li a.social-link.youtube:hover,
   border-color: #ff0000;
 }
 
+ul.social-icon li a.social-link.instagram:hover,
+.social-fixed-btn .instagram .hover-content span.bg-color {
+  background-color: #5B51D8;
+  border-color: #5B51D8;
+}
+
 /* Round shape */
 .custom-round {
   position: absolute;
@@ -9030,4 +9036,20 @@ section.inner-banner-section + .video-section .inner-sec-round
 .team-thought-slider
 {
   padding-bottom: 80px;
+}
+.shop-btn:last-child
+{
+  width: 100%;
+}
+.product-type-content-section .btn-wrap
+{
+  margin-top: 50px;
+}
+.about-text a:hover, .content-text a:hover
+{
+  color: #ffdb27;
+}
+.about-text a, .content-text a
+{
+  color: #000;
 }

@@ -35,7 +35,9 @@ const ImageGallaryFourCol = () => {
         <>
             <div className="image-gallary-row four-col-row">
                 <LightGallery
-                    speed={500}>
+                    speed={500}
+                    closable={true}
+                    >
                     {ImageGallaryFourColData.map((val) =>
                         <div className="gallary-item reveal-fade" key={val.id} data-src={val.gallaryImageSrc} data-sub-html={`<p> ${val.gallaryItemText} </p>`}>
                             <a href={val.gallaryImageSrc}>

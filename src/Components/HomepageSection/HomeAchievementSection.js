@@ -16,16 +16,16 @@ const HomeAchievementSection = () => {
                             <Row className="masonary-row">
                                 <Col xl={6} className="video-grid-left grid-column reveal-fade">
                                     <div className="col-inner">
-                                        <VideoPlayer videoSrc="https://www.youtube.com/embed/_8Pwc5uBbGE?autoplay=1" videCoverBgSrc="assets/images/waree-video-cover-image.jpg" videoCoverText="Why Choose Waaree?" />
+                                        <VideoPlayer videoSrc="https://www.youtube.com/embed/_8Pwc5uBbGE?autoplay=1" videCoverBgSrc="assets/images/waree-video-cover-image-home.jpg" videoCoverText="Why Choose Waaree?" />
                                     </div>
                                 </Col>
                                 <Col xl={6} className="grid-right grid-column">
                                     <div className="col-inner">
                                         <Row className="inner-row">
-                                            <ArchievementGrid archivementBg="assets/images/film-history.jpg" achievementTitle="Firm History" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="/contact-waaree" bgtheme="green-bg" />
-                                            <ArchievementGrid archivementBg="assets/images/leadershipl.jpg" achievementTitle="Leadership" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="/about-waaree" bgtheme="pink-bg" />
-                                            <ArchievementGrid archivementBg="assets/images/awards.jpg" achievementTitle="Awards" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="/awards" bgtheme="pink-bg" />
-                                            <ArchievementGrid archivementBg="assets/images/CSR.jpg" achievementTitle="CSR" achievementText="Waaree Energies is committed to grow its business in socially responsible way" achievementButton="/csr" bgtheme="green-bg" />
+                                            <ArchievementGrid archivementBg="assets/images/film-history.jpg" achievementTitle="Firm History" achievementText="Click Here To Find All Our locations" achievementButton="/contact-waaree" bgtheme="green-bg" />
+                                            <ArchievementGrid archivementBg="assets/images/Leadership.jpg" achievementTitle="Leadership" achievementText="Waaree's leaders & board members driving company success." achievementButton="/about-waaree" bgtheme="pink-bg" />
+                                            <ArchievementGrid archivementBg="assets/images/awards.jpg" achievementTitle="Awards" achievementText="The best brand of the year" achievementButton="/awards" bgtheme="pink-bg" />
+                                            <ArchievementGrid archivementBg="assets/images/CSR.jpg" achievementTitle="CSR" achievementText="Empowering communities by going the extra mile" achievementButton="/csr" bgtheme="green-bg" />
                                         </Row>
                                     </div>
                                 </Col>

@@ -53,7 +53,7 @@ const ProductTypeContentColSolarProduct = () => {
                                     </ul>
                                 </div>
                                 <div className="btn-wrap">
-                                    <a href={val.shopNowLink} className="btn-small btn btn-primary">Shop Now<i class="fas fa-cart-arrow-down"></i></a>
+                                    <a href={val.shopNowLink} className="shop-btn btn-small btn btn-primary">Shop Now<i class="fas fa-cart-arrow-down"></i></a>
 
                                 </div>
                             </div>

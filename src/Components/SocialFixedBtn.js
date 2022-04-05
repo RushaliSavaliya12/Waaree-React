@@ -59,6 +59,12 @@ const SocialFixedBtn = (data) =>{
         socialURL:"https://www.youtube.com/channel/UC2q8Mxn83c5MyOv2PCbLeiw",
         socialIconClassName:"fab fa-youtube"
       },
+      {
+        id:5,
+        socialClassName:"instagram",
+        socialURL:"https://www.instagram.com/accounts/login/?next=/waaree.group/",
+        socialIconClassName:"fab fa-instagram"
+      },
     ]
     return(
     <div className={`social-fixed-btn ${data.fixScroll}`} id="FixedSocialIcon">

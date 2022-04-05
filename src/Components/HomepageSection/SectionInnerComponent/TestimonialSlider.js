@@ -7,28 +7,16 @@ const TestimonialSlider = () => {
   const testimonialSlideData = [
     {
       id:1,
-      companyImageSrc:"assets/images/MSL-company.png",
-      testimonialText:"We appreciate the effort's put in by you and your team at site as well as at head office under experts supervision for commissioning of 14 mw solar photovoltaic power plant at Beed, Maharashtra. The successful commissioning of the proj",
-      testimonialFigureCaption:"Maharashtra Seamless Limited",
+      companyImageSrc:"assets/images/Abellon-Logo.png",
+      testimonialText:"Team Waaree, is a company synonymous with solar EPC. To manage each and every thing for 2 MW solar power plant within 35 days is not a joke as it requires meticulous planning, understanding of subject and requirements at site, we appreciate efforts of all involved from Waaree Group.",
+      testimonialFigureCaption:"Abellon-Clean-Energy",
     },
     {
       id:2,
       companyImageSrc:"assets/images/sharada-construction.png",
-      testimonialText:"Est Egestas curae; ultricies fames in lobortis volutpat commodo enim suspendisse leo lacus. Sodales aenean nisi sit venenatis mi porta. Gravida per sit cum. Torquent scelerisque sociis luctus litora pretium.",
+      testimonialText:"Waaree energies commissioned 10 mw grid tied solar power plant with polycrystalline modules. Installation and commissioning work was completed on time also performance of the plant is working satisfactory since commissioning of project i.e. Year 2015.",
       testimonialFigureCaption:"Sharda Construction & Corporation Limited",
-    },
-    {
-      id:3,
-      companyImageSrc:"assets/images/sharada-construction.png",
-      testimonialText:"Suspendisse montes quam ultrices mus scelerisque. Varius ullamcorper odio vestibulum vestibulum sociis per sed ac semper curabitur est netus blandit et consectetuer dignissim diam morbi Laoreet ante auctor bibendum orci.",
-      testimonialFigureCaption:"Nirmal Construction Limited",
-    },
-    {
-      id:1,
-      companyImageSrc:"assets/images/sharada-construction.png",
-      testimonialText:"Laoreet tortor litora nascetur, vehicula, rhoncus quis vulputate augue hac aliquet ultrices netus sollicitudin quis. Sollicitudin. Tempor lorem tortor amet penatibus. Pretium adipiscing pede per habitasse sapien urna libero ac.",
-      testimonialFigureCaption:"Saraswati Corporation Limited",
-    },
+    }
   ]
   const TestimonialSlideSingle = (props) => {
 

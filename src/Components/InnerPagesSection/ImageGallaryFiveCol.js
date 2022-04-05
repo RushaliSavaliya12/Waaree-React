@@ -70,16 +70,14 @@ const ImageGallaryFiveCol = () => {
         )
     }
 
-    const onInit = () => {
-        console.log('lightGallery has been initialized');
-    };
-
+    
     return (
         <>
             <div className="image-gallary-row">
                 <LightGallery
-                    onInit={onInit}
-                    speed={500}>
+                    speed={500}
+                    closable={true}
+                    >
                     <GallryTextItem gallryTextTitle="India's First" gallryItemContent="company to have in-house facility"/>
                     {ImageGallaryItemData.map((val) =>
                         <div className="gallary-item reveal-fade" key={val.id} data-src={val.gallaryImageSrc} data-sub-html={`<p> ${val.gallaryItemText} </p>`}>

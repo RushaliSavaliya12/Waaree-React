@@ -27,7 +27,7 @@ const Contact = () => {
         <ContactFormSection />
         <ContactLocationSection />
         <ContactHelpSection ContactHelpSection={<ContactHelpColSingle />}/>
-        <ContactFooterSection btnText="Good to go" btnLink="https://forms.zohopublic.com/waareeenergiesltd1/form/VendorRegistrationForm/formperma/ezNyFIDU_mcOaM2toYpwl5t5JXEopIYKPtYyhNgKzdI" contentText="Let’s build brand WAAREE with a collaborative effort. Partner with us by joining our Vendor community." />
+        <ContactFooterSection btnText="Good to go" btnLink="https://forms.zohopublic.com/waareeenergiesltd1/form/VendorRegistrationForm/formperma/ezNyFIDU_mcOaM2toYpwl5t5JXEopIYKPtYyhNgKzdI" contentText="Find our Physical stores here." />
         <Footer />
         <SocialFixedBtn />
         <ContactBtnFix />
