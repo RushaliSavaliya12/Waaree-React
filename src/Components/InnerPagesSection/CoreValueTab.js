@@ -1,7 +1,12 @@
 import React from 'react';
+import { useState, useEffect } from "react";
 import { Container, Row, Col, Tab, Nav, NavDropdown, TabContainer, TabContent, TabPane, Accordion } from 'react-bootstrap';
 
 const CoreValueTab = () => {
+
+    useEffect(() => {
+        openTabLoad();
+      });
 
     const CoreValueTabData = [
         {
@@ -51,9 +56,13 @@ const CoreValueTab = () => {
         }
     ]
 
-
+    const openTabLoad = () =>{
+        var tabFirstChild = document.querySelector('.custom-tab-nav .nav-item:first-child a');
+        console.log(tabFirstChild);
+        tabFirstChild.click();
+    }
     return (
-        <Tab.Container id="coreValueTab" defaultActiveKey="1">
+        <Tab.Container id="coreValueTab">
             <Row>
                 <Col lg={6}>
                     <Nav variant="pills" className="flex-column custom-tab-nav">

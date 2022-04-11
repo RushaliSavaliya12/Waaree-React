@@ -2,10 +2,19 @@ import React from 'react';
 import { Nav, NavDropdown, Container, Col, Row, Modal } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap'
 import { gsap } from "gsap";
-import { useState } from 'react';
 import SocialMediaIcon from './SocialMediaIcon';
+import { Outlet, Link } from "react-router-dom";
+import { useState, useEffect } from "react";
+
+
+
 
 const MoreMenuModel = () => {
+
+    useEffect(() => {
+        InnerSubMenuShow();
+    });
+
 
     var durationTime = 2.5;
     var circleDurationTime = 1;
@@ -60,8 +69,32 @@ const MoreMenuModel = () => {
 
 
     // dropdown hover
+    const InnerSubMenuShow = () => {
+
+        const dropdownInnerMenuItem = document.querySelectorAll('.toggle-div');
+
+        console.log(dropdownInnerMenuItem);
+
+        [].forEach.call(dropdownInnerMenuItem, function (item) {
+            item.onclick = function () {
+                if (item.parentNode.classList.contains('show')) {
+                    item.parentNode.classList.remove('show');
+                } else {
+                    item.parentNode.classList.add('show');
+                }
+
+                
+
+            }
+        });
+        
+
+    }
+
+    // Dropdown Inside dropdown
 
 
+    // Dropdown Inside dropdown
 
 
 
@@ -105,7 +138,58 @@ const MoreMenuModel = () => {
                                                 </NavDropdown>
                                                 <NavDropdown id="productsMenu" title="Products" renderMenuOnMount={true}>
                                                     <div className="dropdown-inner">
-                                                        <LinkContainer to="/pv-module-poly"><NavDropdown.Item>PV Modules</NavDropdown.Item></LinkContainer>
+                                                        <div class="nav-item inner-menu-wrap">
+                                                            <LinkContainer to="/pv-module-poly">
+                                                                <NavDropdown.Item>
+                                                                    PV Modules
+                                                                </NavDropdown.Item>
+                                                            </LinkContainer>
+                                                            <span className="toggle-div"></span>
+                                                            <div class="inner-menu">
+                                                                <Link to="/small-module">
+                                                                    Small Module
+                                                                </Link>
+                                                                <Link to="/small-module">
+                                                                    Poly
+                                                                </Link>
+                                                                <Link to="/small-module">
+                                                                    Mono Perc
+                                                                </Link>
+                                                                <Link to="/small-module">
+                                                                    Bifacial
+                                                                </Link>
+                                                                <Link to="/small-module">
+                                                                    Flexible
+                                                                </Link>
+                                                                <Link to="/small-module">
+                                                                    BIPV
+                                                                </Link>
+                                                            </div>
+                                                        </div>
+                                                        <div class="nav-item inner-menu-wrap">
+                                                            <LinkContainer to="/inverter"><NavDropdown.Item>On-grid Inverters</NavDropdown.Item></LinkContainer>
+                                                            <span className="toggle-div"></span>
+                                                            <div class="inner-menu">
+                                                                <Link to="/small-module">
+                                                                    Small Module
+                                                                </Link>
+                                                                <Link to="/small-module">
+                                                                    Poly
+                                                                </Link>
+                                                                <Link to="/small-module">
+                                                                    Mono Perc
+                                                                </Link>
+                                                                <Link to="/small-module">
+                                                                    Bifacial
+                                                                </Link>
+                                                                <Link to="/small-module">
+                                                                    Flexible
+                                                                </Link>
+                                                                <Link to="/small-module">
+                                                                    BIPV
+                                                                </Link>
+                                                            </div>
+                                                        </div>
                                                         <LinkContainer to="/inverter"><NavDropdown.Item>On-grid Inverters</NavDropdown.Item></LinkContainer>
                                                         <LinkContainer to="/inverter"><NavDropdown.Item>Off-grid Inverters</NavDropdown.Item></LinkContainer>
                                                         <LinkContainer to="#"><NavDropdown.Item>Solar Products</NavDropdown.Item></LinkContainer>
@@ -146,7 +230,7 @@ const MoreMenuModel = () => {
                                                         <LinkContainer to="/videos"><NavDropdown.Item>videos</NavDropdown.Item></LinkContainer>
                                                         <LinkContainer to="#"><NavDropdown.Item>Support</NavDropdown.Item></LinkContainer>
                                                         <LinkContainer to="/enquiry"><NavDropdown.Item>Enquiry Form</NavDropdown.Item></LinkContainer>
-                                                        
+
                                                     </div>
                                                 </NavDropdown>
                                             </Nav>

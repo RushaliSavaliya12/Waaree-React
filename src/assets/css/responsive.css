@@ -2901,6 +2901,11 @@
     {
         margin-bottom: 10px;
     }
+    .nav-item.inner-menu-wrap .inner-menu
+    {
+        margin-right: 0;
+        margin-left: 20px;
+    }
 }
 
 @media(max-width:991px) {
