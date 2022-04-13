@@ -73,14 +73,20 @@ const MoreMenuModel = () => {
 
         const dropdownInnerMenuItem = document.querySelectorAll('.toggle-div');
 
+        const dropdownClass = document.querySelectorAll('.inner-menu-wrap');
+
         console.log(dropdownInnerMenuItem);
 
         [].forEach.call(dropdownInnerMenuItem, function (item) {
             item.onclick = function () {
                 if (item.parentNode.classList.contains('show')) {
                     item.parentNode.classList.remove('show');
+                    dropdownClass.parentNode.classList.remove('show');
                 } else {
-                    item.parentNode.classList.add('show');
+                    [].forEach.call(dropdownClass, function (itemDropdown) {
+                        itemDropdown.classList.remove('show');
+                            item.parentNode.classList.add('show');
+                    });
                 }
 
                 
